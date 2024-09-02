@@ -1,5 +1,3 @@
-# Cours ENPC de pratique du calcul scientifique
+# Numerical Analysis (NYU Paris)
 
-[Site du polycopié](https://urbain.vaes.uk/teaching/2023-cs/)
-
-[Site du cours](https://jfbarthelemy.github.io/Cours_ENPC_pratique_calcul_scientifique/)
+[Course website](https://nyu-numerical-analysis.github.io/)
