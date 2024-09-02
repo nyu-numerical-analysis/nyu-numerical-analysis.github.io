@@ -4,14 +4,21 @@
     "href": "index.html",
     "title": "Numerical Analysis",
     "section": "",
-    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia for VSCode is available here mais peut aussi être installée depuis VSCode (icône )."
+    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia for VSCode is available here but it can also be installed directly from VSCode."
   },
   {
     "objectID": "index.html#installation",
     "href": "index.html#installation",
     "title": "Numerical Analysis",
     "section": "",
-    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia for VSCode is available here mais peut aussi être installée depuis VSCode (icône )."
+    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia for VSCode is available here but it can also be installed directly from VSCode."
+  },
+  {
+    "objectID": "index.html#reference-textbooks",
+    "href": "index.html#reference-textbooks",
+    "title": "Numerical Analysis",
+    "section": "Reference textbooks",
+    "text": "Reference textbooks\nThe course is based on two books:\n\nAn Introduction to Numerical Analysis, by Süli and Mayers. See here\nNumerical Mathematics, by Quarteroni. See here"
   },
   {
     "objectID": "slides.html",
