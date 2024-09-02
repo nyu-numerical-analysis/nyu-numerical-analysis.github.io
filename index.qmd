@@ -13,14 +13,13 @@ To install `Julia` download the latest version from [here](https://julialang.org
 
 - `VSCode` can be installed at [this link](https://code.visualstudio.com/).
 
-- The extension `Julia` for `VSCode` is available [here](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia)
-  but it can also be installed directly from `VSCode`.
+- The extension `Julia` can also be installed directly from `VSCode`.
 
 ## Reference textbooks
 
 The course is based on two books:
 
-- *An Introduction to Numerical Analysis*, by Süli and Mayers. 
+- *An Introduction to Numerical Analysis*, by Süli and Mayers.
   See [here](https://www.cambridge.org/fr/universitypress/subjects/mathematics/numerical-analysis/introduction-numerical-analysis-1?format=AR&isbn=9780521007948gt)
 
 - *Numerical Mathematics*, by Quarteroni.
