@@ -1,0 +1,31 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "!*.ipynb"
+  resources:
+    - "*.ipynb"
+
+website:
+  title: "Numerical Analysis"
+  navbar:
+    left:
+      - href: notes.qmd
+        text: Lecture Notes
+      - href: slides.qmd
+        text: Slides
+      - href: notebooks.qmd
+        text: Notebooks
+      - href: links.qmd
+        text: Useful Links
+      - about.qmd
+
+editor:
+    render-on-save: true
+
+format:
+  html:
+    theme: zephyr
+    css: styles.css
+    toc: true

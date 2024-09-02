@@ -1,0 +1,7 @@
+# Notebooks
+
+## Notebook 1
+
+- [Introduction to Julia](notebooks/intro_julia.ipynb)
+
+To submit on Brightspace [Brightspace](https://educnet.enpc.fr/mod/assign/view.php?id=65028) au plus tard le **jeudi 25 avril 2024, 23:59**.

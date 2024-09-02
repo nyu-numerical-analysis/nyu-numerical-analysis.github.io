@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Numerical Analysis",
+    "section": "",
+    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia for VSCode is available here mais peut aussi être installée depuis VSCode (icône )."
+  },
+  {
+    "objectID": "index.html#installation",
+    "href": "index.html#installation",
+    "title": "Numerical Analysis",
+    "section": "",
+    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia for VSCode is available here mais peut aussi être installée depuis VSCode (icône )."
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Course slides",
+    "section": "",
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "slides.html#chapter-1",
+    "href": "slides.html#chapter-1",
+    "title": "Course slides",
+    "section": "",
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction to Julia\n\nTo submit on Brightspace Brightspace au plus tard le jeudi 25 avril 2024, 23:59."
+  },
+  {
+    "objectID": "notebooks.html#notebook-1",
+    "href": "notebooks.html#notebook-1",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction to Julia\n\nTo submit on Brightspace Brightspace au plus tard le jeudi 25 avril 2024, 23:59."
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Useful links",
+    "section": "",
+    "text": "Below are some useful videos to learn about Julia\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nXsum.jl\nZygote.jl\nPolynomials.jl\nInterpolations.jl\nQuadmath.jl"
+  },
+  {
+    "objectID": "links.html#vidéos",
+    "href": "links.html#vidéos",
+    "title": "Useful links",
+    "section": "",
+    "text": "Below are some useful videos to learn about Julia\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”."
+  },
+  {
+    "objectID": "links.html#software-libraries-for-the-course",
+    "href": "links.html#software-libraries-for-the-course",
+    "title": "Useful links",
+    "section": "",
+    "text": "Documentation générale de Julia\nPlots.jl\nXsum.jl\nZygote.jl\nPolynomials.jl\nInterpolations.jl\nQuadmath.jl"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Lecture notes",
+    "section": "",
+    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  }
+]

@@ -1,0 +1,16 @@
+---
+title: "Numerical Analysis"
+subtitle: NYU Paris
+---
+
+## Installation
+
+### `Julia`
+
+To install `Julia` download the latest version from [here](https://julialang.org/downloads).
+
+### `VSCode`
+
+- `VSCode` can be installed at [this link](https://code.visualstudio.com/).
+
+- The extension `Julia` for `VSCode` is available [here](https://marketplace.visualstudio.com/items?itemName=julialang.language-julia) mais peut aussi être installée depuis `VSCode` (icône ![](logo_ext_vscode.png)).
