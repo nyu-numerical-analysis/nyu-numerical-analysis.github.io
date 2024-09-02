@@ -2,4 +2,4 @@
 
 ## Chapter 1
 
-- [Introduction to Julia](cours/julia.html)
+<!-- - [Introduction to Julia](cours/julia.html) -->

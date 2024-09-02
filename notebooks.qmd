@@ -1,5 +1,5 @@
 # Notebooks
 
-## Notebook 1
+## Chapter 1
 
 - [Introduction to Julia](notebooks/intro_julia.ipynb)

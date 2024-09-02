@@ -21,20 +21,6 @@
     "text": "Reference textbooks\nThe course is based on two books:\n\nAn Introduction to Numerical Analysis, by Süli and Mayers. See here\nNumerical Mathematics, by Quarteroni. See here"
   },
   {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Course slides",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "slides.html#chapter-1",
-    "href": "slides.html#chapter-1",
-    "title": "Course slides",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
     "objectID": "notebooks.html",
     "href": "notebooks.html",
     "title": "Notebooks",
@@ -42,8 +28,8 @@
     "text": "Introduction to Julia"
   },
   {
-    "objectID": "notebooks.html#notebook-1",
-    "href": "notebooks.html#notebook-1",
+    "objectID": "notebooks.html#chapter-1",
+    "href": "notebooks.html#chapter-1",
     "title": "Notebooks",
     "section": "",
     "text": "Introduction to Julia"
