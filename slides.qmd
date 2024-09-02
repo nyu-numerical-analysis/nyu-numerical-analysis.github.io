@@ -1,5 +1,3 @@
 # Course slides
 
 ## Chapter 1
-
-<!-- - [Introduction to Julia](cours/julia.html) -->
