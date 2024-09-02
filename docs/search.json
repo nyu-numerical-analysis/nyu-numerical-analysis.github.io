@@ -32,28 +32,28 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\nTo submit on Brightspace Brightspace au plus tard le jeudi 25 avril 2024, 23:59."
+    "text": "Introduction to Julia"
   },
   {
     "objectID": "notebooks.html#notebook-1",
     "href": "notebooks.html#notebook-1",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\nTo submit on Brightspace Brightspace au plus tard le jeudi 25 avril 2024, 23:59."
+    "text": "Introduction to Julia"
   },
   {
     "objectID": "links.html",
     "href": "links.html",
     "title": "Useful links",
     "section": "",
-    "text": "Below are some useful videos to learn about Julia\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nXsum.jl\nZygote.jl\nPolynomials.jl\nInterpolations.jl\nQuadmath.jl"
+    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nXsum.jl\nZygote.jl\nPolynomials.jl\nInterpolations.jl\nQuadmath.jl"
   },
   {
-    "objectID": "links.html#vidéos",
-    "href": "links.html#vidéos",
+    "objectID": "links.html#videos",
+    "href": "links.html#videos",
     "title": "Useful links",
     "section": "",
-    "text": "Below are some useful videos to learn about Julia\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”."
+    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”."
   },
   {
     "objectID": "links.html#software-libraries-for-the-course",

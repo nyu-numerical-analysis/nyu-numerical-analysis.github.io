@@ -1,8 +1,8 @@
 # Useful links
 
-## Vidéos
+## Videos
 
-Below are some useful videos to learn about `Julia`
+Below are some useful videos to learn about `Julia`:
 
 - [Intro to Julia tutorial (version 1.0) by Jane Herriman](https://youtu.be/8h8rQyEpiZA)
 
