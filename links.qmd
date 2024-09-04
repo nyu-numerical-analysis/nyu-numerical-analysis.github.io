@@ -18,12 +18,10 @@ Below are some useful videos to learn about `Julia`:
 
 - [`Plots.jl`](https://github.com/JuliaPlots/Plots.jl)
 
-- [`Xsum.jl`](https://github.com/JuliaMath/Xsum.jl)
-
-- [`Zygote.jl`](https://github.com/FluxML/Zygote.jl)
+- [`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl)
 
 - [`Polynomials.jl`](https://github.com/JuliaMath/Polynomials.jl)
 
-- [`Interpolations.jl`](https://github.com/JuliaMath/Interpolations.jl)
+## Other links
 
-- [`Quadmath.jl`](https://github.com/JuliaMath/Quadmath.jl)
+- [NYU Paris academic calendar](https://www.nyu.edu/paris/calendar.html)

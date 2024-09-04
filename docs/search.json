@@ -39,7 +39,7 @@
     "href": "links.html",
     "title": "Useful links",
     "section": "",
-    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nXsum.jl\nZygote.jl\nPolynomials.jl\nInterpolations.jl\nQuadmath.jl"
+    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl\n\n\n\n\n\nNYU Paris academic calendar"
   },
   {
     "objectID": "links.html#videos",
@@ -53,7 +53,14 @@
     "href": "links.html#software-libraries-for-the-course",
     "title": "Useful links",
     "section": "",
-    "text": "Documentation générale de Julia\nPlots.jl\nXsum.jl\nZygote.jl\nPolynomials.jl\nInterpolations.jl\nQuadmath.jl"
+    "text": "Documentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl"
+  },
+  {
+    "objectID": "links.html#other-links",
+    "href": "links.html#other-links",
+    "title": "Useful links",
+    "section": "",
+    "text": "NYU Paris academic calendar"
   },
   {
     "objectID": "notes.html",
