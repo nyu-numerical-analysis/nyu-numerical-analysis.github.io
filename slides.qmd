@@ -1,3 +1,5 @@
 # Course slides
 
 ## Chapter 1
+
+- [Introduction to Julia](slides/julia.html)
