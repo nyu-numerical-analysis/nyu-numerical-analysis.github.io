@@ -19,8 +19,14 @@ To install `Julia` download the latest version from [here](https://julialang.org
 
 The course is based on two books:
 
-- *An Introduction to Numerical Analysis*, by Süli and Mayers.
-  See [here](https://www.cambridge.org/fr/universitypress/subjects/mathematics/numerical-analysis/introduction-numerical-analysis-1?format=AR&isbn=9780521007948gt)
+- [*An Introduction to Numerical Analysis*](https://www.cambridge.org/fr/universitypress/subjects/mathematics/numerical-analysis/introduction-numerical-analysis-1?format=AR&isbn=9780521007948gt), by Süli and Mayers.
 
-- *Numerical Mathematics*, by Quarteroni.
-  See [here](https://link.springer.com/book/10.1007/978-0-387-22750-4)
+- [*Numerical Mathematics*](https://link.springer.com/book/10.1007/978-0-387-22750-4), by Quarteroni.
+
+## Practical information
+
+- Lectures on Monday and Wednesday from 15:00 to 16:15
+
+- Recitations on Monday and Wednesday from 16:20 to 17:05 
+
+- Office hour on Monday from 17:15 to 18:15
