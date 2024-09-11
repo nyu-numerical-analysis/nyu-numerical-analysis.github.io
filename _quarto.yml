@@ -19,7 +19,6 @@ website:
         text: Notebooks
       - href: links.qmd
         text: Useful Links
-      - about.qmd
 
 editor:
     render-on-save: true

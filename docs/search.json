@@ -28,32 +28,11 @@
     "text": "Practical information\n\nLectures on Monday and Wednesday from 15:00 to 16:15\nRecitations on Monday and Wednesday from 16:20 to 17:05\nOffice hour on Monday from 17:15 to 18:15\nCourse syllabus"
   },
   {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Course slides",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Lecture notes",
     "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "slides.html#chapter-1",
-    "href": "slides.html#chapter-1",
-    "title": "Course slides",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "notebooks.html",
-    "href": "notebooks.html",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "notebooks.html#chapter-1",
-    "href": "notebooks.html#chapter-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction to Julia"
+    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
   },
   {
     "objectID": "links.html",
@@ -84,17 +63,31 @@
     "text": "NYU Paris academic calendar"
   },
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Lecture notes",
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
     "section": "",
-    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+    "text": "Introduction to Julia"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "notebooks.html#chapter-1",
+    "href": "notebooks.html#chapter-1",
+    "title": "Notebooks",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Course slides",
+    "section": "",
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "slides.html#chapter-1",
+    "href": "slides.html#chapter-1",
+    "title": "Course slides",
+    "section": "",
+    "text": "Introduction to Julia"
   }
 ]
