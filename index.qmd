@@ -30,3 +30,5 @@ The course is based on two books:
 - Recitations on Monday and Wednesday from 16:20 to 17:05 
 
 - Office hour on Monday from 17:15 to 18:15
+
+- [Course syllabus](misc/Numerical_analysis_syllabus.odt), by Quarteroni.
