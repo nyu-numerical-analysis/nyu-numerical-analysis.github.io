@@ -1,5 +1,9 @@
 # Notebooks
 
-## Chapter 1
+## Notebook 1
 
 - [Introduction to Julia](notebooks/intro_julia.ipynb)
+
+## Notebook 2
+
+- [Interpolation](notebooks/interpolation.ipynb)
