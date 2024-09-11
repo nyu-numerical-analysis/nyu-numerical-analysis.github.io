@@ -31,4 +31,4 @@ The course is based on two books:
 
 - Office hour on Monday from 17:15 to 18:15
 
-- [Course syllabus](misc/Numerical_analysis_syllabus.odt), by Quarteroni.
+- [Course syllabus](misc/Numerical_analysis_syllabus.odt)
