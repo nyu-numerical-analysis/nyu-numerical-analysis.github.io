@@ -3,3 +3,7 @@
 ## Chapter 1
 
 - [Introduction to Julia](slides/julia.html)
+
+## Chapter 2
+
+- [Interpolation](slides/interpolation.html)
