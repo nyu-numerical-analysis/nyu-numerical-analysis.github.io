@@ -1,0 +1,406 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.30)  18 SEP 2024 13:22
+entering extended mode
+ \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**interpolation.tex
+(./interpolation.tex
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+(/usr/share/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
+(/usr/share/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count188
+\c@section=\count189
+\c@subsection=\count190
+\c@subsubsection=\count191
+\c@paragraph=\count192
+\c@subparagraph=\count193
+\c@figure=\count194
+\c@table=\count195
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+) (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+ (/usr/share/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/share/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+ (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count196
+\Gm@cntv=\count197
+\c@Gm@tempcnt=\count198
+\Gm@bindingoffset=\dimen141
+\Gm@wd@mp=\dimen142
+\Gm@odd@mp=\dimen143
+\Gm@even@mp=\dimen144
+\Gm@layoutwidth=\dimen145
+\Gm@layoutheight=\dimen146
+\Gm@layouthoffset=\dimen147
+\Gm@layoutvoffset=\dimen148
+\Gm@dimlist=\toks18
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2023/05/13 v2.17o AMS math features
+\@mathmargin=\skip50
+
+For additional information on amsmath, use the `?' option.
+(/usr/share/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks19
+\ex@=\dimen149
+)) (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen150
+) (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count199
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count266
+\leftroot@=\count267
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count268
+\DOTSCASE@=\count269
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen151
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count270
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count271
+\dotsspace@=\muskip16
+\c@parentequation=\count272
+\dspbrk@lvl=\count273
+\tag@help=\toks20
+\row@=\count274
+\column@=\count275
+\maxfields@=\count276
+\andhelp@=\toks21
+\eqnshift@=\dimen152
+\alignsep@=\dimen153
+\tagshift@=\dimen154
+\tagwidth@=\dimen155
+\totwidth@=\dimen156
+\lineht@=\dimen157
+\@envbody=\toks22
+\multlinegap=\skip51
+\multlinetaggap=\skip52
+\mathdisplay@stack=\toks23
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (/usr/share/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip53
+\enit@outerparindent=\dimen158
+\enit@toks=\toks24
+\enit@inbox=\box53
+\enit@count@id=\count277
+\enitdp@description=\count278
+) (/usr/share/texmf-dist/tex/latex/minted/minted.sty
+Package: minted 2023/12/18 v2.9 Yet another Pygments shim for LaTeX
+ (/usr/share/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+ (/usr/share/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+) (/usr/share/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)) (/usr/share/texmf-dist/tex/latex/fvextra/fvextra.sty
+Package: fvextra 2023/11/28 v1.6.1 fvextra - extensions and patches for fancyvrb
+ (/usr/share/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+) (/usr/share/texmf-dist/tex/latex/fancyvrb/fancyvrb.sty
+Package: fancyvrb 2024/01/20 4.5c verbatim text (tvz,hv)
+\FV@CodeLineNo=\count280
+\FV@InFile=\read2
+\FV@TabBox=\box54
+\c@FancyVerbLine=\count281
+\FV@StepNumber=\count282
+\FV@OutFile=\write3
+) (/usr/share/texmf-dist/tex/latex/upquote/upquote.sty
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verbatim
+) (/usr/share/texmf-dist/tex/latex/lineno/lineno.sty
+Package: lineno 2023/05/20 line numbers on paragraphs v5.3
+\linenopenalty=\count283
+\output=\toks25
+\linenoprevgraf=\count284
+\linenumbersep=\dimen159
+\linenumberwidth=\dimen160
+\c@linenumber=\count285
+\c@pagewiselinenumber=\count286
+\c@LN@truepage=\count287
+\c@internallinenumber=\count288
+\c@internallinenumbers=\count289
+\quotelinenumbersep=\dimen161
+\bframerule=\dimen162
+\bframesep=\dimen163
+\bframebox=\box55
+\linenoamsmath@ams@eqpen=\count290
+LaTeX Info: Redefining \\ on input line 3180.
+)
+\c@FancyVerbWriteLine=\count291
+\c@FancyVerbBufferIndex=\count292
+\c@FancyVerbBufferLength=\count293
+\c@FancyVerbBufferLine=\count294
+\c@FV@oldbufferlength=\count295
+\c@FV@TrueTabGroupLevel=\count296
+\c@FV@TrueTabCounter=\count297
+\FV@TabBox@Group=\box56
+\FV@TmpLength=\skip54
+\c@FV@HighlightLinesStart=\count298
+\c@FV@HighlightLinesStop=\count299
+\FV@LoopCount=\count300
+\FV@NCharsBox=\box57
+\FV@BreakIndent=\dimen164
+\FV@BreakIndentNChars=\count301
+\FV@BreakSymbolSepLeft=\dimen165
+\FV@BreakSymbolSepLeftNChars=\count302
+\FV@BreakSymbolSepRight=\dimen166
+\FV@BreakSymbolSepRightNChars=\count303
+\FV@BreakSymbolIndentLeft=\dimen167
+\FV@BreakSymbolIndentLeftNChars=\count304
+\FV@BreakSymbolIndentRight=\dimen168
+\FV@BreakSymbolIndentRightNChars=\count305
+\c@FancyVerbLineBreakLast=\count306
+\FV@LineBox=\box58
+\FV@LineIndentBox=\box59
+\c@FV@BreakBufferDepth=\count307
+\FV@LineWidth=\dimen169
+) (/usr/share/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+) (/usr/share/texmf-dist/tex/latex/tools/shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Unrestricted shell escape enabled on input line 75.
+) (/usr/share/texmf-dist/tex/latex/ifplatform/ifplatform.sty
+Package: ifplatform 2017/10/13 v0.4a Testing for the operating system
+ (/usr/share/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
+ (/usr/share/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+) (/usr/share/texmf-dist/tex/generic/catchfile/catchfile.sty
+Package: catchfile 2019/12/09 v1.8 Catch the contents of a file (HO)
+ (/usr/share/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)) (/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
+)
+runsystem(uname -s > "interpolation.w18")...executed.
+
+ (./interpolation.w18)
+runsystem(rm -- "interpolation.w18")...executed.
+
+) (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
+\xs_counta=\count308
+\xs_countb=\count309
+)
+Package: xstring 2023/08/22 v1.86 String manipulations (CT)
+) (/usr/share/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip55
+\fb@frw=\dimen170
+\fb@frh=\dimen171
+\FrameRule=\dimen172
+\FrameSep=\dimen173
+) (/usr/share/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count310
+\float@exts=\toks26
+\float@box=\box60
+\@float@everytoks=\toks27
+\@floatcapt=\box61
+)
+\minted@appexistsfile=\read3
+\minted@bgbox=\box62
+\minted@code=\write4
+\c@minted@FancyVerbLineTemp=\count311
+\c@minted@pygmentizecounter=\count312
+\@float@every@listing=\toks28
+\c@listing=\count313
+)
+runsystem(mkdir -p build/_minted-interpolation)...executed.
+
+ (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+) (/usr/share/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2023/11/15 v3.01 LaTeX color extensions (UK)
+ (/usr/share/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 274.
+ (/usr/share/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+) (/usr/share/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1350.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1354.
+Package xcolor Info: Model `RGB' extended on input line 1366.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1368.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1370.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
+)
+runsystem(command -v pygmentize && touch interpolation.aex)...executed.
+
+runsystem(rm interpolation.aex)...executed.
+
+ (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count314
+\l__pdf_internal_box=\box63
+) (build/interpolation.aux)
+\openout1 = `interpolation.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 9.
+LaTeX Font Info:    ... okay on input line 9.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+(/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count315
+\scratchdimen=\dimen174
+\scratchbox=\box64
+\nofMPsegments=\count316
+\nofMParguments=\count317
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count318
+\MPscratchDim=\dimen175
+\MPnumerator=\count319
+\makeMPintoPDFobject=\count320
+\everyMPtoPDFconversion=\toks30
+)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+ (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/default.pygstyle) (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/30E5A425EBE9F548D274F0DAEAF1CBBA07B94D58EB7B81659FF813ED37F049D1.pygtex)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/0F42B643B7D4515FA1EC10164F6A455807B94D58EB7B81659FF813ED37F049D1.pygtex
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
+)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
+\openout4 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/9D7BF075372908F55E2D945C39E0A61307B94D58EB7B81659FF813ED37F049D1.pygtex)
+\openout3 = `interpolation.pyg'.
+
+ (./build/_minted-interpolation/D6AAB76F4CCBF4871B10282B2E24A46007B94D58EB7B81659FF813ED37F049D1.pygtex) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/interpolation.aux)
+ ***********
+LaTeX2e <2023-11-01> patch level 1
+L3 programming layer <2024-02-20>
+ ***********
+runsystem(rm build//interpolation.pyg)...executed.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 7013 strings out of 476047
+ 131028 string characters out of 5792626
+ 1939187 words of memory out of 5000000
+ 29026 multiletter control sequences out of 15000+600000
+ 560282 words of font info for 46 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 77i,6n,79p,582b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on build/interpolation.pdf (1 page, 111405 bytes).
+PDF statistics:
+ 58 PDF objects out of 1000 (max. 8388607)
+ 34 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

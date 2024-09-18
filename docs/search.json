@@ -28,11 +28,39 @@
     "text": "Practical information\n\nLectures on Monday and Wednesday from 15:00 to 16:15\nRecitations on Monday and Wednesday from 16:20 to 17:05\nOffice hour on Monday from 17:15 to 18:15\nCourse syllabus"
   },
   {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Lecture notes",
+    "objectID": "quizzes.html",
+    "href": "quizzes.html",
+    "title": "Quizzes",
     "section": "",
-    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+    "text": "Quizzes"
+  },
+  {
+    "objectID": "quizzes.html#chapter-2",
+    "href": "quizzes.html#chapter-2",
+    "title": "Quizzes",
+    "section": "",
+    "text": "Quizzes"
+  },
+  {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation"
+  },
+  {
+    "objectID": "notebooks.html#chapter-1",
+    "href": "notebooks.html#chapter-1",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "notebooks.html#chapter-2",
+    "href": "notebooks.html#chapter-2",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Interpolation"
   },
   {
     "objectID": "links.html",
@@ -63,25 +91,11 @@
     "text": "NYU Paris academic calendar"
   },
   {
-    "objectID": "notebooks.html",
-    "href": "notebooks.html",
-    "title": "Notebooks",
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Lecture notes",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation"
-  },
-  {
-    "objectID": "notebooks.html#notebook-1",
-    "href": "notebooks.html#notebook-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "notebooks.html#notebook-2",
-    "href": "notebooks.html#notebook-2",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Interpolation"
+    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
   },
   {
     "objectID": "slides.html",

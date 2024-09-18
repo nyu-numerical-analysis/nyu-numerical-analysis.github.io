@@ -1,0 +1,5 @@
+# Quizzes
+
+## Chapter 2
+
+- [Quizzes](quizzes/build/interpolation.pdf)

@@ -17,6 +17,8 @@ website:
         text: Slides
       - href: notebooks.qmd
         text: Notebooks
+      - href: quizzes.qmd
+        text: Quizzes
       - href: links.qmd
         text: Useful Links
 
