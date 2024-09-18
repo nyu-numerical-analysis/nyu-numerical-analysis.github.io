@@ -2,4 +2,4 @@
 
 ## Chapter 2
 
-- [Quizzes](quizzes/build/interpolation.pdf)
+- [Interpolation](quizzes/build/interpolation.pdf)
