@@ -46,7 +46,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -60,7 +60,7 @@
     "href": "notebooks.html#chapter-2",
     "title": "Notebooks",
     "section": "",
-    "text": "Interpolation"
+    "text": "Interpolation\nApproximation"
   },
   {
     "objectID": "links.html",

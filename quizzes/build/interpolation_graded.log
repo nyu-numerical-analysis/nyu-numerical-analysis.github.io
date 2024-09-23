@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.5.30)  18 SEP 2024 13:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (TeX Live 2024/Arch Linux) (preloaded format=pdflatex 2024.9.19)  23 SEP 2024 13:54
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**interpolation.tex
-(./interpolation.tex
+**interpolation_graded.tex
+(./interpolation_graded.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 (/usr/share/texmf-dist/tex/latex/base/article.cls
@@ -209,10 +209,10 @@ Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
 )) (/usr/share/texmf-dist/tex/generic/iftex/ifluatex.sty
 Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-runsystem(uname -s > "interpolation.w18")...executed.
+runsystem(uname -s > "interpolation_graded.w18")...executed.
 
- (./interpolation.w18)
-runsystem(rm -- "interpolation.w18")...executed.
+ (./interpolation_graded.w18)
+runsystem(rm -- "interpolation_graded.w18")...executed.
 
 ) (/usr/share/texmf-dist/tex/generic/xstring/xstring.sty (/usr/share/texmf-dist/tex/generic/xstring/xstring.tex
 \xs_counta=\count308
@@ -242,7 +242,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@every@listing=\toks28
 \c@listing=\count313
 )
-runsystem(mkdir -p build/_minted-interpolation)...executed.
+runsystem(mkdir -p build/_minted-interpolation_graded)...executed.
 
  (/usr/share/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
@@ -270,16 +270,16 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1371.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1372.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1373.
 )
-runsystem(command -v pygmentize && touch interpolation.aex)...executed.
+runsystem(command -v pygmentize && touch interpolation_graded.aex)...executed.
 
-runsystem(rm interpolation.aex)...executed.
+runsystem(rm interpolation_graded.aex)...executed.
 
  (/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-02-20 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count314
 \l__pdf_internal_box=\box63
-) (build/interpolation.aux)
-\openout1 = `interpolation.aux'.
+) (build/interpolation_graded.aux)
+\openout1 = `interpolation_graded.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 9.
 LaTeX Font Info:    ... okay on input line 9.
@@ -352,55 +352,61 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
  (/usr/share/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-\openout4 = `interpolation.pyg'.
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/default.pygstyle) (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
-\openout4 = `interpolation.pyg'.
+ (./build/_minted-interpolation_graded/default.pygstyle) (./build/_minted-interpolation_graded/BF072E9119077B4E76437A93986787EF5DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/30E5A425EBE9F548D274F0DAEAF1CBBA07B94D58EB7B81659FF813ED37F049D1.pygtex)
-\openout4 = `interpolation.pyg'.
+ (./build/_minted-interpolation_graded/523AFFD17E770BA5C95D0C75422845C65DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
-\openout4 = `interpolation.pyg'.
+ (./build/_minted-interpolation_graded/BF072E9119077B4E76437A93986787EF5DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
-\openout4 = `interpolation.pyg'.
+ (./build/_minted-interpolation_graded/BF072E9119077B4E76437A93986787EF5DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/0F42B643B7D4515FA1EC10164F6A455807B94D58EB7B81659FF813ED37F049D1.pygtex
+ (./build/_minted-interpolation_graded/76B7A60864FB89F963884E34144B3E475DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex
 LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 3.
 )
-\openout4 = `interpolation.pyg'.
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/BF072E9119077B4E76437A93986787EF07B94D58EB7B81659FF813ED37F049D1.pygtex)
-\openout4 = `interpolation.pyg'.
+ (./build/_minted-interpolation_graded/56F785241D0ED9FE51A8170B9DD502725DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/9D7BF075372908F55E2D945C39E0A61307B94D58EB7B81659FF813ED37F049D1.pygtex)
-\openout3 = `interpolation.pyg'.
+ (./build/_minted-interpolation_graded/9D7BF075372908F55E2D945C39E0A6135DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
- (./build/_minted-interpolation/D6AAB76F4CCBF4871B10282B2E24A46007B94D58EB7B81659FF813ED37F049D1.pygtex) [1
+ (./build/_minted-interpolation_graded/401B30E3B8B5D629635A5C613CDB79195DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout4 = `interpolation_graded.pyg'.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/interpolation.aux)
+ (./build/_minted-interpolation_graded/009520053B00386D1173F3988C55D1925DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex)
+\openout3 = `interpolation_graded.pyg'.
+
+ (./build/_minted-interpolation_graded/AC2A5C0EAE053844B74C4D9501FDA5945DB0FF2CEF9431F5FD5252C6DB74ADA4.pygtex) [1
+
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (build/interpolation_graded.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
  ***********
-runsystem(rm build//interpolation.pyg)...executed.
+runsystem(rm build//interpolation_graded.pyg)...executed.
 
  ) 
 Here is how much of TeX's memory you used:
- 7013 strings out of 476047
- 131028 string characters out of 5792626
- 1939187 words of memory out of 5000000
- 29026 multiletter control sequences out of 15000+600000
- 560282 words of font info for 46 fonts, out of 8000000 for 9000
+ 7035 strings out of 476047
+ 134316 string characters out of 5792626
+ 1938187 words of memory out of 5000000
+ 29042 multiletter control sequences out of 15000+600000
+ 559936 words of font info for 45 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 77i,6n,79p,582b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on build/interpolation.pdf (1 page, 111405 bytes).
+ 77i,6n,79p,570b,543s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on build/interpolation_graded.pdf (1 page, 97998 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
- 34 compressed objects within 1 object stream
+ 53 PDF objects out of 1000 (max. 8388607)
+ 31 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

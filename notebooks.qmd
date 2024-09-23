@@ -7,3 +7,5 @@
 ## Chapter 2
 
 - [Interpolation](notebooks/interpolation.ipynb)
+
+- [Approximation](notebooks/approximation.ipynb)
