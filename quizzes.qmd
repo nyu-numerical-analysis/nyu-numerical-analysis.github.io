@@ -3,3 +3,5 @@
 ## Chapter 2
 
 - [Interpolation](quizzes/build/interpolation.pdf)
+
+- [Interpolation & Approximation](quizzes/build/interpolation_graded.pdf)
