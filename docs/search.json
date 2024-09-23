@@ -102,7 +102,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -116,6 +116,6 @@
     "href": "slides.html#chapter-2",
     "title": "Course slides",
     "section": "",
-    "text": "Interpolation"
+    "text": "Interpolation & Approximation"
   }
 ]

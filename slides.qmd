@@ -6,4 +6,4 @@
 
 ## Chapter 2
 
-- [Interpolation](slides/interpolation.html)
+- [Interpolation & Approximation](slides/interpolation.html)
