@@ -30,7 +30,7 @@
         \]
 
     \item
-        Suppose that $f \in C^{\infty}[a, b]$ and let $I_n[f]$ denote the approximate integral of $f$ using the composite trapezium rule
+        Suppose that $f \in C^{\infty}[a, b]$ and let $I_n[f]$ denote the approximate integral of $f$ using the composite Simpson rule
         with~$n$ integration points.
         Then it holds that
         \[
@@ -62,7 +62,7 @@
         \]
 
     \item
-        In Julia, the following code implements the composite trapezium rule with $n+1$ points:
+        In Julia, the following code implements the composite trapezium rule with $n$ points:
         \begin{minted}{julia}
     f(x) = sin(x)
     function I_approx(a, b, n)
@@ -73,7 +73,7 @@
         \end{minted}
 
     \item
-        In Julia, the following code implements the composite Simpson rule with $n+1$ points:
+        In Julia, the following code implements the composite Simpson rule with $n$ points:
         \begin{minted}{julia}
     f(x) = sin(x)
     function I_approx(a, b, n)
