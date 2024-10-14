@@ -62,22 +62,22 @@
         \]
 
     \item
-        In Julia, the following code implements the composite trapezium rule with $n$ points:
+        In Julia, the following code implements the composite trapezium rule with $n+1$ points:
         \begin{minted}{julia}
     f(x) = sin(x)
     function I_approx(a, b, n)
-        x = LinRange(a, b, n)
+        x = LinRange(a, b, n + 1)
         h = x[2] - x[1]
         return h/2 * sum(f, x[1:n]) + h/2 * sum(f, x[2:end])
     end
         \end{minted}
 
     \item
-        In Julia, the following code implements the composite Simpson rule with $n$ points:
+        In Julia, the following code implements the composite Simpson rule with $n+1$ points:
         \begin{minted}{julia}
     f(x) = sin(x)
     function I_approx(a, b, n)
-        x = LinRange(a, b, n)
+        x = LinRange(a, b, n + 1)
         h = x[2] - x[1]
         w = [1; [2 + 2(i%2) for i in 0:n-1]; 1]
         return h/3 * w'f.(x)
