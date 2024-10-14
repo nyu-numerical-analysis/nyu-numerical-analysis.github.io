@@ -123,7 +123,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation\n\n\n\n\n\nLinear systems"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -138,5 +138,12 @@
     "title": "Course slides",
     "section": "",
     "text": "Interpolation & Approximation"
+  },
+  {
+    "objectID": "slides.html#chapter-4",
+    "href": "slides.html#chapter-4",
+    "title": "Course slides",
+    "section": "",
+    "text": "Linear systems"
   }
 ]
