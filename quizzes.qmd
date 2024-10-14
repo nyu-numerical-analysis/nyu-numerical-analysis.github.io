@@ -12,3 +12,8 @@
 - [Integration (practice)](quizzes/build/integration.pdf)
 
 - [Integration (graded)](quizzes/build/integration_graded.pdf)
+
+
+## Midterm
+
+- [Quizz](quizzes/build/midterm.pdf)
