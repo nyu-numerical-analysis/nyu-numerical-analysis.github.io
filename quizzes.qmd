@@ -16,4 +16,4 @@
 
 ## Midterm
 
-- [Quizz](quizzes/build/midterm.pdf)
+- [Preparation quizz 1](quizzes/build/midterm_1.pdf)
