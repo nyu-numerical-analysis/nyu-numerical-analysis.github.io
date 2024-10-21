@@ -1,4 +1,5 @@
 \documentclass[10pt]{article}
+\usepackage{fontawesome}
 \usepackage{setspace}
 \onehalfspacing
 \usepackage[colorlinks=true]{hyperref}
@@ -8,13 +9,15 @@
 \usepackage{amsmath,amsthm,amssymb}
 \usepackage{mathtools}
 \theoremstyle{definition}
-\newtheorem{question}{Question}
+\newtheorem{question}{{\normalfont \faGears}~Question}
+\newtheorem{compexercise}{{\normalfont \faLaptop}~Computer exercise}
 \theoremstyle{remark}
 \newtheorem*{protosolution}{Solution}
 \usepackage{enumitem}
 \usepackage{xcolor}
 \setlist[enumerate]{font=\bfseries}
 \input{../../macros}
+
 
 \definecolor{lightgreen}{HTML}{f1faf8}
 \newenvironment{solutionframe}
@@ -43,7 +46,7 @@
 \begin{document}
 
 \title{Numerical Analysis: Midterm \\
-\small{(\textbf{40 marks})}}
+\small{(\textbf{50 marks})}}
 \author{Urbain Vaes}
 \maketitle
 
@@ -183,7 +186,7 @@
 
 \newpage
 \begin{question}
-    [Numerical integration, 10 marks]
+    [Numerical integration, \textbf{10 marks}]
     The Gauss--Legendre quadrature formula with $n$ nodes is an approximate integration formula of the form
     \begin{equation}
         \label{gauss_legendre}
@@ -239,20 +242,96 @@
 
                 \item
                     Suppose that $u \colon \real \to \real$ is a smooth function,
-                    and let $\widehat I_n(u)$ denote an approximation of the integral of $u$ between $-1$ and $1$
-                    by the composite trapezium approximation with $n$ nodes,
-                    and let
+                    and let $\widehat I_n(u)$ denote an approximation of
+                    the integral $I(u) := \int_{-1}^{1} u(x) \, \d x$
+                    by the composite trapezium approximation with $n$ points.
+                    Let
                     \[
                         \widehat J_n(u) = 2 \widehat I_{2n}(u) - \widehat I_n{u}.
                     \]
                     It holds that
                     \[
-                        \lim_{n \to \infty} n^2 \left\lvert I(u) - \widehat J_n(u) \right\rvert 
+                        \lim_{n \to \infty} n^2 \left\lvert I(u) - \widehat J_n(u) \right\rvert
                         = 0.
                     \]
             \end{itemize}
 
     \end{enumerate}
 \end{question}
+
+\begin{compexercise}
+    [Interpolation, \textbf{10 marks}]
+    Consider the following data:
+    \begin{table}[h!]
+        \centering
+        \begin{tabular}{|c|c|}
+            \hline
+            \textbf{Time (hours)} & \textbf{Temperature (°C)} \\
+            \hline
+            6  & 10.5 \\
+            \hline
+            9  & 15.0 \\
+            \hline
+            12 & 20.2 \\
+            \hline
+            15 & 25.1 \\
+            \hline
+            18 & 22.8 \\
+            \hline
+            21 & 17.4 \\
+            \hline
+        \end{tabular}
+        \caption{Recorded temperatures at different times of the day.}
+    \end{table}
+
+    We wish to approximate the temperature as a smooth function of time.
+    To this end, calculate the interpolation polynomial, 
+    as well as the best quadratic polynomial approximation (in the sense that the sum of square errors is minimized).
+    You may use the \julia{Polynomials} library.
+    Plot on the same graph:
+    \begin{itemize}
+        \item The data points using \julia{scatter};
+        \item The polynomial $p_{\rm int}$ interpolating the data points;
+        \item The quadratic polynomial $p_{\rm app}$ that best approximates the data,
+            in the sense of least squares.
+    \end{itemize}
+\end{compexercise}
+
+\begin{compexercise}
+    [Numerical integration, \textbf{10 marks}]
+    Boole's integration rule reads
+    \[
+        \int_{-1}^{1} u(x) \, \d x
+        \approx \frac{7}{45} u(-1) + \frac{32}{45} u\left(-\frac{1}{2}\right) + \frac{12}{45} u\left(0\right) + \frac{32}{45} u\left(\frac{1}{2}\right) + \frac{7}{45} u(1).
+    \]
+    \begin{itemize}
+        \item
+            Write a function \julia{comp_boole(u, a, b, N)},
+            which returns an approximation of the integral
+            \[
+                I(u) = \int_{a}^{b} u(x) \, \d x
+            \]
+            obtained by partitioning the integration interval $[a, b]$ into $N$ cells,
+            and applying Boole's rule within each cell.
+
+        \item
+            Take $u(x) = \cos(x)$, $a = -1$ and $b = 1$.
+            Plot the evolution of the error for $N \in \{1, \dotsc, 1000$.
+
+        \item
+            Estimate the order of convergence with respect to $N$, i.e.\ find~$\alpha$ such that
+            \[
+                \lvert \widehat I_{N} - I \rvert \propto C N^{-\alpha},
+            \]
+            where $I$ denotes the exact value of the integral
+            and $\widehat I_{N}$ denotes its approximation.
+            In order to find~$\alpha$,
+            use the function \julia{fit} from the \julia{Polynomials} package to find a linear approximation
+            of the form
+            \[
+                \log \lvert \widehat I_{N} - I \rvert \approx \log (C) - \alpha \log(N).
+            \]
+    \end{itemize}
+\end{compexercise}
 
 \end{document}
