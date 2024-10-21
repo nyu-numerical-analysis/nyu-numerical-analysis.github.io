@@ -17,3 +17,5 @@
 ## Midterm
 
 - [Preparation quizz 1](quizzes/build/midterm_1.pdf)
+
+- [Preparation quizz 2](quizzes/build/midterm_2.pdf)
