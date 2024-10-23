@@ -4,6 +4,8 @@
 
 - [Interpolation](quizzes/build/interpolation.pdf)
 
+- [Interpolation](quizzes/build/midterm.pdf)
+
 - [Interpolation & Approximation (graded)](quizzes/build/interpolation_graded.pdf)
 
 
