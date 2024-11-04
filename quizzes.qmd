@@ -21,3 +21,7 @@
 - [Preparation quizz 2](quizzes/build/midterm_2.pdf)
 
 - [Midterm](nolinkyet), [Answer sheet](quizzes/midterm.ipynb)
+
+## Chapter 4
+
+- [Linear systems](quizzes/build/linear.pdf)
