@@ -1,0 +1,111 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage[cache=true,outputdir=build]{minted}
+\usepackage{amsfonts}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\input{../../macros}
+
+\begin{document}
+Throughout this quiz,
+we consider the following linear system:
+\begin{equation}
+    \label{eq:linear_system}
+    \mat A \vect x = \vect b,
+    \qquad \mat A \in \real^{n \times n},
+    \qquad \vect b \in \real^n.
+\end{equation}
+\begin{enumerate}
+
+    \item
+        The computational cost of the backward substitution algorithm,
+        used to solve~\eqref{eq:linear_system} when~$\mat A$ is an upper triangular matrix,
+        scales as~$\mathcal O(n^2)$.
+
+    \item
+        For a general invertible matrix~$\mat A$,
+        the number of floating point operations required to calculate its LU decomposition scales as $\mathcal O(n^2)$.
+
+    \item
+        If~$\mat A$ is symmetric,
+        then there exists a lower triangular matrix $\mat C \in \real^{n \times n}$ such that $\mat A = \mat C \mat C^\t$.
+
+    \item
+        The condition number~$\kappa_2(\mat A)$ of a square invertible matrix~$\mat A$ is always strictly larger than 1.
+
+    \item
+        Suppose that $\mat A$ is a symmetric, positive definite matrix.
+        Then calculating the Cholesky decomposition of~$\mat A$ requires more floating point operations than calculating the LU decomposition of~$\mat A$.
+
+    \item
+        The spectral radius of a square matrix~$\mat A$ is zero if and only if~$\mat A$ is zero.
+
+    \item
+        If the condition number of a matrix~$\mat A$ is very large ($\gg 1$),
+        then it is possible that rounding errors arising from floating point arithmetic will have a large impact on
+        the accuracy of the numerical solution to the linear system~$\mat A \vect x = \vect b$
+        (calculated by LU decomposition followed by forward and backward substitution, for example).
+
+    \item
+        Suppose that $\mat A \in \real^{n \times n}$ is symmetric and positive definite,
+        and let $\vect b \in \real^n$.
+        Consider the following iterative method for solving the linear system $\mat A \vect x = \vect b$:
+        \begin{equation}
+            \label{eq:richardson}
+            \vect x^{(k+1)} = \vect x^{(k)} + \omega \left( \vect b - \mat A \vect x^{(k)} \right).
+        \end{equation}
+        This iteration converges to the exact solution of the linear system for all~$\omega \in \real$.
+
+    \item
+        The convergence speed of the iteration~\eqref{eq:richardson},
+        for the optimal value of~$\omega$,
+        is independent of the condition number~$\kappa_2(\mat A)$.
+
+    \item
+        If~$\mat A$ is symmetric positive definite,
+        there always exists~$\omega \in \real$ such that
+        the iteration~\eqref{eq:richardson} converges.
+
+    \item
+        If $\mat A$ is a nonzero matrix,
+        then its norm $\norm{\mat A}_2$ is strictly positive.
+
+    \item
+        Suppose that we want to solve the linear systems~$\mat A \vect x = \vect b$ and $\mat A \vect x = \vect c$ by a direct method.
+        To this end, the LU decomposition of~$\mat A$ can be calculated only once.
+
+    \item
+        The Jacobi basic iterative method is convergent if the matrix~$\mat A$ is strictly diagonally dominant.
+
+    \item
+        Assume that $\mat A$ is symmetric and positive definite.
+        Then $\vect x_*$ is a solution of~\eqref{eq:linear_system} \emph{if and only if}
+        $\vect x_*$ is a minimizer of the following convex function:
+        \[
+            f(\vect x) = \frac{1}{2} \vect x^\t \mat A \vect x - \vect b^\t \vect x.
+        \]
+
+    \item
+        The Gauss--Seidel basic iterative method is convergent if the matrix~$\mat A$ is strictly diagonally dominant.
+
+    \item
+        Let $\vect e^{(k)} = \vect x^{(k)} - \vect x_*$,
+        where $\vect x_*$ is the exact solution to the linear system~\eqref{eq:linear_system},
+        and $\vect x^{(k)}$ is obtained from the iterative method~\eqref{eq:richardson}.
+        Then successive errors are related by the following equation:
+        \[
+            \vect e^{(k+1)} = (\mat I - \omega \mat A) \vect e^{(k)}.
+        \]
+
+    \item
+        Assuming that the matrix \julia{A} and the vector \julia{b} are already defined,
+        as well as the parameter~$\omega$,
+        write (on paper) Julia code implementing 100 iterations of~\eqref{eq:richardson}.
+
+\end{enumerate}
+\end{document}
+
+
+
