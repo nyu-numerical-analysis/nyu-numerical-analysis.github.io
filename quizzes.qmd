@@ -20,7 +20,7 @@
 
 - [Preparation quizz 2](quizzes/build/midterm_2.pdf)
 
-- [Midterm](nolinkyet), [Answer sheet](quizzes/midterm.ipynb)
+- [Midterm](quizzes/build/midterm.pdf), [Answer sheet](quizzes/midterm.ipynb)
 
 ## Chapter 4
 
