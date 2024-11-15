@@ -26,4 +26,6 @@
 
 - [Linear systems](quizzes/build/linear.pdf)
 
-- [Linear systems (graded)](quizzes/build/linear_graded.pdf)
+- [Direct methods (graded)](quizzes/build/linear_graded.pdf)
+
+- [Iterative methods (graded)](quizzes/build/iterative_graded.pdf)
