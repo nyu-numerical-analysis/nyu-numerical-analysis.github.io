@@ -67,7 +67,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -96,6 +96,13 @@
     "title": "Notebooks",
     "section": "",
     "text": "Linear systems"
+  },
+  {
+    "objectID": "notebooks.html#chapter-5",
+    "href": "notebooks.html#chapter-5",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Nonlinear systems"
   },
   {
     "objectID": "links.html",
