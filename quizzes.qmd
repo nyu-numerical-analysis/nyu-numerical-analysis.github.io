@@ -29,3 +29,7 @@
 - [Direct methods (graded)](quizzes/build/linear_graded.pdf)
 
 - [Iterative methods (graded)](quizzes/build/iterative_graded.pdf)
+
+## Chapter 5
+
+- [Nonlinear equations](quizzes/build/nonlinear.pdf)
