@@ -32,6 +32,6 @@
 
 ## Chapter 5
 
-- [Nonlinear equations](quizzes/build/nonlinear.pdf)
+- [Nonlinear equations (1/2)](quizzes/build/nonlinear.pdf)
 
-- [Nonlinear equations](quizzes/build/nonlinear_2.pdf)
+<!-- - [Nonlinear equations (2/2)](quizzes/build/nonlinear_2.pdf) -->
