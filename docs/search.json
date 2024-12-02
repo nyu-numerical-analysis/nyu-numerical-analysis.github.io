@@ -151,7 +151,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems\n\n\n\n\n\nEigenvalue problems"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -180,5 +180,12 @@
     "title": "Course slides",
     "section": "",
     "text": "Nonlinear systems"
+  },
+  {
+    "objectID": "slides.html#chapter-6",
+    "href": "slides.html#chapter-6",
+    "title": "Course slides",
+    "section": "",
+    "text": "Eigenvalue problems"
   }
 ]

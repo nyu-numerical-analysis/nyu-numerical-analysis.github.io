@@ -15,3 +15,7 @@
 ## Chapter 5
 
 - [Nonlinear systems](slides/nonlinear.html)
+
+## Chapter 6
+
+- [Eigenvalue problems](slides/eigen.html)
