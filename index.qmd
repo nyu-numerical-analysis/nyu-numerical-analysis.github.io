@@ -27,8 +27,10 @@ The course is based on two books:
 
 - Lectures on Monday and Wednesday from 15:00 to 16:15
 
-- Recitations on Monday and Wednesday from 16:20 to 17:05 
+- Recitations on Monday and Wednesday from 16:20 to 17:05
 
 - Office hour on Monday from 17:15 to 18:15
+
+- Zoom link for exam [*here*](https://nyu.zoom.us/j/2341268713?pwd=UkliYk94QTNuRXl3eWJUK2ovRTVDQT09)
 
 - [Course syllabus](misc/Numerical_analysis_syllabus.odt)
