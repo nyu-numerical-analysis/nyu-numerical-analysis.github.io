@@ -39,3 +39,5 @@
 ## Final exam practice
 
 - [Preparation quizz 1](quizzes/build/exam_1.pdf)
+
+- [Preparation quizz 2](quizzes/exam_2.ipynb)
