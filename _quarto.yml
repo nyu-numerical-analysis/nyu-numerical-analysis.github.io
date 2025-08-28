@@ -27,6 +27,8 @@ editor:
 
 format:
   html:
-    theme: zephyr
+    theme:
+      light: default
+      dark: darkly
     css: styles.css
     toc: true

@@ -1,5 +1,82 @@
 [
   {
+    "objectID": "slides.html",
+    "href": "slides.html",
+    "title": "Course slides",
+    "section": "",
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems\n\n\n\n\n\nEigenvalue problems"
+  },
+  {
+    "objectID": "slides.html#chapter-1",
+    "href": "slides.html#chapter-1",
+    "title": "Course slides",
+    "section": "",
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "slides.html#chapter-2",
+    "href": "slides.html#chapter-2",
+    "title": "Course slides",
+    "section": "",
+    "text": "Interpolation & Approximation"
+  },
+  {
+    "objectID": "slides.html#chapter-4",
+    "href": "slides.html#chapter-4",
+    "title": "Course slides",
+    "section": "",
+    "text": "Linear systems"
+  },
+  {
+    "objectID": "slides.html#chapter-5",
+    "href": "slides.html#chapter-5",
+    "title": "Course slides",
+    "section": "",
+    "text": "Nonlinear systems"
+  },
+  {
+    "objectID": "slides.html#chapter-6",
+    "href": "slides.html#chapter-6",
+    "title": "Course slides",
+    "section": "",
+    "text": "Eigenvalue problems"
+  },
+  {
+    "objectID": "notes.html",
+    "href": "notes.html",
+    "title": "Lecture notes",
+    "section": "",
+    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+  },
+  {
+    "objectID": "links.html",
+    "href": "links.html",
+    "title": "Useful links",
+    "section": "",
+    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl\n\n\n\n\n\nNYU Paris academic calendar"
+  },
+  {
+    "objectID": "links.html#videos",
+    "href": "links.html#videos",
+    "title": "Useful links",
+    "section": "",
+    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”."
+  },
+  {
+    "objectID": "links.html#software-libraries-for-the-course",
+    "href": "links.html#software-libraries-for-the-course",
+    "title": "Useful links",
+    "section": "",
+    "text": "Documentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl"
+  },
+  {
+    "objectID": "links.html#other-links",
+    "href": "links.html#other-links",
+    "title": "Useful links",
+    "section": "",
+    "text": "NYU Paris academic calendar"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Numerical Analysis",
@@ -26,6 +103,48 @@
     "title": "Numerical Analysis",
     "section": "Practical information",
     "text": "Practical information\n\nLectures on Monday and Wednesday from 15:00 to 16:15\nRecitations on Monday and Wednesday from 16:20 to 17:05\nOffice hour on Monday from 17:15 to 18:15\nZoom link for exam here\nCourse syllabus"
+  },
+  {
+    "objectID": "notebooks.html",
+    "href": "notebooks.html",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems"
+  },
+  {
+    "objectID": "notebooks.html#chapter-1",
+    "href": "notebooks.html#chapter-1",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Introduction to Julia"
+  },
+  {
+    "objectID": "notebooks.html#chapter-2",
+    "href": "notebooks.html#chapter-2",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Interpolation\nApproximation"
+  },
+  {
+    "objectID": "notebooks.html#chapter-3",
+    "href": "notebooks.html#chapter-3",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Integration"
+  },
+  {
+    "objectID": "notebooks.html#chapter-4",
+    "href": "notebooks.html#chapter-4",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Linear systems"
+  },
+  {
+    "objectID": "notebooks.html#chapter-5",
+    "href": "notebooks.html#chapter-5",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Nonlinear systems"
   },
   {
     "objectID": "quizzes.html",
@@ -75,124 +194,5 @@
     "title": "Quizzes",
     "section": "",
     "text": "Preparation quizz 1\nPreparation quizz 2"
-  },
-  {
-    "objectID": "notebooks.html",
-    "href": "notebooks.html",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems"
-  },
-  {
-    "objectID": "notebooks.html#chapter-1",
-    "href": "notebooks.html#chapter-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "notebooks.html#chapter-2",
-    "href": "notebooks.html#chapter-2",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Interpolation\nApproximation"
-  },
-  {
-    "objectID": "notebooks.html#chapter-3",
-    "href": "notebooks.html#chapter-3",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Integration"
-  },
-  {
-    "objectID": "notebooks.html#chapter-4",
-    "href": "notebooks.html#chapter-4",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Linear systems"
-  },
-  {
-    "objectID": "notebooks.html#chapter-5",
-    "href": "notebooks.html#chapter-5",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Nonlinear systems"
-  },
-  {
-    "objectID": "links.html",
-    "href": "links.html",
-    "title": "Useful links",
-    "section": "",
-    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl\n\n\n\n\n\nNYU Paris academic calendar"
-  },
-  {
-    "objectID": "links.html#videos",
-    "href": "links.html#videos",
-    "title": "Useful links",
-    "section": "",
-    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”."
-  },
-  {
-    "objectID": "links.html#software-libraries-for-the-course",
-    "href": "links.html#software-libraries-for-the-course",
-    "title": "Useful links",
-    "section": "",
-    "text": "Documentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl"
-  },
-  {
-    "objectID": "links.html#other-links",
-    "href": "links.html#other-links",
-    "title": "Useful links",
-    "section": "",
-    "text": "NYU Paris academic calendar"
-  },
-  {
-    "objectID": "notes.html",
-    "href": "notes.html",
-    "title": "Lecture notes",
-    "section": "",
-    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
-  },
-  {
-    "objectID": "slides.html",
-    "href": "slides.html",
-    "title": "Course slides",
-    "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems\n\n\n\n\n\nEigenvalue problems"
-  },
-  {
-    "objectID": "slides.html#chapter-1",
-    "href": "slides.html#chapter-1",
-    "title": "Course slides",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "slides.html#chapter-2",
-    "href": "slides.html#chapter-2",
-    "title": "Course slides",
-    "section": "",
-    "text": "Interpolation & Approximation"
-  },
-  {
-    "objectID": "slides.html#chapter-4",
-    "href": "slides.html#chapter-4",
-    "title": "Course slides",
-    "section": "",
-    "text": "Linear systems"
-  },
-  {
-    "objectID": "slides.html#chapter-5",
-    "href": "slides.html#chapter-5",
-    "title": "Course slides",
-    "section": "",
-    "text": "Nonlinear systems"
-  },
-  {
-    "objectID": "slides.html#chapter-6",
-    "href": "slides.html#chapter-6",
-    "title": "Course slides",
-    "section": "",
-    "text": "Eigenvalue problems"
   }
 ]
