@@ -4,7 +4,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation & Approximation\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems\n\n\n\n\n\nEigenvalue problems"
+    "text": "Introduction to Julia"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -12,34 +12,6 @@
     "title": "Course slides",
     "section": "",
     "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "slides.html#chapter-2",
-    "href": "slides.html#chapter-2",
-    "title": "Course slides",
-    "section": "",
-    "text": "Interpolation & Approximation"
-  },
-  {
-    "objectID": "slides.html#chapter-4",
-    "href": "slides.html#chapter-4",
-    "title": "Course slides",
-    "section": "",
-    "text": "Linear systems"
-  },
-  {
-    "objectID": "slides.html#chapter-5",
-    "href": "slides.html#chapter-5",
-    "title": "Course slides",
-    "section": "",
-    "text": "Nonlinear systems"
-  },
-  {
-    "objectID": "slides.html#chapter-6",
-    "href": "slides.html#chapter-6",
-    "title": "Course slides",
-    "section": "",
-    "text": "Eigenvalue problems"
   },
   {
     "objectID": "notes.html",
@@ -102,14 +74,14 @@
     "href": "index.html#practical-information",
     "title": "Numerical Analysis",
     "section": "Practical information",
-    "text": "Practical information\n\nLectures on Monday and Wednesday from 15:00 to 16:15\nRecitations on Monday and Wednesday from 16:20 to 17:05\nOffice hour on Monday from 17:15 to 18:15\nZoom link for exam here\nCourse syllabus"
+    "text": "Practical information\n\nLectures on Monday and Wednesday from 15:30 to 16:45\nRecitations on Monday and Wednesday from 16:50 to 17:35\n⚠️ The class of Wednesday, September 3rd is postponed to the morning Friday, September 12th\n⚠️ The class of Monday, September 15rd is postponed to the morning Friday, September 19th\nOffice hour on Monday from 14:30 to 15:30\nCourse syllabus"
   },
   {
     "objectID": "notebooks.html",
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems"
+    "text": "Introduction to Julia"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -119,80 +91,17 @@
     "text": "Introduction to Julia"
   },
   {
-    "objectID": "notebooks.html#chapter-2",
-    "href": "notebooks.html#chapter-2",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Interpolation\nApproximation"
-  },
-  {
-    "objectID": "notebooks.html#chapter-3",
-    "href": "notebooks.html#chapter-3",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Integration"
-  },
-  {
-    "objectID": "notebooks.html#chapter-4",
-    "href": "notebooks.html#chapter-4",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Linear systems"
-  },
-  {
-    "objectID": "notebooks.html#chapter-5",
-    "href": "notebooks.html#chapter-5",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Nonlinear systems"
-  },
-  {
     "objectID": "quizzes.html",
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Interpolation\nInterpolation & Approximation (graded)\n\n\n\n\n\nIntegration (practice)\nIntegration (graded)\n\n\n\n\n\nPreparation quizz 1\nPreparation quizz 2\nMidterm, Answer sheet\n\n\n\n\n\nLinear systems\nDirect methods (graded)\nIterative methods (graded)\n\n\n\n\n\nNonlinear equations (1/2)\nNonlinear equations (2/2)\n\n\n\n\n\nPreparation quizz 1\nPreparation quizz 2"
+    "text": "Example quizz from Chapter 2"
   },
   {
-    "objectID": "quizzes.html#chapter-2",
-    "href": "quizzes.html#chapter-2",
+    "objectID": "quizzes.html#chapter-1",
+    "href": "quizzes.html#chapter-1",
     "title": "Quizzes",
     "section": "",
-    "text": "Interpolation\nInterpolation & Approximation (graded)"
-  },
-  {
-    "objectID": "quizzes.html#chapter-3",
-    "href": "quizzes.html#chapter-3",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Integration (practice)\nIntegration (graded)"
-  },
-  {
-    "objectID": "quizzes.html#midterm",
-    "href": "quizzes.html#midterm",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Preparation quizz 1\nPreparation quizz 2\nMidterm, Answer sheet"
-  },
-  {
-    "objectID": "quizzes.html#chapter-4",
-    "href": "quizzes.html#chapter-4",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Linear systems\nDirect methods (graded)\nIterative methods (graded)"
-  },
-  {
-    "objectID": "quizzes.html#chapter-5",
-    "href": "quizzes.html#chapter-5",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Nonlinear equations (1/2)\nNonlinear equations (2/2)"
-  },
-  {
-    "objectID": "quizzes.html#final-exam-practice",
-    "href": "quizzes.html#final-exam-practice",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Preparation quizz 1\nPreparation quizz 2"
+    "text": "Example quizz from Chapter 2"
   }
 ]

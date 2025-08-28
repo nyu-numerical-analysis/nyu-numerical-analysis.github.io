@@ -1,43 +1,5 @@
 # Quizzes
 
-## Chapter 2
+## Chapter 1
 
-- [Interpolation](quizzes/build/interpolation.pdf)
-
-- [Interpolation & Approximation (graded)](quizzes/build/interpolation_graded.pdf)
-
-
-## Chapter 3
-
-- [Integration (practice)](quizzes/build/integration.pdf)
-
-- [Integration (graded)](quizzes/build/integration_graded.pdf)
-
-
-## Midterm
-
-- [Preparation quizz 1](quizzes/build/midterm_1.pdf)
-
-- [Preparation quizz 2](quizzes/build/midterm_2.pdf)
-
-- [Midterm](quizzes/build/midterm.pdf), [Answer sheet](quizzes/midterm.ipynb)
-
-## Chapter 4
-
-- [Linear systems](quizzes/build/linear.pdf)
-
-- [Direct methods (graded)](quizzes/build/linear_graded.pdf)
-
-- [Iterative methods (graded)](quizzes/build/iterative_graded.pdf)
-
-## Chapter 5
-
-- [Nonlinear equations (1/2)](quizzes/build/nonlinear.pdf)
-
-- [Nonlinear equations (2/2)](quizzes/build/nonlinear_2.pdf)
-
-## Final exam practice
-
-- [Preparation quizz 1](quizzes/build/exam_1.pdf)
-
-- [Preparation quizz 2](quizzes/exam_2.ipynb)
+- [Example quizz from Chapter 2](quizzes/build/interpolation.pdf)
