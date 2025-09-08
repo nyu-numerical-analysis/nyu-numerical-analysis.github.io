@@ -33,6 +33,6 @@ The course is based on two books:
 
 - ⚠️ The class of Mon 15 Sep is postponed to the morning of Friday 19 Sep
 
-- Office hour on Monday from 14:30 to 15:30
+- Office hour on Monday from 14:30 to 15:30 in Room 606
 
 - [Course syllabus](misc/Numerical_analysis_syllabus.odt)
