@@ -1,5 +1,11 @@
 # Quizzes
 
+## Chapter 0
+
+- [Introduction to Julia](quizzes/build/julia.pdf) (ungraded)
+
+- [Introduction to Julia](quizzes/build/julia.pdf)
+
 ## Chapter 1
 
 - [Example quizz from Chapter 2](quizzes/build/interpolation.pdf)
