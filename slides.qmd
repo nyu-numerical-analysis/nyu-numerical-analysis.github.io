@@ -3,3 +3,5 @@
 ## Chapter 1
 
 - [Introduction to Julia](slides/julia.html)
+
+- [Floating-point arithmetic](slides/roundoff.html)
