@@ -5,3 +5,7 @@
 - [Introduction to Julia](slides/julia.html)
 
 - [Floating-point arithmetic](slides/roundoff.html)
+
+## Chapter 2
+
+- [Interpolation](slides/interpolation.html)
