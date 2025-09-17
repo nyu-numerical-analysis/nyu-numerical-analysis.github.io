@@ -21,6 +21,8 @@ website:
         text: Quizzes
       - href: links.qmd
         text: Useful Links
+      - href: credits.qmd
+        text: Credits
 
 editor:
     render-on-save: true
