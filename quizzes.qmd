@@ -8,4 +8,8 @@
 
 ## Chapter 1
 
+- [Example quizz from Chapter 1](quizzes/build/roundoff.pdf)
+
+## Chapter 2
+
 - [Example quizz from Chapter 2](quizzes/build/interpolation.pdf)
