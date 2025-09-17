@@ -16,4 +16,6 @@ Several parts of the course materials (slides, exercises, notebooks) were develo
 
 - 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
 
-The lecture notes were greatly improved thanks to contributions from [Jean-François Barthélémy](https://jfbarthelemy.github.io/) and [Khoi Nguyen](https://www.linkedin.com/in/binh-khoi-nguyen/?originalSubdomain=be).
+In addition, the lecture notes were greatly improved thanks to contributions from [Jean-François Barthélémy](https://jfbarthelemy.github.io/) and [Khoi Nguyen](https://www.linkedin.com/in/binh-khoi-nguyen/?originalSubdomain=be).
+
+This website is based on a design by [Jean-François Barthélémy](https://jfbarthelemy.github.io/).
