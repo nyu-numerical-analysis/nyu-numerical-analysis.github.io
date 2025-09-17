@@ -1,0 +1,125 @@
+\documentclass[a4paper]{article}
+\usepackage[margin=.8in]{geometry}
+\usepackage{amsmath}
+\usepackage{enumitem}
+% \usepackage[cache=true,outputdir=build]{minted}
+\usepackage[cache=true]{minted}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\input{../../macros}
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % clear default
+\lhead{Name: } % student writes name
+\chead{Quiz 2 -- Floating point arithmetic}   % quiz title
+\rhead{\today}
+
+% \DeclareUnicodeCharacter{3B8}{θ}
+% \DeclareUnicodeCharacter{3B4}{$\bm{\delta}$}
+% \DeclareUnicodeCharacter{3BB}{$\lambda$}
+% \DeclareUnicodeCharacter{3BC}{$\mu$}
+% \DeclareUnicodeCharacter{3BC}{$\pi$}
+% \DeclareUnicodeCharacter{3C3}{$\sigma$}
+% \DeclareUnicodeCharacter{3C0}{$\pi$}
+% \DeclareUnicodeCharacter{3D5}{$\bm{\phi}$}
+
+\begin{document}
+
+\pagestyle{empty}
+\thispagestyle{fancy}
+
+% \textbf{Your name:} \\[.5cm]
+
+% \begin{center}
+%     \Large{\bf\textsc{Quiz 0 (Introduction to Julia)}}
+% \end{center}
+
+True or false? (unless otherwise specified)
+
+\begin{enumerate}
+
+    \item
+        Let $(\placeholder)_2$ denote binary representation.
+        It holds that
+        \[
+            (0.1011)_2 + (0.0101)_2 = 1.
+        \]
+
+    \item
+        Let $(\placeholder)_7$ denote base 7 representation.
+        It holds that
+        \[
+            (1000)_7 \times (2)_7 = (2000)_7.
+        \]
+
+    \item
+        Let $p \in \nat$.
+        The set
+        \(
+            \bigl\{ (b_0. b_1 b_2 \dots b_{p-1})_2 \colon b_i \in \{0, 1\} \bigr\} \subset \real
+        \)
+        contains $2^{p}$ distinct real numbers.
+
+    \item
+        The machine epsilon of a floating point format is the smallest strictly positive number that can be represented exactly in the format.
+
+    \item
+        Let $\varepsilon$ denote the machine epsilon for the \julia{Float64} format.
+        Any $x \in \mathbf R$ such that $-\varepsilon < x < \varepsilon$
+        cannot be represented in the \julia{Float64} format.
+
+    \item
+        Machine multiplication is commutative,
+        meaning that $a \,{\widehat *}\, b = b \, {\widehat *}\, a$
+        for any \julia{Float64} point numbers~$a$ and~$b$.
+
+    \item
+        If \julia{x} is a \julia{Float16} and \julia{y} is a \julia{Float64} number,
+        then the result of \julia{x + y} is a \julia{Float64} number.
+
+    \item
+        The real number \julia{0.0} can be represented exactly in the \julia{Float32} format.
+
+    \item
+        It holds that
+        \[
+            (0.\overline{011})_2 = \frac{3}{4}.
+        \]
+
+    \item
+        In Julia, \julia{Float64(x) == Float32(x)} is \julia{true} if \julia{x} is a rational number.
+
+    \item
+        The value of the machine epsilon for \julia{Float64} format is the same as for the \julia{Float32} format.
+
+    \item
+        The spacing (in absolute value) between successive double-precision (\julia{Float64}) floating point numbers is always equal to the machine epsilon.
+
+    \item
+        \textbf{All} the natural numbers can be represented exactly in the double precision floating point format~\julia{Float64}.
+
+    \item
+        Machine addition in the \julia{Float64} format is associative but not commutative.
+
+    \item
+        In Julia, \julia{Float64(.4) == Float32(.4)} evaluates to \julia{true}.
+
+    \item
+        \textbf{(Bonus)}
+        In Julia \julia{10 + eps() == 1} evaluates to \julia{true}.
+
+        \emph{Explain briefly why:}
+        \vspace{2.5cm}
+
+    \item
+        \textbf{(Bonus)}
+         In Julia \julia{sqrt(1 + eps()) == 1 + eps()} evaluates to \julia{false}.
+
+        \emph{Explain briefly why:}
+         \vspace{2.5cm}
+\end{enumerate}
+
+\end{document}
