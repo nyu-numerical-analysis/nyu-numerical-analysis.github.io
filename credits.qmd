@@ -1,21 +1,22 @@
 ---
-title: "Crédits"
+title: "Credits"
 ---
 
-Several parts of the course materials (slides, exercises, notebooks) were developed by members of teaching team for the course *Practical Scientific Computing* at École des Ponts :
+- Several parts of the course materials (slides, exercises, notebooks) were developed by members of teaching team for the course *Practical Scientific Computing* at École des Ponts :
 
-- 2023- : [Jean-François Barthélémy](https://jfbarthelemy.github.io/) (jean-francois.barthelemy@cerema.fr)
+    + 2023- : [Jean-François Barthélémy](https://jfbarthelemy.github.io/) (jean-francois.barthelemy@cerema.fr)
 
-- 2025- : [Louis Carillo](https://louiscarillo.github.io/) (louis.carillo@enpc.fr)
+    + 2025- : [Louis Carillo](https://louiscarillo.github.io/) (louis.carillo@enpc.fr)
 
-- 2023, 2024 : [Noé Blassel](https://noeblassel.github.io/) (noe.blassel@enpc.fr)
+    + 2023, 2024 : [Noé Blassel](https://noeblassel.github.io/) (noe.blassel@enpc.fr)
 
-- 2023 : [Shiva Darshan](https://shiva-darshan.github.io/) (shiva.darshan@enpc.fr)
+    + 2023 : [Shiva Darshan](https://shiva-darshan.github.io/) (shiva.darshan@enpc.fr)
 
-- 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
+    + 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
 
-- 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
+    + 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
 
-In addition, the lecture notes were greatly improved thanks to contributions from [Jean-François Barthélémy](https://jfbarthelemy.github.io/) and [Khoi Nguyen](https://www.linkedin.com/in/binh-khoi-nguyen/?originalSubdomain=be).
+- The lecture notes were greatly improved thanks to contributions from [Jean-François Barthélémy](https://jfbarthelemy.github.io/) and [Khoi Nguyen](https://www.linkedin.com/in/binh-khoi-nguyen/?originalSubdomain=be).
 
-This website is based on a design by [Jean-François Barthélémy](https://jfbarthelemy.github.io/).
+- This website was built using [Quarto](https://quarto.org/docs/websites)
+  and a design by [Jean-François Barthélémy](https://jfbarthelemy.github.io/).

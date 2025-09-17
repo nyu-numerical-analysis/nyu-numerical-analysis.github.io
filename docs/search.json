@@ -58,9 +58,9 @@
   {
     "objectID": "credits.html",
     "href": "credits.html",
-    "title": "Crédits",
+    "title": "Credits",
     "section": "",
-    "text": "Several parts of the course materials (slides, exercises, notebooks) were developed by members of teaching team for the course Practical Scientific Computing at École des Ponts :\n\n2023- : Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\n2025- : Louis Carillo (louis.carillo@enpc.fr)\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n2023 : Renato Spacek\n\nIn addition, the lecture notes were greatly improved thanks to contributions from Jean-François Barthélémy and Khoi Nguyen.\nThis website is based on a design by Jean-François Barthélémy."
+    "text": "Several parts of the course materials (slides, exercises, notebooks) were developed by members of teaching team for the course Practical Scientific Computing at École des Ponts :\n\n2023- : Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\n2025- : Louis Carillo (louis.carillo@enpc.fr)\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n2023 : Renato Spacek\n\nThe lecture notes were greatly improved thanks to contributions from Jean-François Barthélémy and Khoi Nguyen.\nThis website was built using Quarto and a design by Jean-François Barthélémy."
   },
   {
     "objectID": "index.html",
