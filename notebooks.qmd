@@ -3,3 +3,7 @@
 ## Chapter 1
 
 - [Introduction to Julia](notebooks/intro_julia.ipynb)
+
+## Chapter 2
+
+- [Interpolation](notebooks/interpolation.ipynb)
