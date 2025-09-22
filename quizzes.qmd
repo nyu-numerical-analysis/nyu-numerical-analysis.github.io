@@ -13,3 +13,6 @@
 ## Chapter 2
 
 - [Example quizz from Chapter 2](quizzes/build/interpolation.pdf)
+
+- [Interpolation](quizzes/build/interpolation_new.pdf)
+

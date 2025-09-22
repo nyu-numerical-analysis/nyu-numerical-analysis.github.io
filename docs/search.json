@@ -109,7 +109,7 @@
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nExample quizz from Chapter 1\n\n\n\n\n\nExample quizz from Chapter 2"
+    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nExample quizz from Chapter 1\n\n\n\n\n\nExample quizz from Chapter 2\nInterpolation"
   },
   {
     "objectID": "quizzes.html#chapter-0",
@@ -130,6 +130,6 @@
     "href": "quizzes.html#chapter-2",
     "title": "Quizzes",
     "section": "",
-    "text": "Example quizz from Chapter 2"
+    "text": "Example quizz from Chapter 2\nInterpolation"
   }
 ]
