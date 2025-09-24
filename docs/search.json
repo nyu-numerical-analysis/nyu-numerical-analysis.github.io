@@ -116,7 +116,7 @@
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nExample quizz from Chapter 1\n\n\n\n\n\nExample quizz from Chapter 2\nInterpolation"
+    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nFloating point arithmetic\n\n\n\n\n\nExample quiz from Chapter 2\nInterpolation"
   },
   {
     "objectID": "quizzes.html#chapter-0",
@@ -130,13 +130,13 @@
     "href": "quizzes.html#chapter-1",
     "title": "Quizzes",
     "section": "",
-    "text": "Example quizz from Chapter 1"
+    "text": "Floating point arithmetic"
   },
   {
     "objectID": "quizzes.html#chapter-2",
     "href": "quizzes.html#chapter-2",
     "title": "Quizzes",
     "section": "",
-    "text": "Example quizz from Chapter 2\nInterpolation"
+    "text": "Example quiz from Chapter 2\nInterpolation"
   }
 ]
