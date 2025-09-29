@@ -2,7 +2,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{enumitem}
-\usepackage[cache=true,outputdir=build]{minted}
+\usepackage[cache=true]{minted}
 \usepackage{amsfonts}
 \newcommand{\julia}[1]{\mintinline{julia}{#1}}
 
@@ -10,7 +10,12 @@
 \begin{enumerate}
 
     \item
-        The only polynomial of any degree such that $p(-1) = 1$, $p(0) = 0$ and $p(1) = 1$ is the quadratic polynomial $p(x) = x^2$.
+        Suppose that $x_0 < x_1 < \dotsb < x_n$ and $y_0, y_1, \dotsc, y_n$ are given real numbers.
+        Then there exists a unique polynomial $p \in \mathcal P_n$ such that $p(x_i) = y_i$ for all $i \in \{0, \dotsc, n\}$.
+
+    \item
+        Suppose that $x_0 < x_1 < \dotsb < x_n$ and $y_0, y_1, \dotsc, y_n$ are given real numbers.
+        Then there exists a unique polynomial $p \in \mathcal P_n$ such that $p(x_i) = y_i$ for all $i \in \{0, \dotsc, n\}$.
 
     \item
         Given $x_0 < x_1 < \dotsc < x_n \in \mathbb R$

@@ -12,7 +12,6 @@
 
 ## Chapter 2
 
-- [Example quiz from Chapter 2](quizzes/build/interpolation.pdf)
-
 - [Interpolation](quizzes/build/interpolation_new.pdf)
 
+- [Interpolation (practice quiz)](quizzes/build/interpolation_practice.pdf)
