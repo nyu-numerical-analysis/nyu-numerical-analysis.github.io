@@ -59,7 +59,7 @@
         Then for any $m \in \{0, 1, \dotsc\}$,
         there exists exactly one polynomial $p \in \mathcal P_m$ such that 
         \[
-            \frac{1}{n} \sum_{i=1}^{n} \Bigl\lvert p(x_i) - y_i \Bigr\rvert^2 = 0.
+            \frac{1}{n} \sum_{i=0}^{n} \Bigl\lvert p(x_i) - y_i \Bigr\rvert^2 = 0.
         \]
 
     \item
@@ -68,7 +68,7 @@
         and let $m \geq n$. 
         There exists a unique $p \in \mathcal P_m$ such that the following quantity is minimized:
         \[
-            \frac{1}{n} \sum_{i=1}^{n} \Bigl\lvert p(x_i) - y_i \Bigr\rvert^2 = 0.
+            \frac{1}{n} \sum_{i=0}^{n} \Bigl\lvert p(x_i) - y_i \Bigr\rvert^2.
         \]
 
     \item
@@ -76,7 +76,7 @@
         and $y_0, y_1, \dotsc , y_n \in \mathbb R$ with $n = 10$,
         there exists a unique polynomial $p(x) = ax + b$ that minimizes
         \[
-            J(a, b) = \frac{1}{2} \sum_{i=1}^n \bigl\lvert y_i - p(x_i) \bigr\rvert^2.
+            J(a, b) = \frac{1}{2} \sum_{i=0}^n \bigl\lvert y_i - p(x_i) \bigr\rvert^2.
         \]
 
     \item

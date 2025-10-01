@@ -4,7 +4,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation"
+    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation and approximation"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -18,7 +18,7 @@
     "href": "slides.html#chapter-2",
     "title": "Course slides",
     "section": "",
-    "text": "Interpolation"
+    "text": "Interpolation and approximation"
   },
   {
     "objectID": "notes.html",
@@ -95,7 +95,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -109,7 +109,7 @@
     "href": "notebooks.html#chapter-2",
     "title": "Notebooks",
     "section": "",
-    "text": "Interpolation"
+    "text": "Interpolation\nApproximation"
   },
   {
     "objectID": "quizzes.html",
