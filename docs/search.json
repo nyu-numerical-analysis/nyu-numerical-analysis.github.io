@@ -95,7 +95,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nIntegration"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -110,6 +110,13 @@
     "title": "Notebooks",
     "section": "",
     "text": "Interpolation\nApproximation"
+  },
+  {
+    "objectID": "notebooks.html#chapter-3",
+    "href": "notebooks.html#chapter-3",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Integration"
   },
   {
     "objectID": "quizzes.html",

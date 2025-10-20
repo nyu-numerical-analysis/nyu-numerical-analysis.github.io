@@ -8,4 +8,4 @@
 
 ## Chapter 2
 
-- [Interpolation](slides/interpolation.html)
+- [Interpolation and approximation](slides/interpolation.html)
