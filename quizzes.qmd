@@ -14,4 +14,10 @@
 
 - [Interpolation](quizzes/build/interpolation_new.pdf)
 
-- [Interpolation (practice quiz)](quizzes/build/interpolation_practice.pdf)
+- [Interpolation (practice quiz)](quizzes/build/interpolation_practice.pdf) (ungraded)
+
+- [Interpolation and Approximation](quizzes/build/interpolation_practice.pdf)
+
+## Chapter 3
+
+- [Integration](quizzes/build/integration.pdf)

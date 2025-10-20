@@ -123,7 +123,7 @@
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nFloating point arithmetic\n\n\n\n\n\nInterpolation\nInterpolation (practice quiz)"
+    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nFloating point arithmetic\n\n\n\n\n\nInterpolation\nInterpolation (practice quiz) (ungraded)\nInterpolation and Approximation\n\n\n\n\n\nIntegration"
   },
   {
     "objectID": "quizzes.html#chapter-0",
@@ -144,6 +144,13 @@
     "href": "quizzes.html#chapter-2",
     "title": "Quizzes",
     "section": "",
-    "text": "Interpolation\nInterpolation (practice quiz)"
+    "text": "Interpolation\nInterpolation (practice quiz) (ungraded)\nInterpolation and Approximation"
+  },
+  {
+    "objectID": "quizzes.html#chapter-3",
+    "href": "quizzes.html#chapter-3",
+    "title": "Quizzes",
+    "section": "",
+    "text": "Integration"
   }
 ]
