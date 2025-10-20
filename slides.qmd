@@ -9,3 +9,7 @@
 ## Chapter 2
 
 - [Interpolation and approximation](slides/interpolation.html)
+
+## Chapter 4
+
+- [Linear systems of equations](slides/linear.html)

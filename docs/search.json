@@ -4,7 +4,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation and approximation"
+    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation and approximation\n\n\n\n\n\nLinear systems of equations"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -19,6 +19,13 @@
     "title": "Course slides",
     "section": "",
     "text": "Interpolation and approximation"
+  },
+  {
+    "objectID": "slides.html#chapter-4",
+    "href": "slides.html#chapter-4",
+    "title": "Course slides",
+    "section": "",
+    "text": "Linear systems of equations"
   },
   {
     "objectID": "notes.html",
