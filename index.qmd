@@ -33,6 +33,6 @@ The course is based on two books:
 
 - Midterm evaluation on *November 5th*
 
-- Final on *December 11th*
+- Final on *December 12th*
 
 - [Course syllabus](misc/Numerical_analysis_syllabus.odt)
