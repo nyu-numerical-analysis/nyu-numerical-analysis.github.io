@@ -1,17 +1,26 @@
-\documentclass{article}
-\usepackage[margin=1in]{geometry}
+\documentclass[a4paper]{article}
+\usepackage[margin=.8in]{geometry}
 \usepackage{amsmath}
 \usepackage{enumitem}
-\usepackage[cache=true,outputdir=build]{minted}
+\usepackage[cache=true]{minted}
 \usepackage{amsfonts}
-\newcommand{\julia}[1]{\mintinline{julia}{#1}}
+\usepackage{amssymb}
+\usepackage{mathtools}
+\usepackage{amsmath}
+\input{../../macros}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Name: }
+\chead{Quiz 6 -- Integration (graded)}
+\rhead{\today}
 \renewcommand{\d}{\mathrm d}
 
 \begin{document}
 \begin{enumerate}
 
     \item
-        The degree of precision of the follwing quadrature rule is 1:
+        The degree of precision of the following quadrature rule is 1:
         \[
             \int_{-1}^{1} f(x) \, \d x
             \approx 2 f(0) - f(-1) + f(1).
@@ -21,7 +30,7 @@
         The closed Newton--Cotes rule with $n$ points is exact for all polynomials of degree up to $n+1$.
 
     \item
-        Simpson's composite integration rule is always correct if $f$ is a polynomial.
+        Simpson's composite integration rule is always exact if $f$ is a polynomial.
 
     \item
         The degree of precision of the following quadrature rule is 0:
@@ -34,13 +43,13 @@
         with~$n$ integration points.
         Then it holds that
         \[
-            \lim_{n \to \infty} n \Bigl\lvert I[f] - I_n[f] \Bigr\rvert = 0, \qquad I[f] := \int_{a}^{b} f(x) \, \d x.
+            \lim_{n \to \infty} n^3 \Bigl\lvert I[f] - I_n[f] \Bigr\rvert = 0, \qquad I[f] := \int_{a}^{b} f(x) \, \d x.
         \]
 
     \item
         Suppose that $f \in C^{\infty}[a, b]$ and let $I_n[f]$ denote the approximate integral of $f$ using the composite trapezium rule
         with~$n$ integration points.
-        Then there exists $C$ such that
+        Then for all $C \in \real$ it holds that
         \[
              \forall n \in \{2, 3, \dotsc \}, \qquad
              \Bigl\lvert I[f] - I_n[f] \Bigr\rvert \leq \frac{C}{n^2}.
@@ -79,10 +88,22 @@
     function I_approx(a, b, n)
         x = LinRange(a, b, n + 1)
         h = x[2] - x[1]
-        w = [1; [2 + 2(i%2) for i in 0:n-1]; 1]
+        w = [1; [2 + 7(i%2) for i in 1:n-1]; 1]
         return h/3 * w'f.(x)
     end
         \end{minted}
+
+        \item \textbf{Bonus 1.} There exist integration points $x_1, x_2, x_3$ and weights $w_1, w_2, w_3$ such that the following integration rule has a degree of precision equal to 5.
+            \[
+                \int_{-1}^{1} u(x) \, \d x \approx w_1 u(x_1) + w_2 u(x_2) + w_3 u(x_3) \, .
+            \]
+
+        \item \textbf{Bonus 2.} Assume that $x_1 < x_2 < x_3$ are given points. 
+            Write expressions for the weights $w_1, w_2, w_3$  to ensure that the following integration rule has a degree of precision equal to at least 2.
+            \[
+                \int_{-1}^{1} u(x) \, \d x \approx w_1 u(x_1) + w_2 u(x_2) + w_3 u(x_3) \, .
+            \]
+            You may use the Lagrange polynomials $\ell_1, \ell_2, \ell_3$ associated with the points in these expressions
     \end{enumerate}
 \end{document}
 
