@@ -21,3 +21,5 @@
 ## Chapter 3
 
 - [Integration](quizzes/build/integration.pdf)
+
+- [Midterm preparation](quizzes/build/midterm_1.pdf)
