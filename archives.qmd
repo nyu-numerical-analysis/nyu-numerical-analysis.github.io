@@ -14,4 +14,4 @@
 
 - Fall 2024: [Midterm](quizzes/build/midterm.pdf)
 
-- Fall 2024: [Final exam](quizzes/build//home/urbain/work/teaching/numerical_analysis/website/quizzes/build/main_fall_2024_711.pdf)
+- Fall 2024: [Final exam](quizzes/build/main_fall_2024_711.pdf)
