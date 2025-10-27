@@ -19,6 +19,8 @@ website:
         text: Notebooks
       - href: quizzes.qmd
         text: Quizzes
+      - href: archives.qmd
+        text: Archives
       - href: links.qmd
         text: Useful Links
       - href: credits.qmd

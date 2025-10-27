@@ -1,0 +1,17 @@
+# Archives
+
+- Spring 2022: [Midterm](https://urbain.vaes.uk/static/teaching/numerical_analysis/midterm/build/main.pdf)
+
+- Spring 2022: [Final exam](https://urbain.vaes.uk/static/teaching/numerical_analysis/endterm/build/main.pdf) [Solutions](https://urbain.vaes.uk/static/teaching/numerical_analysis_fall/endterm/build/main_solutions.pdf)
+
+- Fall 2022: [Midterm](https://urbain.vaes.uk/static/teaching/numerical_analysis_fall/midterm/build/main_questions.pdf) [Solutions](https://urbain.vaes.uk/static/teaching/numerical_analysis_fall/midterm/build/main.pdf)
+
+- Fall 2022: [Final exam](https://urbain.vaes.uk/static/teaching/numerical_analysis_fall/endterm/build/main_fall_711.pdf) [Solutions](https://urbain.vaes.uk/static/teaching/numerical_analysis_fall/midterm/build/main.pdf)
+
+- Fall 2023: [Midterm](https://urbain.vaes.uk/static/teaching/numerical_analysis_2023/midterm/build/output.pdf) [Answer sheet (Jupyter notebook)](https://urbain.vaes.uk/static/teaching/numerical_analysis_2023/midterm/midterm.ipynb)
+
+- Fall 2023: [Final exam (Jupyter notebook)](https://urbain.vaes.uk/static/teaching/numerical_analysis_2023/notebooks/final_blank.ipynb)
+
+- Fall 2024: [Midterm](quizzes/build/midterm.pdf)
+
+- Fall 2024: [Final exam](quizzes/build//home/urbain/work/teaching/numerical_analysis/website/quizzes/build/main_fall_2024_711.pdf)

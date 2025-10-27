@@ -2,7 +2,7 @@
 title: "Credits"
 ---
 
-- Several parts of the course materials (slides, exercises, notebooks) were developed by members of teaching team for the course *Practical Scientific Computing* at École des Ponts :
+- Several parts of the course materials (slides, exercises, notebooks) were developed by members of the teaching team for the course *Practical Scientific Computing* at École des Ponts :
 
     + 2023- : [Jean-François Barthélémy](https://jfbarthelemy.github.io/) (jean-francois.barthelemy@cerema.fr)
 
@@ -11,8 +11,6 @@ title: "Credits"
     + 2023, 2024 : [Noé Blassel](https://noeblassel.github.io/) (noe.blassel@enpc.fr)
 
     + 2023 : [Shiva Darshan](https://shiva-darshan.github.io/) (shiva.darshan@enpc.fr)
-
-    + 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
 
     + 2023 : [Renato Spacek](https://fr.linkedin.com/in/renatospacek)
 

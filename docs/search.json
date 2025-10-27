@@ -67,7 +67,14 @@
     "href": "credits.html",
     "title": "Credits",
     "section": "",
-    "text": "Several parts of the course materials (slides, exercises, notebooks) were developed by members of teaching team for the course Practical Scientific Computing at École des Ponts :\n\n2023- : Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\n2025- : Louis Carillo (louis.carillo@enpc.fr)\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n2023 : Renato Spacek\n\nThe lecture notes were greatly improved thanks to contributions from Jean-François Barthélémy and Khoi Nguyen.\nThis website was built using Quarto and a design by Jean-François Barthélémy."
+    "text": "Several parts of the course materials (slides, exercises, notebooks) were developed by members of the teaching team for the course Practical Scientific Computing at École des Ponts :\n\n2023- : Jean-François Barthélémy (jean-francois.barthelemy@cerema.fr)\n2025- : Louis Carillo (louis.carillo@enpc.fr)\n2023, 2024 : Noé Blassel (noe.blassel@enpc.fr)\n2023 : Shiva Darshan (shiva.darshan@enpc.fr)\n2023 : Renato Spacek\n\nThe lecture notes were greatly improved thanks to contributions from Jean-François Barthélémy and Khoi Nguyen.\nThis website was built using Quarto and a design by Jean-François Barthélémy."
+  },
+  {
+    "objectID": "archives.html",
+    "href": "archives.html",
+    "title": "Archives",
+    "section": "",
+    "text": "Archives\n\nSpring 2022: Midterm\nSpring 2022: Final exam Solutions\nFall 2022: Midterm Solutions\nFall 2022: Final exam Solutions\nFall 2023: Midterm Answer sheet (Jupyter notebook)\nFall 2023: Final exam (Jupyter notebook)\nFall 2024: Midterm\nFall 2024: Final exam"
   },
   {
     "objectID": "index.html",
