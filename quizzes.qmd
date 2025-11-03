@@ -22,4 +22,6 @@
 
 - [Integration](quizzes/build/integration.pdf)
 
-- [Midterm preparation](quizzes/build/midterm_1.pdf)
+- [Midterm preparation 1](quizzes/build/midterm_1.pdf)
+
+- [Midterm preparation 2](quizzes/build/midterm_2.pdf)
