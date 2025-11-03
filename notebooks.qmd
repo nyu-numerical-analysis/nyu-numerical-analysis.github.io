@@ -6,9 +6,9 @@
 
 ## Chapter 2
 
-- [Interpolation](notebooks/interpolation.ipynb)
+- [Interpolation](notebooks/interpolation.ipynb) [pdf](notebooks/interpolation.pdf)
 
-- [Approximation](notebooks/approximation.ipynb)
+- [Approximation](notebooks/approximation.ipynb) [pdf](notebooks/approximation.pdf)
 
 ## Chapter 3
 
