@@ -13,3 +13,7 @@
 ## Chapter 3
 
 - [Integration](notebooks/integration.ipynb)
+
+## Chapter 4
+
+- [Linear systems](notebooks/linear.ipynb)

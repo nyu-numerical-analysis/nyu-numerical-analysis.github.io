@@ -109,7 +109,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation pdf\nApproximation pdf\n\n\n\n\n\nIntegration"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation pdf\nApproximation pdf\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -131,6 +131,13 @@
     "title": "Notebooks",
     "section": "",
     "text": "Integration"
+  },
+  {
+    "objectID": "notebooks.html#chapter-4",
+    "href": "notebooks.html#chapter-4",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Linear systems"
   },
   {
     "objectID": "quizzes.html",
