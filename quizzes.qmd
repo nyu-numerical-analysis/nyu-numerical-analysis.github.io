@@ -31,3 +31,5 @@
 ## Chapter 4
 
 - [Practice quiz](quizzes/build/linear.pdf)
+
+- [Linear systems (graded)](quizzes/build/linear_graded.pdf)
