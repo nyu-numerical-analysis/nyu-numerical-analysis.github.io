@@ -33,6 +33,6 @@ format:
   html:
     theme:
       light: default
-      dark: darkly
+      dark: slate
     css: styles.css
     toc: true
