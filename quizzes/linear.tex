@@ -2,7 +2,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{amsmath}
 \usepackage{enumitem}
-\usepackage[cache=true,outputdir=build]{minted}
+\usepackage[cache=true]{minted}
 \usepackage{amsfonts}
 \usepackage{mathtools}
 \usepackage{amsmath}
@@ -66,6 +66,62 @@
         Assuming that the matrix \julia{A} and the vector \julia{b} are already defined,
         write (on paper) Julia code implementing 100 iterations of~\eqref{eq:richardson}.
 \end{enumerate}
+
+\newpage
+\subsection*{Solutions}%
+\begin{enumerate}
+    \item 
+        False. The computational cost scales as~$\mathcal O(n^2)$.
+
+    \item
+        False. The computational cost scales as~$\frac{2}{3} n^3 + \mathcal O(n^2)$ in general.
+
+    \item
+        True. The computational cost of Cholesky decomposition is~$\frac{1}{3}n^3 + \mathcal O(n^2)$.
+
+    \item
+        False. The condition number is always greater than \emph{or equal to} 1.
+        For the identity matrix, the condition number is 1.
+
+    \item
+        False. 
+        For example, the only eigenvalue of the nonzero matrix~\julia{A = [0 1; 0 0]} is 0,
+        so its spectral radius is~0.
+
+    \item
+        True.
+
+    \item
+        False. For example, for~$\omega = 0$, it holds that $\vect x^{(k)} = \vect x^{(0)}$ for all~$k$.
+        Therefore, unless $\vect x^{(0)}$ coincides with the solution of the linear system,
+        the iteration does not converge to the solution.
+
+    \item
+        False. We proved in class that the larger the condition number, the slower the convergence.
+
+    \item
+        True.
+
+    \item
+        True. If this was false, then $\lVert \, \cdot \, \rVert_2$ would not be called a norm.
+
+    \item
+        True. This is the advantage of calculating the LU decomposition,
+        compared to Gaussian elimination with corresponding operations on the right-hand side.
+
+    \item
+        For example:
+        \begin{minted}{julia}
+    A = [3 1; 1 3]
+    b = [1, 1]
+    w = .01
+    x = [0, 0]  # Initial guess
+    for i in 1:100
+        x += w * (b - A*x)
+    end
+        \end{minted}
+\end{enumerate}
+
 \end{document}
 
 

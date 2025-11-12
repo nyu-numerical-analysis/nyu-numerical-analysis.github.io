@@ -20,7 +20,9 @@
 
 ## Chapter 3
 
-- [Integration](quizzes/build/integration.pdf)
+- [Integration (practice quiz)](quizzes/build/integration.pdf)
+
+- [Integration](quizzes/build/integration_graded.pdf)
 
 - [Midterm preparation 1](quizzes/build/midterm_1.pdf)
 
