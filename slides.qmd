@@ -13,3 +13,7 @@
 ## Chapter 4
 
 - [Linear systems of equations](slides/linear.html)
+
+## Chapter 4
+
+- [Nonlinear systems of equations](slides/nonlinear.html)

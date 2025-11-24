@@ -4,7 +4,7 @@
     "href": "slides.html",
     "title": "Course slides",
     "section": "",
-    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation and approximation\n\n\n\n\n\nLinear systems of equations"
+    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation and approximation\n\n\n\n\n\nLinear systems of equations\n\n\n\n\n\nNonlinear systems of equations"
   },
   {
     "objectID": "slides.html#chapter-1",
@@ -26,6 +26,13 @@
     "title": "Course slides",
     "section": "",
     "text": "Linear systems of equations"
+  },
+  {
+    "objectID": "slides.html#chapter-4-1",
+    "href": "slides.html#chapter-4-1",
+    "title": "Course slides",
+    "section": "",
+    "text": "Nonlinear systems of equations"
   },
   {
     "objectID": "notes.html",
@@ -109,7 +116,7 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation pdf\nApproximation pdf\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems"
+    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation pdf\nApproximation pdf\n\n\n\n\n\nIntegration\n\n\n\n\n\nLinear systems\n\n\n\n\n\nNonlinear systems"
   },
   {
     "objectID": "notebooks.html#chapter-1",
@@ -138,6 +145,13 @@
     "title": "Notebooks",
     "section": "",
     "text": "Linear systems"
+  },
+  {
+    "objectID": "notebooks.html#chapter-5",
+    "href": "notebooks.html#chapter-5",
+    "title": "Notebooks",
+    "section": "",
+    "text": "Nonlinear systems"
   },
   {
     "objectID": "quizzes.html",

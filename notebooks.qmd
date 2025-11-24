@@ -17,3 +17,7 @@
 ## Chapter 4
 
 - [Linear systems](notebooks/linear.ipynb)
+
+## Chapter 5
+
+- [Nonlinear systems](notebooks/nonlinear.ipynb)
