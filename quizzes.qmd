@@ -33,3 +33,5 @@
 - [Practice quiz](quizzes/build/linear.pdf)
 
 - [Linear systems (graded)](quizzes/build/linear_graded.pdf)
+
+- [Linear systems (graded)](quizzes/build/linear_graded2.pdf)
