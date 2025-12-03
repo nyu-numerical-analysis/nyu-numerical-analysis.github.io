@@ -158,7 +158,7 @@
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nFloating point arithmetic\n\n\n\n\n\nInterpolation\nInterpolation (practice quiz) (ungraded)\nInterpolation and Approximation\n\n\n\n\n\nIntegration (practice quiz)\nIntegration\nMidterm preparation 1\nMidterm preparation 2\n\n\n\n\n\nPractice quiz\nLinear systems (graded)\nLinear systems (graded)"
+    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia\n\n\n\n\n\nFloating point arithmetic\n\n\n\n\n\nInterpolation\nInterpolation (practice quiz) (ungraded)\nInterpolation and Approximation\n\n\n\n\n\nIntegration (practice quiz)\nIntegration\nMidterm preparation 1\nMidterm preparation 2\n\n\n\n\n\nPractice quiz\nLinear systems (graded)\nLinear systems (graded)\n\n\n\n\n\nPractice quiz 1\nPractice quiz 2"
   },
   {
     "objectID": "quizzes.html#chapter-0",
@@ -194,5 +194,12 @@
     "title": "Quizzes",
     "section": "",
     "text": "Practice quiz\nLinear systems (graded)\nLinear systems (graded)"
+  },
+  {
+    "objectID": "quizzes.html#chapter-5",
+    "href": "quizzes.html#chapter-5",
+    "title": "Quizzes",
+    "section": "",
+    "text": "Practice quiz 1\nPractice quiz 2"
   }
 ]

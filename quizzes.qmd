@@ -35,3 +35,9 @@
 - [Linear systems (graded)](quizzes/build/linear_graded.pdf)
 
 - [Linear systems (graded)](quizzes/build/linear_graded2.pdf)
+
+## Chapter 5
+
+- [Practice quiz 1](quizzes/build/nonlinear.pdf)
+
+- [Practice quiz 2](quizzes/build/nonlinear2.pdf)
