@@ -15,3 +15,5 @@
 - Fall 2024: [Midterm](quizzes/build/midterm.pdf)
 
 - Fall 2024: [Final exam](quizzes/build/main_fall_2024_711.pdf)
+
+- Fall 2025: [Midterm](archives/midterm.pdf)
