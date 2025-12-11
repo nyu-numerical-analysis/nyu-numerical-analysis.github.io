@@ -16,7 +16,7 @@
 
 - [Interpolation (practice quiz)](quizzes/build/interpolation_practice.pdf) (ungraded)
 
-- [Interpolation and Approximation](quizzes/build/interpolation_practice.pdf)
+- [Interpolation and Approximation](quizzes/build/interpolation_tograde.pdf)
 
 ## Chapter 3
 
