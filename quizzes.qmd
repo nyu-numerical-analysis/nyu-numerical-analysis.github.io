@@ -40,4 +40,4 @@
 
 - [Practice quiz 1](quizzes/build/nonlinear.pdf)
 
-- [Practice quiz 2](quizzes/build/nonlinear2.pdf)
+- [Practice quiz 2](quizzes/build/nonlinear_2.pdf)
