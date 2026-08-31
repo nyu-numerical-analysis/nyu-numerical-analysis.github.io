@@ -5,15 +5,3 @@
 - [Introduction to Julia](slides/julia.html)
 
 - [Floating-point arithmetic](slides/roundoff.html)
-
-## Chapter 2
-
-- [Interpolation and approximation](slides/interpolation.html)
-
-## Chapter 4
-
-- [Linear systems of equations](slides/linear.html)
-
-## Chapter 5
-
-- [Nonlinear systems of equations](slides/nonlinear.html)
