@@ -31,8 +31,4 @@ The course is based on two books:
 
 - Office hour on Monday from 14:30 to 15:30 in Room 606
 
-- Midterm evaluation on *November 5th*
-
-- Final exam on *December 12th*
-
 - [Course syllabus](misc/Numerical_analysis_syllabus.odt)
