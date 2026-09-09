@@ -76,7 +76,8 @@ True or false? (unless otherwise specified.)
         In Julia, it holds that \julia{eps()/3 + eps()/3 + 1 > 1} evaluates to \julia{true}.
 
     \item
-        Let $x$ be a real number. If $x \in \floating_{64}$, then $2x \in \floating_{64}$.
+        For any real number $x$ such that $x \in \floating_{64}$,
+        it holds that $2x \in \floating_{64}$.
 
     \item
         Infinitely many distinct real numbers can be represented exactly in the~\julia{Float64}
@@ -93,7 +94,7 @@ True or false? (unless otherwise specified.)
         or \julia{false}?
 
         \textit{Explain briefly:}
-        \vspace{1cm}
+        \vspace{1.5cm}
 
     \item
         \textbf{(Bonus)}
@@ -101,8 +102,26 @@ True or false? (unless otherwise specified.)
         or~\julia{false}?
 
         \textit{Explain briefly:}
-        \vspace{1cm}
+        \vspace{1.5cm}
 
 \end{enumerate}
+
+\vspace{.2cm}
+\begin{center}
+    \textbf{Answer grid}\par\smallskip
+    Circle one answer for each question.
+
+    \smallskip
+    \small
+    \renewcommand{\arraystretch}{1.15}
+    \begin{tabular}{|c|*{17}{c|}}
+        \hline
+        & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & B1 & B2 \\
+        \hline
+        True  & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+        False & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+        \hline
+    \end{tabular}
+\end{center}
 
 \end{document}
