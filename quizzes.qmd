@@ -9,3 +9,5 @@
 ## Chapter 1
 
 - [Floating point arithmetic](quizzes/build/roundoff.pdf)
+
+- [Floating point arithmetic (graded)](quizzes/build/roundoff_graded.pdf)
