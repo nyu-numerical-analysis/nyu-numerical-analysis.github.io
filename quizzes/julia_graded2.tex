@@ -22,31 +22,45 @@ True or false? (unless otherwise specified.)
 Assume any explicitly named package is installed.
 An expression that raises an error does not evaluate to \julia{true}.
 
+\begin{center}
+    \textbf{Answer grid}\par\smallskip
+    \normalsize
+    \renewcommand{\arraystretch}{1.35}
+    \begin{tabular}{|c|*{15}{c|}}
+        \hline
+        & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\
+        \hline
+        True & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+        False & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+        \hline
+    \end{tabular}
+\end{center}
+
 \begin{enumerate}[itemsep=8pt]
     \item
-        At an empty Julia REPL prompt, pressing \julia{?} enters package mode,
-        where packages can be installed.
+        The expression \julia{"ab" * "cd" * "!"} returns the string \julia{"abcd!"}.
 
     \item
-        After \julia{import Plots}, the command
-        \julia{Plots.plot(x -> sin(x) + cos(x), 0, 2pi)} plots the function
-        $x \mapsto \sin(x) + \cos(x)$ on $[0,2\pi]$.
+        The following code produces a single plot containing both curves,
+        rather than replacing the first curve with the second.
+        \begin{minted}{julia}
+            using Plots
+            plot(x -> x^2, xlims=(-1, 1), label="square")
+            plot!(x -> x^3, label="cube")
+        \end{minted}
 
     \item
-        In a Jupyter notebook using Julia, a variable assigned in one cell
-        cannot be used in another cell, even if both cells are executed
-        in order using the same kernel.
+        The expression \julia{eps()/2 + eps()/2 == eps()} evaluates to \julia{true}.
 
     \item
         The expression \julia{typeof(1 + 2.0) == Float64} evaluates to \julia{true}.
 
     \item
-        The command \julia{collect(2:2:10)} returns the vector
-        \julia{[2, 4, 6, 8, 10, 12]}.
+        If \julia{u = [1, 2]} and \julia{v = [3, 4]}, then \julia{[u v]}
+        returns the matrix \julia{[1 2; 3 4]}.
 
     \item
-        If \julia{A = [1 2 3; 4 5 6]}, then \julia{A[1, :]} is a
-        $1 \times 3$ matrix, rather than a vector.
+        If \julia{A = [1 2 3; 4 5 6]}, then \julia{A[2, 3]} returns \julia{6}.
 
     \item
         The following code assigns the vector \julia{[2, 5]} to \julia{w}.
@@ -56,29 +70,29 @@ An expression that raises an error does not evaluate to \julia{true}.
         \end{minted}
 
     \item
-        The following code assigns the vector \julia{[5.0, 13.0]} to \julia{a}.
+        The following code assigns the vector \julia{[1, 3, 5]} to \julia{a}.
         \begin{minted}{julia}
-            hypotenuse(x, y) = sqrt(x^2 + y^2)
-            a = hypotenuse.([3, 5], [4, 12])
+            f(x, y) = x - 2y
+            a = f.([3, 5, 7], 1)
         \end{minted}
 
     \item
-        The expression \julia{sum(n -> n^2 - 1, [1, 2, 3])} returns \julia{14}.
+        The expression \julia{sum(length, ["Julia", "is", "fun"])} returns \julia{3}.
 
     \item
-        The comprehension \julia{[n^2 for n in 1:5 if isodd(n)]}
-        returns the vector \julia{[1, 9, 25]}.
-\end{enumerate}
+        The command \julia{A = [i + 2j for i in 1:2, j in 1:3]}
+        produces the matrix \julia{A = [3 5 7; 4 6 8]}.
 
-\newpage
-\begin{enumerate}[resume,itemsep=8pt]
     \item
         After the following definitions, \julia{f(f(1))} returns \julia{2.0}.
         \begin{minted}{julia}
             f(x::Float64) = 1
             f(x::Int) = 2.0
         \end{minted}
+\end{enumerate}
 
+\newpage
+\begin{enumerate}[resume,itemsep=8pt]
     \item
         The call \julia{odd_sum(5)} returns \julia{9}.
         \begin{minted}{julia}
@@ -94,35 +108,22 @@ An expression that raises an error does not evaluate to \julia{true}.
         \end{minted}
 
     \item
-        After the definition \julia{p(n) = n == 0 ? 1 : n * p(n - 1)},
-        the call \julia{p(4)} returns \julia{24}.
+        The expression \julia{LinRange(0, 1, 4) == [0, 0.2, 0.4, 0.6, 0.8, 1]}
+        evaluates to \julia{true}.
 
     \item
-        After the definition \julia{shift(x; a=1) = x + a}, both
-        \julia{shift(3, 2)} and \julia{shift(3; a=2)} return \julia{5}.
-
-    \item
-        After executing the following code, \julia{v} is still \julia{[1, 2, 3]}.
+        With the following definition, the expression \julia{f(n)} returns
+        the $n$-th Fibonacci number for positive integers~$n$
+        (assuming no integer overflow).
+        Recall that the Fibonacci numbers are defined as
+        $f_1=f_2=1$ and $f_k=f_{k-1}+f_{k-2}$ for $k\geq3$.
         \begin{minted}{julia}
-            v = [1, 2, 3]
-            w = v
-            w[1] = 10
+            f(n) = n <= 2 ? 1 : f(n-1) + f(n-2)
         \end{minted}
-\end{enumerate}
 
-\begin{center}
-    \textbf{Answer grid}\par\smallskip
-    \small
-    \renewcommand{\arraystretch}{1.25}
-    \begin{tabular}{|c|*{15}{c|}}
-        \hline
-        & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 \\
-        \hline
-        True & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
-        False & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
-        \hline
-    \end{tabular}
-\end{center}
+    \item
+        If \julia{v = [2, 4, 6, 8]}, then \julia{v[2:end] == [2, 4, 6]} evaluates to \julia{true}.
+\end{enumerate}
 
 \noindent\textbf{Bonus (2 points).}
 Give the values of \julia{a} and \julia{b} after the following code,
@@ -132,7 +133,7 @@ and briefly explain why the results differ.
     a = sum.(v)
     b = sum(v)
 \end{minted}
-\noindent\textbf{Answer and explanation:}
+\noindent\textit{Answer and explanation:}
 \vspace{2cm}
 
 \ifdefined\showsolutions
@@ -142,62 +143,62 @@ and briefly explain why the results differ.
 \noindent Questions 1--15: 1 point for a correct answer, 0 otherwise.
 
 \begin{enumerate}[itemsep=8pt]
-    \item \textbf{False.} \julia{?} enters help mode; \julia{]} enters package mode.
+    \item \textbf{True.} \julia{*} concatenates strings.
+        The result is \julia{"abcd!"}.
 
-    \item \textbf{True.} \julia{import Plots} makes the module name available.
-        The qualified call \julia{Plots.plot} accepts the anonymous function
-        and the two interval endpoints.
+    \item \textbf{True.} \julia{plot!} adds a series to the current plot,
+        which already contains the square function.
 
-    \item \textbf{False.} Cells share the kernel's state. A variable is available
-        after its defining cell has been executed, unless it is subsequently
-        removed or the kernel is restarted.
+    \item \textbf{True.} For \julia{Float64}, \julia{eps()} is $2^{-52}$
+        and \julia{eps()/2} is $2^{-53}$. Both are exactly representable,
+        and adding the two halves gives \julia{eps()} exactly.
 
     \item \textbf{True.} The integer is promoted for this addition;
         the result is \julia{3.0}, of type \julia{Float64}.
 
-    \item \textbf{False.} The range stops at 10, so the result is
-        \julia{[2, 4, 6, 8, 10]}.
+    \item \textbf{False.} Horizontal concatenation places \julia{u} and
+        \julia{v} in the columns, giving \julia{[1 3; 2 4]}.
 
-    \item \textbf{False.} Scalar indexing of the first dimension drops that
-        dimension: \julia{A[1, :]} is the vector \julia{[1, 2, 3]}.
-        Use \julia{A[1:1, :]} to retain a $1 \times 3$ matrix.
+    \item \textbf{True.} The first index selects the row and the second
+        selects the column. The entry in row 2, column 3 is 6.
 
-    \item \textbf{True.} The Boolean mask selects exactly the strictly positive
-        entries, preserving their order.
+    \item \textbf{True.} The mask selects the strictly positive entries,
+        giving \julia{[2, 5]}.
 
-    \item \textbf{True.} Broadcasting pairs 3 with 4, and 5 with 12.
-        Their hypotenuses are 5 and 13, respectively.
+    \item \textbf{True.} The scalar second argument is used in each call:
+        \julia{f(3, 1)}, \julia{f(5, 1)}, and \julia{f(7, 1)}.
 
-    \item \textbf{False.} The mapped values are 0, 3, and 8,
-        whose sum is 11. The expression \julia{sum(n -> n^2, [1, 2, 3])}
-        would return 14.
+    \item \textbf{False.} The expression sums the string lengths,
+        giving $5+2+3=10$, rather than counting the strings.
 
-    \item \textbf{True.} The filter retains 1, 3, and 5 before squaring them.
+    \item \textbf{True.} Evaluating \julia{i + 2j} for each row index
+        \julia{i} and column index \julia{j} gives \julia{[3 5 7; 4 6 8]}.
 
-    \item \textbf{False.} \julia{f(1)} returns \julia{2.0}; the outer call
-        therefore uses the \julia{Float64} method and returns \julia{1}.
+    \item \textbf{False.} The inner call \julia{f(1)} returns \julia{2.0}.
+        The outer call therefore uses the \julia{Float64} method and returns \julia{1}.
 
-    \item \textbf{True.} The accumulator adds $1+3+5=9$.
+    \item \textbf{True.} The accumulator adds the odd integers $1+3+5=9$.
 
-    \item \textbf{True.} The recursion computes
-        $4\times3\times2\times1\times1=24$ and stops at \julia{p(0)}.
+    \item \textbf{False.} \julia{LinRange(0, 1, 4)} has four equally spaced
+        entries, including both endpoints.
+        The vector in the question has six entries instead.
 
-    \item \textbf{False.} \julia{a} is a keyword argument.
-        The call \julia{shift(3, 2)} raises a \julia{MethodError};
-        \julia{shift(3; a=2)} returns 5.
+    \item \textbf{True.} The ternary expression returns 1 for the base cases
+        $n=1$ and $n=2$. For $n\geq3$, the recursive calls implement
+        the Fibonacci recurrence $f_n=f_{n-1}+f_{n-2}$.
 
-    \item \textbf{False.} \julia{w = v} does not copy the array.
-        Both names refer to the same array, so \julia{v} becomes
-        \julia{[10, 2, 3]}. Using \julia{w = copy(v)} would avoid this mutation
-        of \julia{v}.
+    \item \textbf{False.} \julia{end} denotes the last index, which is 4.
+        The slice selects entries 2 through 4, giving \julia{[4, 6, 8]}.
 \end{enumerate}
 
 \noindent\textbf{Bonus.}
-\julia{a = [6, 9, 15]} and \julia{b = [7, 10, 13]}.
-Broadcasting \julia{sum} applies it separately to each inner vector,
-whereas \julia{sum(v)} adds the three vectors componentwise.
-Award 1 point for each correct vector with its explanation
-(0.5 for the vector and 0.5 for the explanation).
+\julia{A = [1 9; 3 9]} and \julia{B = [0, 0]}.
+Extracting \julia{A[:, 1]} creates a copy, so modifying \julia{B} leaves
+the first column of \julia{A} unchanged.
+In contrast, \julia{C} is a view into the second column of \julia{A},
+so \julia{C .= 9} modifies that column in the original matrix.
+Award 0.5 points for each correct final value and 0.5 points for each
+correct explanation (copy versus view).
 \fi
 
 \end{document}

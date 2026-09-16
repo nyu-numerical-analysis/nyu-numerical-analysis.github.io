@@ -4,10 +4,12 @@
 
 - [Introduction to Julia](quizzes/build/julia.pdf) (ungraded)
 
-- [Introduction to Julia](quizzes/build/julia_graded.pdf)
+- [Introduction to Julia](quizzes/build/julia_graded.pdf)  (ungraded)
+
+- [Introduction to Julia](quizzes/build/julia_graded2.pdf)  (graded)
 
 ## Chapter 1
 
-- [Floating point arithmetic](quizzes/build/roundoff.pdf)
+- [Floating point arithmetic](quizzes/build/roundoff.pdf) (ungraded)
 
-- [Floating point arithmetic (graded)](quizzes/build/roundoff_graded.pdf)
+- [Floating point arithmetic](quizzes/build/roundoff_graded.pdf) (graded)
