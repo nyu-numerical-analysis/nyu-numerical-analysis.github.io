@@ -155,4 +155,81 @@
     %     The command \julia{b[b .> 0]} returns a vector containing all and only the positive elements of \julia{b}.
 \end{enumerate}
 
+\ifdefined\showsolutions
+\newpage
+\lhead{Instructor copy}
+\section*{Answer key}
+\begin{enumerate}[itemsep=8pt]
+    \item \textbf{False.}
+        The key \julia{]} gives access to \emph{package mode};
+        the key \julia{?} gives access to \emph{help mode}.
+
+    \item \textbf{False.}
+        The key \julia{]} gives access to \emph{package mode};
+        the key \julia{?} gives access to \emph{help mode}.
+
+    \item \textbf{True.}
+        With \julia{import Plots}, the function \julia{plot} is not in scope
+        (only the module \julia{Plots} is), so the first piece of code
+        raises an \julia{UndefVarError}.
+        With \julia{using Plots}, the function \julia{plot} is usable,
+        so the second piece of code plots the sine function.
+
+    \item
+        The function computes the factorial: \julia{f(n) = n!}.
+        Indeed, \julia{f(0) = f(1) = 1} and
+        \julia{f(n) = n * f(n - 1)} for $n \geq 2$.
+
+    \item \textbf{True.}
+        Broadcasting \julia{cos.} over an array thread the function
+        elementwise, and the two commands produce the same vector.
+
+    \item \textbf{True.}
+        The anonymous function \julia{t -> shifted_cos(t, 1)} fixes the
+        second argument to $1$, so the curve plotted is
+        $t \mapsto \cos(t - 1)$.
+
+    \item \textbf{True.}
+        \julia{+(7, 5)} is the function-call syntax for $7 + 5 = 12$, and
+        \julia{1 .+ [1, 2, 3]} adds $1$ to every entry,
+        giving \julia{[2, 3, 4]}.
+
+    \item \textbf{True.}
+        The new method for \julia{Base.exp} computes
+        \julia{exp(sum(a))}, and \julia{sum([1, 2, -3]) = 0}, so
+        the expression evaluates to \julia{exp(0) == 1}, which is
+        \julia{true}.
+
+    \item \textbf{False.}
+        With the given method, \julia{>} on strings compares their lengths,
+        and "Good afternoon" has length 14 while "world" has length 5.
+        Since $14 > 5$, the expression evaluates to \julia{true}, not
+        \julia{false}.
+
+    \item \textbf{True.}
+        Julia and its standard library are distributed under the
+        permissive MIT license.
+
+    \item \textbf{False.}
+        All the cells of a Jupyter notebook share the same kernel,
+        so variables defined in one cell remain available in the
+        following cells.
+
+    \item \textbf{True.}
+        Jupyter displays the value of the last expression evaluated in a
+        cell, if it returns a value.
+
+    \item \textbf{False.}
+        Julia is a just-in-time compiled language: loops are fast
+        (unlike in Python) and do not need to be avoided.
+
+    \item
+        The value of \julia{s} is the string
+        \julia{"Two wolves meet: they howl together."}
+        because both \julia{raksha} and \julia{akela} are \julia{Wolf}
+        objects, hence the most specific matching method is
+        \julia{meet(a::Wolf, b::Wolf)}.
+\end{enumerate}
+\fi
+
 \end{document}

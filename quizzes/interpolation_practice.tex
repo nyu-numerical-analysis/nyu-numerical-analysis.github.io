@@ -91,4 +91,71 @@
         In Julia, if \julia{A} is a $10\times10$ matrix,
         then \julia{A[mod.(1:end, 2) .== 0, mod.(1:end, 2) .== 0]} gives the matrix obtained by removing the second column and the second row.
 \end{enumerate}
+
+\ifdefined\showsolutions
+\newpage
+\lhead{Instructor copy}
+\section*{Answer key}
+\begin{enumerate}[itemsep=8pt]
+    \item \textbf{True.}
+        This is the fundamental theorem of interpolation: the set of nodes
+        $x_0 < x_1 < \dotsb < x_n$ leads to a nonsingular Vandermonde
+        system, so there is a unique $p \in \mathcal P_n$ solving
+        $p(x_i) = y_i$ for all $i$.
+
+    \item \textbf{True.}
+        The function $x \mapsto \e^{-2x}$ is entire, so polynomial
+        interpolation on equidistant nodes converges uniformly on $[-1,1]$
+        as $n \to \infty$.
+
+    \item \textbf{False.}
+        The minimal property goes in the \emph{opposite} direction:
+        among monic polynomials of degree $n$, $T_n$ has the smallest
+        possible sup-norm on $[-1,1]$.
+        For example, the zero polynomial satisfies
+        $\mathcal F(0) = 0 < 1 = \mathcal F(T_n)$.
+
+    \item \textbf{True.}
+        This is the statement of the Runge phenomenon: interpolation at
+        equidistant points diverges for the Runge function, while
+        interpolation at the Chebyshev nodes (the roots of $T_{n+1}$)
+        converges uniformly.
+
+    \item \textbf{False.}
+        For $m < n$ interpolation with a degree-$m$ polynomial is in
+        general impossible (the condition imposes $n+1$ equalities), and
+        for $m > n$ the polynomial is not unique.
+
+    \item \textbf{False.}
+        When $m > n$ there are more coefficients than data points, so the
+        design matrix does not have full column rank and the
+        least-squares problem has infinitely many minimizers
+        (indeed the minimum can be zero, attained by the interpolating
+        polynomial).
+
+    \item \textbf{True.}
+        With 11 data points and only 2 unknown parameters $a, b$, the
+        normal equations are a $2 \times 2$ system whose matrix is
+        nonsingular as long as the nodes are not all identical, so the
+        minimizer is unique.
+
+    \item \textbf{True.}
+        Indexing a vector with a vector of indices selects the
+        corresponding entries in that order: here the first, second and
+        fifth elements of \julia{v}.
+
+    \item \textbf{True.}
+        Indexing with a Boolean mask of the same length keeps exactly the
+        entries in the positions where the mask is \julia{true}: the
+        first, second and fourth elements.
+
+    \item \textbf{False.}
+        \julia{mod.(1:end, 2) .== 0} produces the mask
+        \julia{[false, true, false, true, ...]}, which selects the
+        even-indexed rows and the even-indexed columns, giving the $5 \times 5$
+        submatrix of rows and columns $2, 4, 6, 8, 10$ --- not the matrix
+        obtained by deleting row 2 and column 2.
+\end{enumerate}
+\fi
+
 \end{document}

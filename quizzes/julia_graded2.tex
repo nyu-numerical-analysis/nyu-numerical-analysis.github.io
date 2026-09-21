@@ -192,13 +192,14 @@ and briefly explain why the results differ.
 \end{enumerate}
 
 \noindent\textbf{Bonus.}
-\julia{A = [1 9; 3 9]} and \julia{B = [0, 0]}.
-Extracting \julia{A[:, 1]} creates a copy, so modifying \julia{B} leaves
-the first column of \julia{A} unchanged.
-In contrast, \julia{C} is a view into the second column of \julia{A},
-so \julia{C .= 9} modifies that column in the original matrix.
+\julia{a = [6, 9, 15]} and \julia{b = [7, 10, 13]}.
+The broadcast \julia{sum.(v)} applies \julia{sum} to each inner vector
+independently, returning the vector of the sums $6$, $9$ and $15$.
+In contrast, \julia{sum(v)} adds the three vectors together with the
+\julia{+} operator, i.e.\ \julia{[1,2,3] + [2,3,4] + [4,5,6]},
+yielding the single vector \julia{[7, 10, 13]}.
 Award 0.5 points for each correct final value and 0.5 points for each
-correct explanation (copy versus view).
+correct explanation (elementwise sum versus vector addition).
 \fi
 
 \end{document}

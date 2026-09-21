@@ -164,4 +164,74 @@ True or false? (unless otherwise specified)
     %     The command \julia{b[b .> 0]} returns a vector containing all and only the positive elements of \julia{b}.
 \end{enumerate}
 
+\ifdefined\showsolutions
+\newpage
+\lhead{Instructor copy}
+\section*{Answer key}
+\noindent Questions 1--13: 1 point for a correct answer, 0 otherwise.
+
+\begin{enumerate}[itemsep=8pt]
+    \item \textbf{False.}
+        The key \julia{]} gives access to \emph{package mode};
+        the key \julia{;} gives access to \emph{shell mode}.
+
+    \item \textbf{True.}
+        With \julia{import Pkg} and \julia{using Plots}, only the module
+        \julia{Pkg} is brought into scope by the first line, while
+        \julia{plot} is available after \julia{using Plots}.
+        Hence the first snippet raises an \julia{UndefVarError}
+        (and \julia{plot(cos + sin)} would fail even with \julia{plot}
+        loaded), while the second plots the sine function.
+
+    \item
+        The missing code is \julia{f(n - 1) + f(n - 2)}:
+        \begin{minted}{julia}
+    f(n) = n in (1, 2) ? 1 : f(n - 1) + f(n - 2)
+        \end{minted}
+
+    \item \textbf{True.}
+        \julia{sin} broadcast over an array applies \julia{sin}
+        elementwise, so both sides produce the same vector.
+
+    \item \textbf{False.}
+        The sum is $(1-1) + (4-1) + (9-1) = 0 + 3 + 8 = 11$, not 15.
+
+    \item \textbf{True.}
+        \julia{.*} multiplies the arrays elementwise, giving
+        \julia{[1*1, 2*2, 3*3] = [1, 4, 9]}.
+
+    \item \textbf{False.}
+        Broadcasting gives
+        \julia{[sqrt(3^2 + 4^2), sqrt(5^2 + 12^2)] = [sqrt(25), sqrt(169)] = [5, 13]}.
+
+    \item \textbf{False.}
+        \julia{f(1)} dispatches to the \julia{Int} method and returns
+        \julia{2.0}; \julia{f(2.0)} then dispatches to the \julia{Float64}
+        method and returns \julia{1}.
+        So the program prints \julia{1}, not \julia{2}.
+
+    \item \textbf{True.}
+        Jupyter displays the value of the last expression evaluated in a
+        cell, if that expression returns a value.
+
+    \item \textbf{True.}
+        The loop adds the integers $1 + 2 + 3 + 4 + 5 = 15$ and prints 15.
+
+    \item \textbf{True.}
+        Julia arrays are 1-indexed.
+
+    \item \textbf{False.}
+        \julia{==} is the equality operator and \julia{=} is the
+        assignment operator; the statement has them reversed.
+
+    \item \textbf{True.}
+        A short form function definition \julia{f(x) = x^2} is valid Julia.
+
+    \item \textbf{False.}
+        \julia{sum.(v)} broadcasts the sum over the outer vector and
+        equals \julia{[6, 9, 15]}, so the comparison in the snippet is
+        \julia{true} and no assertion error is produced.
+\end{enumerate}
+\fi
+
 \end{document}

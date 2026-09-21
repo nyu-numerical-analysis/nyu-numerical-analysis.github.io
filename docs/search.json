@@ -123,20 +123,27 @@
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia (ungraded)\nIntroduction to Julia (graded)\n\n\n\n\n\nFloating point arithmetic (ungraded)\nFloating point arithmetic (graded)"
+    "text": "Introduction to Julia (ungraded) — solutions\nIntroduction to Julia (ungraded) — solutions\nIntroduction to Julia (graded) — solutions\n\n\n\n\n\nFloating point arithmetic (ungraded) — solutions\nFloating point arithmetic (graded) — solutions\n\n\n\n\n\nInterpolation (practice quiz) (ungraded) — solutions"
   },
   {
     "objectID": "quizzes.html#chapter-0",
     "href": "quizzes.html#chapter-0",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (ungraded)\nIntroduction to Julia (ungraded)\nIntroduction to Julia (graded)"
+    "text": "Introduction to Julia (ungraded) — solutions\nIntroduction to Julia (ungraded) — solutions\nIntroduction to Julia (graded) — solutions"
   },
   {
     "objectID": "quizzes.html#chapter-1",
     "href": "quizzes.html#chapter-1",
     "title": "Quizzes",
     "section": "",
-    "text": "Floating point arithmetic (ungraded)\nFloating point arithmetic (graded)"
+    "text": "Floating point arithmetic (ungraded) — solutions\nFloating point arithmetic (graded) — solutions"
+  },
+  {
+    "objectID": "quizzes.html#chapter-2",
+    "href": "quizzes.html#chapter-2",
+    "title": "Quizzes",
+    "section": "",
+    "text": "Interpolation (practice quiz) (ungraded) — solutions"
   }
 ]
