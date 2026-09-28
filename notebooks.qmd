@@ -8,3 +8,9 @@
 
 - [Interpolation](notebooks/interpolation.ipynb)
 
+- [Approximation](notebooks/approximation.ipynb)
+
+## Chapter 3
+
+- [Numerical integration](notebooks/integration.ipynb)
+
