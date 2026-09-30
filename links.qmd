@@ -1,27 +1,93 @@
-# Useful links
+---
+title: "Useful links"
+subtitle: "Videos, libraries and other resources"
+toc: false
+---
 
-## Videos
+## [Videos]{.casc-section-title}
 
-Below are some useful videos to learn about `Julia`:
+::: {.grid}
 
-- [Intro to Julia tutorial (version 1.0) by Jane Herriman](https://youtu.be/8h8rQyEpiZA)
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi play-btn-fill >}}]{.casc-card-icon}
 
-  Introductory notebooks to `Julia`.
-  
-- [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/watch?v=kc9HwsxE1OY)
+### [Intro to Julia tutorial](https://youtu.be/8h8rQyEpiZA){.casc-card-link target="_blank" rel="noopener"}
 
-  More details on one of the strong points of `Julia` : "multiple dispatch".
+Introductory notebooks to Julia (version 1.0), by Jane Herriman.
+:::
+:::
 
-## Software libraries for the course
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi play-btn-fill >}}]{.casc-card-icon}
 
-- [Documentation générale de `Julia`](https://docs.julialang.org/en/v1/)
+### [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/watch?v=kc9HwsxE1OY){.casc-card-link target="_blank" rel="noopener"}
 
-- [`Plots.jl`](https://github.com/JuliaPlots/Plots.jl)
+More details on one of the strong points of Julia: multiple dispatch.
+:::
+:::
 
-- [`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl)
+:::
 
-- [`Polynomials.jl`](https://github.com/JuliaMath/Polynomials.jl)
+## [Software libraries for the course]{.casc-section-title}
 
-## Other links
+::: {.grid}
 
-- [NYU Paris academic calendar](https://www.nyu.edu/paris/calendar.html)
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi book-fill >}}]{.casc-card-icon}
+
+### [Julia documentation](https://docs.julialang.org/en/v1/){.casc-card-link target="_blank" rel="noopener"}
+
+General documentation of the language.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi graph-up >}}]{.casc-card-icon}
+
+### [`Plots.jl`](https://github.com/JuliaPlots/Plots.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Plotting library.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi calculator-fill >}}]{.casc-card-icon}
+
+### [`ForwardDiff.jl`](https://github.com/JuliaDiff/ForwardDiff.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Automatic differentiation.
+:::
+:::
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi bezier2 >}}]{.casc-card-icon}
+
+### [`Polynomials.jl`](https://github.com/JuliaMath/Polynomials.jl){.casc-card-link target="_blank" rel="noopener"}
+
+Polynomial arithmetic and interpolation.
+:::
+:::
+
+:::
+
+## [Other links]{.casc-section-title}
+
+::: {.grid}
+
+::: {.g-col-12 .g-col-md-6}
+::: {.casc-card}
+[{{< bi calendar3 >}}]{.casc-card-icon}
+
+### [NYU Paris academic calendar](https://www.nyu.edu/paris/calendar.html){.casc-card-link target="_blank" rel="noopener"}
+
+Important dates for the semester.
+:::
+:::
+
+:::

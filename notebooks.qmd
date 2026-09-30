@@ -1,16 +1,36 @@
-# Notebooks
+---
+title: "Notebooks"
+subtitle: "Practical sessions"
+toc: false
+---
 
-## Chapter 1
+::: {.casc-archive-table .casc-grouped}
 
-- [Introduction to Julia](notebooks/intro_julia.ipynb)
+| Chapter | Topic | Notebook |
+| ------- | ----- | -------- |
+| [Ch. 1]{.casc-week-badge} | Introduction to Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download="intro_julia.ipynb"} |
+| [Ch. 2]{.casc-week-badge} | Interpolation | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download="interpolation.ipynb"} |
+|  | Approximation | [{{< bi file-earmark-code >}} Notebook](notebooks/approximation.ipynb){download="approximation.ipynb"} |
+| [Ch. 3]{.casc-week-badge} | Numerical integration | [{{< bi file-earmark-code >}} Notebook](notebooks/integration.ipynb){download="integration.ipynb"} |
 
-## Chapter 2
+:::
 
-- [Interpolation](notebooks/interpolation.ipynb)
-
-- [Approximation](notebooks/approximation.ipynb)
-
-## Chapter 3
-
-- [Numerical integration](notebooks/integration.ipynb)
-
+<script>
+// Force a real download of the notebooks (some browsers ignore the `download`
+// attribute and display the JSON instead): fetch the file and save it from a blob.
+document.querySelectorAll('a[download]').forEach(a => {
+  a.addEventListener('click', async e => {
+    e.preventDefault();
+    try {
+      const r = await fetch(a.href);
+      if (!r.ok) throw new Error(r.status);
+      const url = URL.createObjectURL(await r.blob());
+      const b = document.createElement('a');
+      b.href = url; b.download = a.getAttribute('download'); document.body.appendChild(b); b.click(); b.remove();
+      setTimeout(() => URL.revokeObjectURL(url), 1000);
+    } catch (err) {
+      window.location.href = a.href;   // fallback
+    }
+  });
+});
+</script>

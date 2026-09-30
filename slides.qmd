@@ -1,15 +1,22 @@
-# Course slides
+---
+title: "Slides"
+subtitle: "Lecture slides, chapter by chapter"
+toc: false
+---
 
-## Chapter 1
+::: {.casc-info-banner}
+{{< bi easel-fill >}}
 
-- [Introduction to Julia](slides/julia.html)
+Click on a link to open the slides in a new tab.
+:::
 
-- [Floating-point arithmetic](slides/roundoff.html)
+::: {.casc-archive-table}
 
-## Chapter 2
+| Chapter | Topic | Slides |
+| ------- | ----- | ------ |
+| [Ch. 0]{.casc-week-badge} | Introduction to Julia | [{{< bi easel >}} Slides](slides/julia.html){target="_blank"} |
+| [Ch. 1]{.casc-week-badge} | Floating-point arithmetic | [{{< bi easel >}} Slides](slides/roundoff.html){target="_blank"} |
+| [Ch. 2]{.casc-week-badge} | Interpolation and approximation | [{{< bi easel >}} Slides](slides/interpolation.html){target="_blank"} |
+| [Ch. 3]{.casc-week-badge} | Numerical integration | [{{< bi easel >}} Slides](slides/integration.html){target="_blank"} |
 
-- [Interpolation and approximation](slides/interpolation.html)
-
-## Chapter 3
-
-- [Numerical integration](slides/integration.html)
+:::

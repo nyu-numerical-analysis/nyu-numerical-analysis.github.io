@@ -1,1 +1,538 @@
 /* css styles */
+
+.navbar-brand img,
+.navbar-logo {
+  max-height: 32px;
+}
+
+/* Shared palette */
+:root {
+  --casc-primary: #1f5fa8;
+  --casc-primary-dark: #14457e;
+  --casc-primary-light: #e8f1fb;
+  --casc-accent: #f4a261;
+  --casc-accent-soft: #fff4e6;
+  --casc-fr: #2a9d8f;
+  --casc-fr-soft: #e6f6f3;
+  --casc-en: #6f4ec9;
+  --casc-en-soft: #efe9fb;
+  --casc-card-shadow: 0 6px 18px rgba(15, 23, 42, 0.08);
+  --casc-card-shadow-hover: 0 14px 28px rgba(15, 23, 42, 0.14);
+  --casc-deadline: #c0392b;
+  --casc-deadline-soft: #fdf2f2;
+  --casc-radius: 14px;
+  --casc-radius-sm: 10px;
+}
+
+
+/* Buttons */
+.casc-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.7rem 1.4rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease;
+  border: 1px solid transparent;
+}
+
+.casc-btn-primary {
+  background: #ffffff;
+  color: var(--casc-primary) !important;
+}
+.casc-btn-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.18);
+  color: var(--casc-primary-dark) !important;
+}
+
+.casc-btn-ghost {
+  background: rgba(255,255,255,0.12);
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,0.4);
+  backdrop-filter: blur(6px);
+}
+.casc-btn-ghost:hover {
+  background: rgba(255,255,255,0.22);
+  transform: translateY(-2px);
+}
+
+/* ============================================================
+   Section headers
+   ============================================================ */
+
+.casc-section-title {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 2.8rem;
+  margin-bottom: 0.8rem;
+  border: none;
+}
+
+.casc-section-title::before {
+  content: "";
+  display: inline-block;
+  width: 5px;
+  height: 1.4rem;
+  border-radius: 4px;
+  background: linear-gradient(180deg, var(--casc-primary), var(--casc-accent));
+}
+
+/* ============================================================
+   Chapter grid (poly.qmd) — Markdown list styled as 2-col grid
+   Usage: ::: {.casc-chapters-grid}
+          - [**0** Introduction](url)
+          :::
+   ============================================================ */
+
+.casc-chapters-grid ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.55rem;
+  list-style: none;
+  padding: 0;
+  margin: 0.5rem 0 1.5rem 0;
+}
+
+.casc-chapters-grid ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.casc-chapters-grid ul li a {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.85rem 1rem;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: var(--casc-radius-sm);
+  box-shadow: 0 2px 6px rgba(15, 23, 42, 0.05);
+  text-decoration: none !important;
+  color: inherit !important;
+  transition: transform 0.18s ease, box-shadow 0.18s ease, border-color 0.18s ease;
+}
+
+.casc-chapters-grid ul li a:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--casc-card-shadow);
+  border-color: rgba(31, 95, 168, 0.3);
+}
+
+/* The **number** bold marker becomes the badge */
+.casc-chapters-grid ul li a strong {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  min-width: 36px;
+  height: 36px;
+  border-radius: 9px;
+  background: linear-gradient(135deg, var(--casc-primary) 0%, #4cc9f0 100%);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 0.9rem;
+}
+
+/* .appendix variant — orange badge */
+.casc-chapters-grid.appendix ul li a strong {
+  background: linear-gradient(135deg, var(--casc-accent) 0%, #ffd166 100%);
+}
+
+/* Dark mode for chapter grid */
+[data-bs-theme="dark"] .casc-chapters-grid ul li a,
+.quarto-dark .casc-chapters-grid ul li a {
+  background: #1e293b;
+  border-color: rgba(255,255,255,0.06);
+  color: #f1f5f9 !important;
+}
+[data-bs-theme="dark"] .casc-chapters-grid ul li a:hover,
+.quarto-dark .casc-chapters-grid ul li a:hover {
+  border-color: rgba(76, 155, 227, 0.4);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+/* ============================================================
+   Callouts / info banner
+   ============================================================ */
+
+.casc-info-banner {
+  display: flex;
+  gap: 0.9rem;
+  align-items: flex-start;
+  padding: 1rem 1.2rem;
+  background: var(--casc-primary-light);
+  border-left: 4px solid var(--casc-primary);
+  border-radius: var(--casc-radius-sm);
+  margin: 1rem 0 1.5rem 0;
+  color: #0f172a;
+}
+
+.casc-info-banner i { color: var(--casc-primary); font-size: 1.1rem; margin-top: 0.15rem; }
+
+
+/* Dark mode */
+[data-bs-theme="dark"] .casc-chapter-card,
+.quarto-dark .casc-chapter-card {
+  background: #1e293b;
+  border-color: rgba(255,255,255,0.06);
+}
+
+[data-bs-theme="dark"] .casc-chapter-title,
+.quarto-dark .casc-chapter-title { color: #f1f5f9; }
+
+[data-bs-theme="dark"] .casc-info-banner,
+.quarto-dark .casc-info-banner {
+  background: rgba(76, 155, 227, 0.1);
+  color: #e5e7eb;
+}
+
+/* Solid button, for use on a white background */
+.casc-btn-solid {
+  background: var(--casc-primary);
+  color: #ffffff !important;
+}
+.casc-btn-solid:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 18px rgba(31, 95, 168, 0.3);
+  background: var(--casc-primary-dark);
+}
+
+/* Section titles: no default h2 rule, tighter spacing */
+h2:has(> .casc-section-title) {
+  border-bottom: none;
+  margin-top: 0;
+  padding-bottom: 0;
+}
+h2 > .casc-section-title {
+  margin-top: 1.5rem;
+  margin-bottom: 0.4rem;
+}
+h2:has(> .casc-section-title) {
+  margin-bottom: 0;
+}
+h2 > .casc-section-title {
+  margin-bottom: 0;
+}
+
+/* Week badge */
+
+.casc-week-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  height: 2.4rem;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  background: var(--casc-primary-light);
+  color: var(--casc-primary);
+  letter-spacing: 0.02em;
+}
+
+[data-bs-theme="dark"] .casc-week-badge,
+.quarto-dark .casc-week-badge {
+  background: rgba(76, 155, 227, 0.15);
+  color: #7bb8f0;
+}
+
+/* ============================================================
+   Markdown-sourced styled tables
+   (.casc-course-table, .casc-notebook-table, .casc-archive-table)
+   Tables are written as plain Markdown; CSS does all the styling.
+   ============================================================ */
+
+.casc-course-table,
+.casc-notebook-table,
+.casc-archive-table {
+  margin: 1rem 0 2rem 0;
+  border-radius: var(--casc-radius);
+  box-shadow: var(--casc-card-shadow);
+  overflow: hidden;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.05);
+}
+
+.casc-course-table table,
+.casc-notebook-table table,
+.casc-archive-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0;
+  font-size: 0.95rem;
+  --bs-table-bg: transparent;
+  --bs-table-color: inherit;
+  --bs-table-border-color: transparent;
+  --bs-table-striped-bg: transparent;
+  --bs-table-hover-bg: transparent;
+}
+
+.casc-course-table table > :not(caption) > * > *,
+.casc-notebook-table table > :not(caption) > * > *,
+.casc-archive-table table > :not(caption) > * > * {
+  background: transparent;
+  box-shadow: none;
+  border-bottom-width: 0;
+}
+
+.casc-course-table table thead,
+.casc-notebook-table table thead,
+.casc-archive-table table thead {
+  background: linear-gradient(135deg, var(--casc-primary) 0%, #2980d4 100%);
+  color: #ffffff;
+}
+
+.casc-course-table table thead th,
+.casc-notebook-table table thead th,
+.casc-archive-table table thead th {
+  padding: 0.95rem 1.1rem;
+  text-align: left;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  border: none;
+  color: #ffffff;
+}
+
+.casc-course-table table tbody tr,
+.casc-notebook-table table tbody tr,
+.casc-archive-table table tbody tr {
+  border-top: 1px solid rgba(15, 23, 42, 0.06);
+  transition: background 0.15s ease;
+}
+
+.casc-course-table table tbody tr:hover,
+.casc-notebook-table table tbody tr:hover,
+.casc-archive-table table tbody tr:hover {
+  background: rgba(31, 95, 168, 0.04);
+}
+
+.casc-course-table table tbody td,
+.casc-notebook-table table tbody td,
+.casc-archive-table table tbody td {
+  padding: 0.8rem 1.1rem;
+  vertical-align: middle;
+  border: none;
+}
+
+/* Col 2 : subject — bold */
+.casc-course-table table tbody td:nth-child(2),
+.casc-notebook-table table tbody td:nth-child(2),
+.casc-archive-table table tbody td:nth-child(2) {
+  font-weight: 600;
+  color: #0f172a;
+}
+
+/* Shared button base for all action links inside these tables */
+.casc-course-table table tbody td:nth-child(n+3) a,
+.casc-notebook-table table tbody td:nth-child(n+3) a,
+.casc-archive-table table tbody td:nth-child(n+3) a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.42rem 0.88rem;
+  border-radius: 999px;
+  font-weight: 600;
+  font-size: 0.86rem;
+  text-decoration: none !important;
+  border: 1px solid transparent;
+  transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.15s ease;
+  white-space: nowrap;
+}
+
+/* Archive table — col 3 = énoncé (blue), col 4 = solution (accent) */
+.casc-archive-table table tbody td:nth-child(3) a {
+  background: var(--casc-primary-light);
+  color: var(--casc-primary) !important;
+  border-color: rgba(31, 95, 168, 0.2);
+}
+.casc-archive-table table tbody td:nth-child(3) a:hover {
+  background: var(--casc-primary);
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(31, 95, 168, 0.3);
+}
+.casc-archive-table table tbody td:nth-child(4) a {
+  background: var(--casc-accent-soft);
+  color: #b46b29 !important;
+  border-color: rgba(244, 162, 97, 0.3);
+}
+.casc-archive-table table tbody td:nth-child(4) a:hover {
+  background: var(--casc-accent);
+  color: #ffffff !important;
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(244, 162, 97, 0.35);
+}
+
+/* Dark mode for markdown tables */
+[data-bs-theme="dark"] .casc-course-table,
+[data-bs-theme="dark"] .casc-notebook-table,
+[data-bs-theme="dark"] .casc-archive-table,
+.quarto-dark .casc-course-table,
+.quarto-dark .casc-notebook-table,
+.quarto-dark .casc-archive-table {
+  background: #1e293b;
+  border-color: rgba(255,255,255,0.06);
+}
+[data-bs-theme="dark"] .casc-course-table table tbody tr,
+[data-bs-theme="dark"] .casc-notebook-table table tbody tr,
+[data-bs-theme="dark"] .casc-archive-table table tbody tr,
+.quarto-dark .casc-course-table table tbody tr,
+.quarto-dark .casc-notebook-table table tbody tr,
+.quarto-dark .casc-archive-table table tbody tr {
+  border-top-color: rgba(255,255,255,0.06);
+}
+[data-bs-theme="dark"] .casc-course-table table tbody tr:hover,
+[data-bs-theme="dark"] .casc-notebook-table table tbody tr:hover,
+[data-bs-theme="dark"] .casc-archive-table table tbody tr:hover,
+.quarto-dark .casc-course-table table tbody tr:hover,
+.quarto-dark .casc-notebook-table table tbody tr:hover,
+.quarto-dark .casc-archive-table table tbody tr:hover {
+  background: rgba(76, 155, 227, 0.08);
+}
+[data-bs-theme="dark"] .casc-course-table table tbody td:nth-child(2),
+[data-bs-theme="dark"] .casc-notebook-table table tbody td:nth-child(2),
+[data-bs-theme="dark"] .casc-archive-table table tbody td:nth-child(2),
+.quarto-dark .casc-course-table table tbody td:nth-child(2),
+.quarto-dark .casc-notebook-table table tbody td:nth-child(2),
+.quarto-dark .casc-archive-table table tbody td:nth-child(2) {
+  color: #f1f5f9;
+}
+[data-bs-theme="dark"] .casc-action-ghost,
+.quarto-dark .casc-action-ghost {
+  background: #334155;
+  color: #64748b;
+  border-color: #475569;
+}
+
+
+/* Pages without a table of contents: align the title and content like the pages that have one
+   (a bit lower and to the left). */
+@media (min-width: 992px) {
+  .page-columns:not(:has(#quarto-margin-sidebar)) {
+    padding-right: 260px;
+  }
+}
+#title-block-header {
+  margin-top: 1.5rem;
+}
+
+/* Grouped tables: a thicker separator above the first row of each group
+   (rows whose first cell holds a badge). */
+.casc-grouped table tbody tr:has(.casc-week-badge):not(:first-child) {
+  border-top: 3px solid rgba(31, 95, 168, 0.25);
+}
+
+/* Coloured navbar icons */
+.navbar .nav-link .bi-book          { color: #ffd166; }
+.navbar .nav-link .bi-easel         { color: #ff9f7a; }
+.navbar .nav-link .bi-code-slash    { color: #7ee0d0; }
+.navbar .nav-link .bi-patch-question{ color: #c4a8ff; }
+.navbar .nav-link .bi-archive       { color: #ffb3c1; }
+.navbar .nav-link .bi-link-45deg    { color: #9bf6ff; }
+.navbar .nav-link .bi-people        { color: #b8f2a0; }
+
+/* ============================================================
+   Card grid (Quarto .grid friendly)
+   ============================================================ */
+
+.casc-card {
+  display: block;
+  height: 100%;
+  padding: 1.5rem 1.4rem;
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  border-radius: var(--casc-radius);
+  box-shadow: var(--casc-card-shadow);
+  transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+  text-decoration: none !important;
+  color: inherit !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.casc-card:hover {
+  transform: translateY(-3px);
+  box-shadow: var(--casc-card-shadow-hover);
+  border-color: rgba(31, 95, 168, 0.25);
+}
+
+.casc-card .casc-card-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  background: var(--casc-primary-light);
+  color: var(--casc-primary);
+  font-size: 1.3rem;
+  margin-bottom: 0.8rem;
+}
+
+.casc-card h3 {
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem 0;
+  font-weight: 700;
+}
+
+.casc-card p {
+  margin: 0;
+  font-size: 0.94rem;
+  color: #475569;
+  line-height: 1.5;
+}
+
+.casc-card ul {
+  margin: 0.4rem 0 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.92rem;
+  color: #475569;
+}
+
+.casc-card ul li { margin-bottom: 0.2rem; }
+
+/* Card-link: the h3 title is an anchor whose ::after covers the whole card.
+   Usage: ### [Title](url){.casc-card-link target="_blank" rel="noopener"} */
+.casc-card h3 .casc-card-link {
+  color: inherit !important;
+  text-decoration: none !important;
+}
+
+.casc-card h3 .casc-card-link::after {
+  content: none !important;
+}
+
+
+/* Dark mode: cards */
+[data-bs-theme="dark"] .casc-card,
+.quarto-dark .casc-card {
+  background: #1e293b;
+  border-color: rgba(255,255,255,0.06);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.35);
+}
+
+[data-bs-theme="dark"] .casc-card p,
+[data-bs-theme="dark"] .casc-card ul,
+.quarto-dark .casc-card p,
+.quarto-dark .casc-card ul { color: #cbd5e1; }
+
+[data-bs-theme="dark"] .casc-card .casc-card-icon,
+.quarto-dark .casc-card .casc-card-icon {
+  background: rgba(76, 155, 227, 0.15);
+  color: #7bb8f0;
+}
+
+
+.casc-card h3 {
+  font-weight: 700;
+}

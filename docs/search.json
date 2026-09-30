@@ -2,65 +2,58 @@
   {
     "objectID": "slides.html",
     "href": "slides.html",
-    "title": "Course slides",
+    "title": "Slides",
     "section": "",
-    "text": "Introduction to Julia\nFloating-point arithmetic\n\n\n\n\n\nInterpolation and approximation\n\n\n\n\n\nNumerical integration"
-  },
-  {
-    "objectID": "slides.html#chapter-1",
-    "href": "slides.html#chapter-1",
-    "title": "Course slides",
-    "section": "",
-    "text": "Introduction to Julia\nFloating-point arithmetic"
-  },
-  {
-    "objectID": "slides.html#chapter-2",
-    "href": "slides.html#chapter-2",
-    "title": "Course slides",
-    "section": "",
-    "text": "Interpolation and approximation"
-  },
-  {
-    "objectID": "slides.html#chapter-3",
-    "href": "slides.html#chapter-3",
-    "title": "Course slides",
-    "section": "",
-    "text": "Numerical integration"
+    "text": "Click on a link to open the slides in a new tab.\n\n\n\n\n\nChapter\nTopic\nSlides\n\n\n\n\nCh. 0\nIntroduction to Julia\n Slides\n\n\nCh. 1\nFloating-point arithmetic\n Slides\n\n\nCh. 2\nInterpolation and approximation\n Slides\n\n\nCh. 3\nNumerical integration\n Slides"
   },
   {
     "objectID": "notes.html",
     "href": "notes.html",
     "title": "Lecture notes",
     "section": "",
-    "text": "Lecture notes\n\nComplete notes\nIntroduction\nChapter 1: Floating point arithmetic\nChapter 2: Interpolation and approximation\nChapter 3: Numerical integration\nChapter 4: Solving linear equations\nChapter 5: Solving nonlinear equations\nChapter 6: Calculating eigenvalues and eigenvectors\nChapter 7: Numerical integration of differential equations\nChapter 8: Numerical optimization\nAppendix A: Linear algebra\nAppendix B: Introduction to Julia\nAppendix C: Chebyshev polynomials\nBibliography"
+    "text": "Download the complete document or consult each chapter individually.\nComplete notes (PDF)"
+  },
+  {
+    "objectID": "notes.html#chapters",
+    "href": "notes.html#chapters",
+    "title": "Lecture notes",
+    "section": "Chapters",
+    "text": "Chapters\n\n\n0 Introduction\n1 Floating point arithmetic\n2 Interpolation and approximation\n3 Numerical integration\n4 Solving linear equations\n5 Solving nonlinear equations\n6 Calculating eigenvalues and eigenvectors\n7 Numerical integration of differential equations\n8 Numerical optimization"
+  },
+  {
+    "objectID": "notes.html#appendices",
+    "href": "notes.html#appendices",
+    "title": "Lecture notes",
+    "section": "Appendices",
+    "text": "Appendices\n\n\nA Linear algebra\nB Introduction to Julia\nC Chebyshev polynomials\nBib Bibliography"
   },
   {
     "objectID": "links.html",
     "href": "links.html",
     "title": "Useful links",
     "section": "",
-    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”.\n\n\n\n\n\nDocumentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl\n\n\n\n\n\nNYU Paris academic calendar"
+    "text": "Introductory notebooks to Julia (version 1.0), by Jane Herriman.\n\n\n\n\n\n\n\n\nMore details on one of the strong points of Julia: multiple dispatch."
   },
   {
     "objectID": "links.html#videos",
     "href": "links.html#videos",
     "title": "Useful links",
     "section": "",
-    "text": "Below are some useful videos to learn about Julia:\n\nIntro to Julia tutorial (version 1.0) by Jane Herriman\nIntroductory notebooks to Julia.\nThe Unreasonable Effectiveness of Multiple Dispatch\nMore details on one of the strong points of Julia : “multiple dispatch”."
+    "text": "Introductory notebooks to Julia (version 1.0), by Jane Herriman.\n\n\n\n\n\n\n\n\nMore details on one of the strong points of Julia: multiple dispatch."
   },
   {
     "objectID": "links.html#software-libraries-for-the-course",
     "href": "links.html#software-libraries-for-the-course",
     "title": "Useful links",
-    "section": "",
-    "text": "Documentation générale de Julia\nPlots.jl\nForwardDiff.jl\nPolynomials.jl"
+    "section": "Software libraries for the course",
+    "text": "Software libraries for the course\n\n\n\n\n\nJulia documentation\nGeneral documentation of the language.\n\n\n\n\n\n\n\nPlots.jl\nPlotting library.\n\n\n\n\n\n\n\nForwardDiff.jl\nAutomatic differentiation.\n\n\n\n\n\n\n\nPolynomials.jl\nPolynomial arithmetic and interpolation."
   },
   {
     "objectID": "links.html#other-links",
     "href": "links.html#other-links",
     "title": "Useful links",
-    "section": "",
-    "text": "NYU Paris academic calendar"
+    "section": "Other links",
+    "text": "Other links\n\n\n\n\n\nNYU Paris academic calendar\nImportant dates for the semester."
   },
   {
     "objectID": "credits.html",
@@ -74,7 +67,7 @@
     "href": "archives.html",
     "title": "Archives",
     "section": "",
-    "text": "Archives\n\nSpring 2022: Midterm\nSpring 2022: Final exam Solutions\nFall 2022: Midterm Solutions\nFall 2022: Final exam\nFall 2023: Midterm Answer sheet (Jupyter notebook)\nFall 2023: Final exam (Jupyter notebook)\nFall 2024: Midterm\nFall 2024: Final exam\nFall 2025: Midterm"
+    "text": "Term\nExam\nStatement\nSolutions\n\n\n\n\nSpring 2022\nMidterm\n PDF\n\n\n\n\nFinal exam\n PDF\n Solutions\n\n\nFall 2022\nMidterm\n PDF\n Solutions\n\n\n\nFinal exam\n PDF\n\n\n\nFall 2023\nMidterm\n PDF\n Answer sheet (notebook)\n\n\n\nFinal exam\n Notebook\n\n\n\nFall 2024\nMidterm\n PDF\n\n\n\n\nFinal exam\n PDF\n\n\n\nFall 2025\nMidterm\n PDF"
   },
   {
     "objectID": "index.html",
@@ -109,62 +102,13 @@
     "href": "notebooks.html",
     "title": "Notebooks",
     "section": "",
-    "text": "Introduction to Julia\n\n\n\n\n\nInterpolation\nApproximation\n\n\n\n\n\nNumerical integration"
-  },
-  {
-    "objectID": "notebooks.html#chapter-1",
-    "href": "notebooks.html#chapter-1",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Introduction to Julia"
-  },
-  {
-    "objectID": "notebooks.html#chapter-2",
-    "href": "notebooks.html#chapter-2",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Interpolation\nApproximation"
-  },
-  {
-    "objectID": "notebooks.html#chapter-3",
-    "href": "notebooks.html#chapter-3",
-    "title": "Notebooks",
-    "section": "",
-    "text": "Numerical integration"
+    "text": "Chapter\nTopic\nNotebook\n\n\n\n\nCh. 1\nIntroduction to Julia\n Notebook\n\n\nCh. 2\nInterpolation\n Notebook\n\n\n\nApproximation\n Notebook\n\n\nCh. 3\nNumerical integration\n Notebook"
   },
   {
     "objectID": "quizzes.html",
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (practice) — solutions\nIntroduction to Julia (practice) — solutions\nIntroduction to Julia (graded) — solutions\n\n\n\n\n\nFloating point arithmetic (practice) — solutions\nFloating point arithmetic (graded) — solutions\n\n\n\n\n\nInterpolation (practice) — solutions\nInterpolation (graded) — solutions\n\n\n\n\n\nNumerical integration (practice) — solutions"
-  },
-  {
-    "objectID": "quizzes.html#chapter-0",
-    "href": "quizzes.html#chapter-0",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Introduction to Julia (practice) — solutions\nIntroduction to Julia (practice) — solutions\nIntroduction to Julia (graded) — solutions"
-  },
-  {
-    "objectID": "quizzes.html#chapter-1",
-    "href": "quizzes.html#chapter-1",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Floating point arithmetic (practice) — solutions\nFloating point arithmetic (graded) — solutions"
-  },
-  {
-    "objectID": "quizzes.html#chapter-2",
-    "href": "quizzes.html#chapter-2",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Interpolation (practice) — solutions\nInterpolation (graded) — solutions"
-  },
-  {
-    "objectID": "quizzes.html#chapter-3",
-    "href": "quizzes.html#chapter-3",
-    "title": "Quizzes",
-    "section": "",
-    "text": "Numerical integration (practice) — solutions"
+    "text": "Chapter\nQuiz\nQuestions\nSolutions\n\n\n\n\nCh. 0\nIntroduction to Julia (practice)\n PDF\n Solutions\n\n\n\nIntroduction to Julia (practice)\n PDF\n Solutions\n\n\n\nIntroduction to Julia (graded)\n PDF\n Solutions\n\n\nCh. 1\nFloating point arithmetic (practice)\n PDF\n Solutions\n\n\n\nFloating point arithmetic (graded)\n PDF\n Solutions\n\n\nCh. 2\nInterpolation (practice)\n PDF\n Solutions\n\n\n\nInterpolation (graded)\n PDF\n Solutions\n\n\nCh. 3\nNumerical integration (practice)\n PDF"
   }
 ]

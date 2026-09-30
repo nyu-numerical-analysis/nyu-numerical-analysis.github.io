@@ -10,21 +10,30 @@ project:
 website:
   title: "Numerical Analysis"
   navbar:
+    logo: "logo_calcul_scientifique_transparent.png"
+    logo-alt: "Course logo"
     left:
       - href: notes.qmd
         text: Lecture Notes
+        icon: book
       - href: slides.qmd
         text: Slides
+        icon: easel
       - href: notebooks.qmd
         text: Notebooks
+        icon: code-slash
       - href: quizzes.qmd
         text: Quizzes
+        icon: patch-question
       - href: archives.qmd
         text: Archives
+        icon: archive
       - href: links.qmd
         text: Useful Links
+        icon: link-45deg
       - href: credits.qmd
         text: Credits
+        icon: people
 
 editor:
     render-on-save: true
