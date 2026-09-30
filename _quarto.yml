@@ -9,7 +9,9 @@ project:
 
 website:
   title: "Numerical Analysis"
+  favicon: "logo_calcul_scientifique_transparent.png"
   navbar:
+    collapse-below: xl
     logo: "logo_calcul_scientifique_transparent.png"
     logo-alt: "Course logo"
     left:
@@ -34,6 +36,9 @@ website:
       - href: credits.qmd
         text: Credits
         icon: people
+    right:
+      - href: https://www.nyu.edu/paris
+        text: '<img src="nyu_paris_logo_color.png" alt="NYU Paris" class="navbar-nyu-logo">'
 
 editor:
     render-on-save: true

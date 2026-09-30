@@ -536,3 +536,57 @@ h2 > .casc-section-title {
 .casc-card h3 {
   font-weight: 700;
 }
+
+/* Navbar: blue gradient */
+.navbar {
+  background: linear-gradient(135deg, #3f5f80 0%, #5a84aa 100%) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.navbar .navbar-brand,
+.navbar .navbar-nav .nav-link,
+.navbar .navbar-text {
+  color: #ffffff !important;
+}
+
+.navbar .navbar-nav .nav-link:hover,
+.navbar .navbar-nav .nav-link.active {
+  color: #ffe27a !important;
+}
+
+.navbar-tools .quarto-navigation-tool {
+  color: #ffffff !important;
+}
+
+.navbar input.aa-Input {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+}
+.navbar input.aa-Input::placeholder { color: rgba(255, 255, 255, 0.7); }
+
+/* NYU Paris logo (white, transparent background), right side of the navbar */
+.navbar-nyu-logo {
+  height: 28px;
+  vertical-align: middle;
+}
+.navbar .navbar-nav .nav-link:has(.navbar-nyu-logo) {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+/* Keep the navbar on a single line */
+.navbar .navbar-nav .nav-link {
+  white-space: nowrap;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  padding-left: 0.6rem;
+  padding-right: 0.6rem;
+}
+.navbar .navbar-brand-container {
+  max-width: none;
+  flex-shrink: 0;
+}
+.navbar-nyu-logo {
+  height: 24px;
+}
