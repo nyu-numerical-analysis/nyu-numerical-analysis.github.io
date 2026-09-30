@@ -9,3 +9,7 @@
 ## Chapter 2
 
 - [Interpolation and approximation](slides/interpolation.html)
+
+## Chapter 3
+
+- [Numerical integration](slides/integration.html)
