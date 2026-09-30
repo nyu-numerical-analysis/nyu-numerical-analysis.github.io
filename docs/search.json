@@ -137,7 +137,7 @@
     "href": "quizzes.html",
     "title": "Quizzes",
     "section": "",
-    "text": "Introduction to Julia (practice) — solutions\nIntroduction to Julia (practice) — solutions\nIntroduction to Julia (graded) — solutions\n\n\n\n\n\nFloating point arithmetic (practice) — solutions\nFloating point arithmetic (graded) — solutions\n\n\n\n\n\nInterpolation (practice) — solutions\nInterpolation (graded) — solutions"
+    "text": "Introduction to Julia (practice) — solutions\nIntroduction to Julia (practice) — solutions\nIntroduction to Julia (graded) — solutions\n\n\n\n\n\nFloating point arithmetic (practice) — solutions\nFloating point arithmetic (graded) — solutions\n\n\n\n\n\nInterpolation (practice) — solutions\nInterpolation (graded) — solutions\n\n\n\n\n\nNumerical integration (practice) — solutions"
   },
   {
     "objectID": "quizzes.html#chapter-0",
@@ -159,5 +159,12 @@
     "title": "Quizzes",
     "section": "",
     "text": "Interpolation (practice) — solutions\nInterpolation (graded) — solutions"
+  },
+  {
+    "objectID": "quizzes.html#chapter-3",
+    "href": "quizzes.html#chapter-3",
+    "title": "Quizzes",
+    "section": "",
+    "text": "Numerical integration (practice) — solutions"
   }
 ]

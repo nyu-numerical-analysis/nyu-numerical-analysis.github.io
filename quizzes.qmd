@@ -19,3 +19,7 @@
 - [Interpolation](quizzes/build/interpolation_practice.pdf) (practice) — [solutions](quizzes/build/interpolation_practice_solutions.pdf)
 
 - [Interpolation](quizzes/build/interpolation_graded2.pdf) (graded) — [solutions](quizzes/build/interpolation_graded2_solutions.pdf)
+
+## Chapter 3
+
+- [Numerical integration](quizzes/build/integration.pdf) (practice) — [solutions](quizzes/build/integration_solutions.pdf)
