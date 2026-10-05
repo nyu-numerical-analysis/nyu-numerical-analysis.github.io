@@ -6,15 +6,16 @@ toc: false
 
 ::: {.casc-archive-table .casc-grouped}
 
-| Chapter | Quiz | Questions | Solutions |
-| ------- | ---- | --------- | --------- |
-| [Ch. 0]{.casc-week-badge} | Introduction to Julia (practice) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/julia.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/julia_solutions.pdf){target="_blank"} |
-|  | Introduction to Julia (practice) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/julia_graded.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/julia_graded_solutions.pdf){target="_blank"} |
-|  | Introduction to Julia (graded) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/julia_graded2.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/julia_graded2_solutions.pdf){target="_blank"} |
-| [Ch. 1]{.casc-week-badge} | Floating point arithmetic (practice) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/roundoff.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/roundoff_solutions.pdf){target="_blank"} |
-|  | Floating point arithmetic (graded) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/roundoff_graded.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/roundoff_graded_solutions.pdf){target="_blank"} |
-| [Ch. 2]{.casc-week-badge} | Interpolation (practice) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/interpolation_practice.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/interpolation_practice_solutions.pdf){target="_blank"} |
-|  | Interpolation (graded) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/interpolation_graded2.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/interpolation_graded2_solutions.pdf){target="_blank"} |
-| [Ch. 3]{.casc-week-badge} | Numerical integration (practice) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration.pdf){target="_blank"} | |
+| Chapter                   | Quiz                                 | Questions                                                                                    | Solutions                                                                                                      |
+| -------                   | ----                                 | ---------                                                                                    | ---------                                                                                                      |
+| [Ch. 0]{.casc-week-badge} | Introduction to Julia (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/julia.pdf){target="_blank"}                  | [{{< bi file-earmark-check >}} Solutions](quizzes/build/julia_solutions.pdf){target="_blank"}                  |
+|                           | Introduction to Julia (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/julia_graded.pdf){target="_blank"}           | [{{< bi file-earmark-check >}} Solutions](quizzes/build/julia_graded_solutions.pdf){target="_blank"}           |
+|                           | Introduction to Julia (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/julia_graded2.pdf){target="_blank"}          | [{{< bi file-earmark-check >}} Solutions](quizzes/build/julia_graded2_solutions.pdf){target="_blank"}          |
+| [Ch. 1]{.casc-week-badge} | Floating point arithmetic (practice) | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/roundoff.pdf){target="_blank"}               | [{{< bi file-earmark-check >}} Solutions](quizzes/build/roundoff_solutions.pdf){target="_blank"}               |
+|                           | Floating point arithmetic (graded)   | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/roundoff_graded.pdf){target="_blank"}        | [{{< bi file-earmark-check >}} Solutions](quizzes/build/roundoff_graded_solutions.pdf){target="_blank"}        |
+| [Ch. 2]{.casc-week-badge} | Interpolation (practice)             | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/interpolation_practice.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/interpolation_practice_solutions.pdf){target="_blank"} |
+|                           | Interpolation (graded)               | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/interpolation_graded2.pdf){target="_blank"}  | [{{< bi file-earmark-check >}} Solutions](quizzes/build/interpolation_graded2_solutions.pdf){target="_blank"}  |
+| [Ch. 3]{.casc-week-badge} | Numerical integration (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration.pdf){target="_blank"}            | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_solutions.pdf){target="_blank"}            |
+|                           | Numerical integration (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration_graded2.pdf){target="_blank"}    | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_graded2_solutions.pdf){target="_blank"}    |
 
 :::
