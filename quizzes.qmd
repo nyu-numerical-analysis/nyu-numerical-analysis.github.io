@@ -16,6 +16,7 @@ toc: false
 | [Ch. 2]{.casc-week-badge} | Interpolation (practice)             | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/interpolation_practice.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](quizzes/build/interpolation_practice_solutions.pdf){target="_blank"} |
 |                           | Interpolation (graded)               | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/interpolation_graded2.pdf){target="_blank"}  | [{{< bi file-earmark-check >}} Solutions](quizzes/build/interpolation_graded2_solutions.pdf){target="_blank"}  |
 | [Ch. 3]{.casc-week-badge} | Numerical integration (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration.pdf){target="_blank"}            | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_solutions.pdf){target="_blank"}            |
+|                           | Numerical integration (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration_graded.pdf){target="_blank"}     |                                                                                                                |
 |                           | Numerical integration (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration_graded2.pdf){target="_blank"}    | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_graded2_solutions.pdf){target="_blank"}    |
 
 :::
