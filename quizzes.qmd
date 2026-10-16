@@ -18,5 +18,6 @@ toc: false
 | [Ch. 3]{.casc-week-badge} | Numerical integration (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration.pdf){target="_blank"}            | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_solutions.pdf){target="_blank"}            |
 |                           | Numerical integration (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration_practice2.pdf){target="_blank"}     | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_practice2_solutions.pdf){target="_blank"}  |
 |                           | Numerical integration (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration_graded2.pdf){target="_blank"}    | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_graded2_solutions.pdf){target="_blank"}    |
+|                           | Numerical integration (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/integration_graded3.pdf){target="_blank"}    | [{{< bi file-earmark-check >}} Solutions](quizzes/build/integration_graded3_solutions.pdf){target="_blank"}    |
 
 :::
