@@ -14,8 +14,8 @@ toc: false
 |  | Final exam | [{{< bi file-earmark-pdf >}} PDF](https://urbain.vaes.uk/static/teaching/numerical_analysis_fall/endterm/build/main_fall_711.pdf){target="_blank"} |  |
 | [Fall 2023]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](https://urbain.vaes.uk/static/teaching/numerical_analysis_2023/midterm/build/output.pdf){target="_blank"} | [{{< bi file-earmark-code >}} Answer sheet (notebook)](https://urbain.vaes.uk/static/teaching/numerical_analysis_2023/midterm/midterm.ipynb){target="_blank"} |
 |  | Final exam | [{{< bi file-earmark-code >}} Notebook](https://urbain.vaes.uk/static/teaching/numerical_analysis_2023/notebooks/final_blank.ipynb){target="_blank"} |  |
-| [Fall 2024]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/midterm.pdf){target="_blank"} |  |
-|  | Final exam | [{{< bi file-earmark-pdf >}} PDF](quizzes/build/main_fall_2024_711.pdf){target="_blank"} |  |
-| [Fall 2025]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](archives/midterm.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](archives/midterm_solutions.pdf){target="_blank"} |
+| [Fall 2024]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](archives/2024-fall-midterm.pdf){target="_blank"} |  |
+|  | Final exam | [{{< bi file-earmark-pdf >}} PDF](archives/2024-fall-final.pdf){target="_blank"} |  |
+| [Fall 2025]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](archives/2025-fall-midterm.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](archives/2025-fall-midterm_solutions.pdf){target="_blank"} |
 
 :::
