@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FEM wave background test</title>
+<link rel="stylesheet" href="assets/fem-wave.css">
+<style>
+  body { margin: 0; font-family: system-ui, sans-serif; background: #fff; color: #222; }
+  body.quarto-dark { background: #1e1e24; color: #ddd; }
+  header { padding: 12px 24px; border-bottom: 1px solid rgba(128,128,128,.3);
+           display: flex; gap: 24px; align-items: center;
+           background: rgba(255,255,255,.6); backdrop-filter: blur(2px); }
+  body.quarto-dark header { background: rgba(30,30,36,.6); }
+  main { max-width: 760px; margin: 48px auto; padding: 0 16px; line-height: 1.6; }
+  #controls { position: fixed; right: 16px; bottom: 16px; padding: 12px 14px;
+              background: rgba(128,128,128,.15); border-radius: 8px; font-size: 13px; }
+  #controls label { display: grid; grid-template-columns: 90px 120px 40px; align-items: center; gap: 6px; }
+  a { color: #57068c; } body.quarto-dark a { color: #c49bff; }
+</style>
+</head>
+<body>
+<header>
+  <strong>Numerical Analysis</strong>
+  <a href="#">Lecture Notes</a><a href="#">Slides</a><a href="#">Notebooks</a><a href="#">Quizzes</a>
+  <button id="theme" style="margin-left:auto">Toggle dark</button>
+</header>
+<main>
+  <h1>Numerical Analysis — Fall 2026</h1>
+  <p>The background solves the damped wave equation with P1 finite elements on a jittered
+     triangular mesh, with a lumped mass matrix and leapfrog time-stepping. Moving the mouse
+     forces the surface; clicking drops a Gaussian bump.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante
+     venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.
+     Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis
+     ornare vel eu leo. Maecenas faucibus mollis interdum.</p>
+  <h2>Schedule</h2>
+  <ul>
+    <li>Week 1 — Floating point arithmetic</li>
+    <li>Week 2 — Interpolation and approximation</li>
+    <li>Week 3 — Numerical integration</li>
+    <li>Week 4 — Solving linear equations</li>
+  </ul>
+</main>
+
+<div id="controls"></div>
+
+<script src="assets/fem-wave.js"></script>
+<script>
+  document.getElementById("theme").onclick = () => document.body.classList.toggle("quarto-dark");
+
+  const sliders = [
+    ["spacing", 16, 60, 1, true], ["speed", 60, 600, 10], ["damping", 0, 3, 0.05],
+    ["lift", 0, 20, 0.5], ["mouseGain", 0, 0.2, 0.005], ["bumpEvery", 0, 20, 1],
+  ];
+  const box = document.getElementById("controls");
+  for (const [key, min, max, step, rebuild] of sliders) {
+    const label = document.createElement("label");
+    label.innerHTML = `<span>${key}</span><input type="range" min="${min}" max="${max}" step="${step}"
+      value="${femWave.opts[key]}"><output>${femWave.opts[key]}</output>`;
+    const input = label.querySelector("input"), out = label.querySelector("output");
+    input.oninput = () => {
+      femWave.opts[key] = +input.value; out.textContent = input.value;
+      if (rebuild || key === "damping") femWave.rebuild();
+    };
+    box.appendChild(label);
+  }
+</script>
+</body>
+</html>
