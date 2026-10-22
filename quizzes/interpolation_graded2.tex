@@ -12,8 +12,24 @@
 \pagestyle{fancy}
 \fancyhf{}
 \lhead{Name: }
+\ifdefined\showsolutions\lhead{Instructor copy}\fi
 \chead{Graded quiz 3 -- Interpolation}
 \rhead{\today}
+\usepackage{xcolor}
+\newcommand{\answer}[1]{%
+    \ifdefined\showsolutions
+        \par\smallskip
+        {\small\color{blue!60!black}#1\par}
+    \fi
+}
+% Box in the answer grid, ticked in the solutions when the argument is 1.
+\newcommand{\gridbox}[1]{%
+    \ifdefined\showsolutions
+        \ifnum#1=1 {\color{blue!60!black}$\boxtimes$}\else$\square$\fi
+    \else
+        $\square$%
+    \fi
+}
 
 \begin{document}
 
@@ -21,6 +37,9 @@
 \thispagestyle{fancy}
 
 True or false? (unless otherwise specified.)
+\ifdefined\showsolutions
+{\small\color{blue!60!black}Questions 1--15: 1 point for a correct answer, 0 otherwise.\par}
+\fi
 
 \begin{center}
     \textbf{Answer grid}\par\smallskip
@@ -32,8 +51,8 @@ True or false? (unless otherwise specified.)
         \hline
         & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & B \\
         \hline
-        True  & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
-        False & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+        True  & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{1} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{0} & \gridbox{1} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{1} \\
+        False & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{0} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{1} & \gridbox{0} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{0} \\
         \hline
     \end{tabular}
 \end{center}
@@ -46,6 +65,8 @@ True or false? (unless otherwise specified.)
             p(x_i)=y_i,\qquad q(x_i)=z_i,\qquad i=0,1,2,
         \]
         then $p+q$ interpolates the data $(x_i,y_i+z_i)$ for $i=0,1,2$.
+        \answer{\textbf{True.}
+        For $i=0,1,2$, $(p+q)(x_i)=p(x_i)+q(x_i)=y_i+z_i$.}
 
     \item
         For all $x_0,x_1,y_0,y_1\in\mathbb R$ with $x_0\ne x_1$, there exists a unique
@@ -53,6 +74,8 @@ True or false? (unless otherwise specified.)
         \[
             p(x_0)=y_0,\qquad p(x_1)=y_1.
         \]
+        \answer{\textbf{False.}
+        Two points do not determine a unique polynomial in $\mathcal P_2$.}
 
     \item
         If $x_0<\dotsb<x_n$ and $\ell_i\in\mathcal P_n$ is the $i$th Lagrange basis polynomial,
@@ -65,15 +88,20 @@ True or false? (unless otherwise specified.)
             \end{cases}
             \qquad i,j=0,\dotsc,n.
         \]
-
+        \answer{\textbf{True.}
+        This is the defining cardinal property of the Lagrange basis.}
 
     \item
         If $p,q\in\mathcal P_n$ and $p(x_i)=q(x_i)$ for $i=0,\dotsc,n$, where
         $x_0<\dotsb<x_n$, then $p=q$.
+        \answer{\textbf{True.}
+        The difference $p-q$ has degree at most $n$ and $n+1$ distinct roots.}
 
     \item
         If $f\in\mathcal P_d$ and $p_n\in\mathcal P_n$ is its interpolant at the $n+1$
         distinct nodes $x_0,\dotsc,x_n$, with $n\geq d$, then $p_n=f$.
+        \answer{\textbf{True.}
+        The difference $p_n-f$ belongs to $\mathcal P_n$ and has $n+1$ distinct roots.}
 
     \item
         \textbf{Interpolation error.}
@@ -84,6 +112,9 @@ True or false? (unless otherwise specified.)
             f(x)-p_n(x)=
             \frac{f^{(n+3)}(\xi_x)}{(n+3)!}\prod_{i=0}^{n}(x-x_i).
         \]
+        \answer{\textbf{False.}
+        The interpolation remainder uses $f^{(n+1)}(\xi_x)/(n+1)!$, not
+        $f^{(n+3)}(\xi_x)/(n+3)!$.}
 
     \item
         \textbf{Interpolation error.}
@@ -92,6 +123,8 @@ True or false? (unless otherwise specified.)
         \[
             u(x)-p_3(x)=(x-1)(x-2)(x-3)(x-4),\qquad \forall x\in\mathbb R.
         \]
+        \answer{\textbf{True.}
+        Since $u^{(4)}=24$, the interpolation remainder is exactly the product of the four node factors.}
 
     \item
         \textbf{Convergence.}
@@ -100,6 +133,8 @@ True or false? (unless otherwise specified.)
         \[
             \lim_{n\to\infty} \left( \max_{x\in[-1,1]}\bigl\lvert p_n(x)-f(x)\bigr\rvert \right)=0.
         \]
+        \answer{\textbf{False.}
+        Equidistant interpolation need not converge uniformly for every continuous function.}
 
     \item
         \textbf{Convergence.}
@@ -108,6 +143,8 @@ True or false? (unless otherwise specified.)
         \[
             \lim_{n\to\infty} \left( \max_{x\in[0,1]} \bigl\lvert p_n(x)-f(x)\bigr\rvert \right) = + \infty.
         \]
+        \answer{\textbf{False.}
+        The function $\sin(2x)$ is analytic, and these interpolants converge uniformly on $[0,1]$, so the limit is $0$, not $+\infty$.}
 
     \item
         \textbf{Convergence estimate.}
@@ -116,24 +153,30 @@ True or false? (unless otherwise specified.)
         \[
             \lim_{n\to\infty}\left( \max_{a\leq x\leq b}\bigl\lvert f(x)-f_n(x)\bigr\rvert \right)=0.
         \]
+        \answer{\textbf{True.}
+        Piecewise polynomial interpolation on a refining uniform mesh converges uniformly for continuous $f$.}
 
     \item
         \textbf{Chebyshev polynomials.}
         Fix $n \in \mathbb N$ and let $T_n \colon[-1,1]\to\mathbb R$ be defined by $T_n(x) = \cos(n \arccos x)$.
         Then $T_n$ is a polynomial of degree $n$.
+        \answer{\textbf{True.}
+        For $n\in\mathbb N$, $T_n$ is a polynomial of degree $n$.}
 
     \item
         \textbf{Chebyshev polynomials.}
         Assume that~$T_2$ is defined as in the previous item.
         Then $T_2(x) = 2x^2 - 3$.
         It may be useful to recall that~$\cos(2x) = 2\cos(x)^2 - 1$.
+        \answer{\textbf{False.}
+        The identity is $T_2(x)=2x^2-1$, not $2x^2-3$.}
 
     \item
         \textbf{Chebyshev polynomials.}
         Let $x_0 < \dotsb < x_n$ denote the roots of the Chebyshev polynomial $T_{n+1}$ on $[-1,1]$.
         Using these points as interpolation nodes instead of equally spaced nodes can help reduce the maximum interpolation error.
-
-
+        \answer{\textbf{True.}
+        Chebyshev nodes generally reduce the maximum interpolation error compared with equally spaced nodes.}
 
     \item
         \textbf{Julia.}
@@ -146,6 +189,8 @@ function p(z)
            + 1/2 * (y[3] - 2y[2] + y[1]) * z * (z + 1)
 end
         \end{minted}
+        \answer{\textbf{False.}
+        The Gregory--Newton factor should be $z(z-1)$, not $z(z+1)$.}
 
     \item
         \textbf{Julia.}
@@ -159,6 +204,8 @@ function p(z)
             + y[3] * (z - x[1]) * (z - x[2]) / ((x[3] - x[1]) * (x[3] - x[2])))
 end
         \end{minted}
+        \answer{\textbf{True.}
+        The three displayed terms are the Lagrange basis contributions for the three nodes.}
 
     \item \textbf{Bonus.}
         Let $f\in C^{\infty}[a,b]$, and let $f_n$ be the \textbf{piecewise linear} interpolant of $f$ on a
@@ -168,47 +215,18 @@ end
             \lim_{n \to \infty} n \times \left( \max_{x\in[a,b]}\bigl\lvert f(x)-f_n(x)\bigr\rvert \right)=0.
         \]
         \emph{Justify briefly.}
-
+        \answer{\textbf{True.}
+        On each mesh interval $[x_i,x_{i+1}]$, the interpolation remainder gives
+        \[
+            f(x)-f_n(x)=\frac{f''(\xi_x)}{2}(x-x_i)(x-x_{i+1})
+        \]
+        for some $\xi_x\in(x_i,x_{i+1})$. Since
+        \[
+            \max_{x\in[x_i,x_{i+1}]}\lvert(x-x_i)(x-x_{i+1})\rvert
+            =\frac{h_n^2}{4},
+        \]
+        it holds that $\max_{x\in[a,b]}\lvert f(x)-f_n(x)\rvert \leq \frac{h_n^2}{8} \max_{x\in[a,b]}\lvert f''(x)\rvert$.
+        Since $h_n = \frac{b-a}{n}$, the quantity in the limit is $O(n^{-1})$, so it tends to zero.}
 \end{enumerate}
-
-\ifdefined\showsolutions
-\newpage
-\lhead{Instructor copy}
-\section*{Answer key}
-\noindent Questions 1--15: 1 point for a correct answer, 0 otherwise.
-
-\begin{enumerate}[itemsep=8pt]
-    \item \textbf{True.} For $i=0,1,2$, $(p+q)(x_i)=p(x_i)+q(x_i)=y_i+z_i$.
-    \item \textbf{False.} Two points do not determine a unique polynomial in $\mathcal P_2$.
-    \item \textbf{True.} This is the defining cardinal property of the Lagrange basis.
-    \item \textbf{True.} The difference $p-q$ has degree at most $n$ and $n+1$ distinct roots.
-    \item \textbf{True.} The difference $p_n-f$ belongs to $\mathcal P_n$ and has $n+1$ distinct roots.
-    \item \textbf{False.} The interpolation remainder uses $f^{(n+1)}(\xi_x)/(n+1)!$, not
-    $f^{(n+3)}(\xi_x)/(n+3)!$.
-    \item \textbf{True.} Since $u^{(4)}=24$, the interpolation remainder is exactly the product of the four node factors.
-    \item \textbf{False.} Equidistant interpolation need not converge uniformly for every continuous function.
-    \item \textbf{False.} The function $\sin(2x)$ is analytic, and these interpolants converge uniformly on $[0,1]$, so the limit is $0$, not $+\infty$.
-    \item \textbf{True.} Piecewise polynomial interpolation on a refining uniform mesh converges uniformly for continuous $f$.
-    \item \textbf{True.} For $n\in\mathbb N$, $T_n$ is a polynomial of degree $n$.
-    \item \textbf{False.} The identity is $T_2(x)=2x^2-1$, not $2x^2-3$.
-    \item \textbf{True.} Chebyshev nodes generally reduce the maximum interpolation error compared with equally spaced nodes.
-    \item \textbf{False.} The Gregory--Newton factor should be $z(z-1)$, not $z(z+1)$.
-    \item \textbf{True.} The three displayed terms are the Lagrange basis contributions for the three nodes.
-\end{enumerate}
-
-\noindent\textbf{Bonus.}
-\begin{enumerate}[itemsep=8pt]
-    \item On each mesh interval $[x_i,x_{i+1}]$, the interpolation remainder gives
-    \[
-        f(x)-f_n(x)=\frac{f''(\xi_x)}{2}(x-x_i)(x-x_{i+1})
-    \]
-    for some $\xi_x\in(x_i,x_{i+1})$. Since
-    \[
-        \max_{x\in[x_i,x_{i+1}]}\lvert(x-x_i)(x-x_{i+1})\rvert
-        =\frac{h_n^2}{4},
-    \]
-    the stated bound follows. Because $h_n\to0$, the right-hand side tends to zero.
-\end{enumerate}
-\fi
 
 \end{document}

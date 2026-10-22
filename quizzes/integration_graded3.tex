@@ -23,6 +23,15 @@
     \fi
 }
 
+% Box in the answer grid, ticked in the solutions when the argument is 1.
+\newcommand{\gridbox}[1]{%
+    \ifdefined\showsolutions
+        \ifnum#1=1 {\color{blue!60!black}$\boxtimes$}\else$\square$\fi
+    \else
+        $\square$%
+    \fi
+}
+
 \begin{document}
 
 \pagestyle{empty}
@@ -43,8 +52,8 @@ True or false? (unless otherwise specified.)
         \hline
         & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 & 13 & 14 & 15 & B \\
         \hline
-        True  & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
-        False & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ & $\square$ \\
+        True  & \gridbox{0} & \gridbox{1} & \gridbox{1} & \gridbox{1} & \gridbox{1} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{0} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} \\
+        False & \gridbox{1} & \gridbox{0} & \gridbox{0} & \gridbox{0} & \gridbox{0} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{1} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} & \gridbox{1} & \gridbox{0} \\
         \hline
     \end{tabular}
 \end{center}
