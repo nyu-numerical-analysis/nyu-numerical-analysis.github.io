@@ -10,21 +10,21 @@ toc: false
 Download the complete document or consult each chapter individually.
 :::
 
-[{{< bi file-earmark-pdf-fill >}} Complete notes (PDF)](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/main.pdf){.casc-btn .casc-btn-solid target="_blank" rel="noopener"}
+[{{< bi file-earmark-pdf-fill >}} Complete notes (PDF)](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/main.pdf){.casc-btn .casc-btn-solid target="_blank" rel="noopener"}
 
 ## [Chapters]{.casc-section-title}
 
 ::: {.casc-chapters-grid}
 
-- [**0** Introduction](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/introduction.pdf){target="_blank"}
-- [**1** Floating point arithmetic](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/roundoff.pdf){target="_blank"}
-- [**2** Interpolation and approximation](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/interpolation_approximation.pdf){target="_blank"}
-- [**3** Numerical integration](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/numerical_integration.pdf){target="_blank"}
-- [**4** Solving linear equations](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/linear_equations.pdf){target="_blank"}
-- [**5** Solving nonlinear equations](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/nonlinear_equations.pdf){target="_blank"}
-- [**6** Calculating eigenvalues and eigenvectors](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/eigenproblems.pdf){target="_blank"}
-- [**7** Numerical integration of differential equations](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/odes.pdf){target="_blank"}
-- [**8** Numerical optimization](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/optimization.pdf){target="_blank"}
+- [**0** Introduction](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/introduction.pdf){target="_blank"}
+- [**1** Floating point arithmetic](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/roundoff.pdf){target="_blank"}
+- [**2** Interpolation and approximation](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/interpolation_approximation.pdf){target="_blank"}
+- [**3** Numerical integration](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/numerical_integration.pdf){target="_blank"}
+- [**4** Solving linear equations](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/linear_equations.pdf){target="_blank"}
+- [**5** Solving nonlinear equations](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/nonlinear_equations.pdf){target="_blank"}
+- [**6** Calculating eigenvalues and eigenvectors](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/eigenproblems.pdf){target="_blank"}
+- [**7** Numerical integration of differential equations](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/odes.pdf){target="_blank"}
+- [**8** Numerical optimization](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/optimization.pdf){target="_blank"}
 
 :::
 
@@ -32,9 +32,9 @@ Download the complete document or consult each chapter individually.
 
 ::: {.casc-chapters-grid .appendix}
 
-- [**A** Linear algebra](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/matrices.pdf){target="_blank"}
-- [**B** Introduction to Julia](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/julia.pdf){target="_blank"}
-- [**C** Chebyshev polynomials](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/chebyshev.pdf){target="_blank"}
-- [**Bib** Bibliography](https://urbain.vaes.uk/static/teaching/numerical_analysis_2024/build/notes/references.pdf){target="_blank"}
+- [**A** Linear algebra](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/matrices.pdf){target="_blank"}
+- [**B** Introduction to Julia](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/julia.pdf){target="_blank"}
+- [**C** Chebyshev polynomials](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/chebyshev.pdf){target="_blank"}
+- [**Bib** Bibliography](https://urbain.vaes.uk/static/teaching/numerical_analysis_nyu/build/notes/references.pdf){target="_blank"}
 
 :::
