@@ -1,6 +1,10 @@
 ---
 title: "Numerical Analysis"
 subtitle: NYU Paris
+include-after-body: assets/pendulum.html
+resources:
+  - assets/pendulum.js
+  - assets/pendulum.css
 ---
 
 ## Installation

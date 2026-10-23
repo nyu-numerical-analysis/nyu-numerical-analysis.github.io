@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>FEM wave background test</title>
-<link rel="stylesheet" href="assets/fem-wave.css">
+<title>Pendulum background test</title>
+<link rel="stylesheet" href="assets/pendulum.css">
 <style>
   body { margin: 0; font-family: system-ui, sans-serif; background: #fff; color: #222; }
   body.quarto-dark { background: #1e1e24; color: #ddd; }
@@ -27,9 +27,9 @@
 </header>
 <main>
   <h1>Numerical Analysis — Fall 2026</h1>
-  <p>The background solves the damped wave equation with P1 finite elements on a jittered
-     triangular mesh, with a lumped mass matrix and leapfrog time-stepping. Moving the mouse
-     forces the surface; clicking drops a Gaussian bump.</p>
+  <p>The background shows three double pendulums started from almost the same state and
+     integrated with RK4. They move together at first, then separate as chaos sets in.
+     Clicking gives them a kick.</p>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante
      venenatis dapibus posuere velit aliquet. Cras mattis consectetur purus sit amet fermentum.
      Donec ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget urna mollis
@@ -45,23 +45,23 @@
 
 <div id="controls"></div>
 
-<script src="assets/fem-wave.js"></script>
+<script src="assets/pendulum.js"></script>
 <script>
   document.getElementById("theme").onclick = () => document.body.classList.toggle("quarto-dark");
 
   const sliders = [
-    ["spacing", 16, 60, 1, true], ["speed", 60, 600, 10], ["damping", 0, 3, 0.05],
-    ["lift", 0, 20, 0.5], ["mouseGain", 0, 0.2, 0.005], ["bumpEvery", 0, 20, 1],
+    ["count", 1, 6, 1, true], ["spread", 0, 0.05, 0.0005, true], ["speed", 0.2, 4, 0.1],
+    ["trail", 0, 1000, 10], ["length", 0.05, 0.3, 0.01], ["restartEvery", 0, 120, 5],
   ];
   const box = document.getElementById("controls");
-  for (const [key, min, max, step, rebuild] of sliders) {
+  for (const [key, min, max, step, restart] of sliders) {
     const label = document.createElement("label");
     label.innerHTML = `<span>${key}</span><input type="range" min="${min}" max="${max}" step="${step}"
-      value="${femWave.opts[key]}"><output>${femWave.opts[key]}</output>`;
+      value="${pendulum.opts[key]}"><output>${pendulum.opts[key]}</output>`;
     const input = label.querySelector("input"), out = label.querySelector("output");
     input.oninput = () => {
-      femWave.opts[key] = +input.value; out.textContent = input.value;
-      if (rebuild || key === "damping") femWave.rebuild();
+      pendulum.opts[key] = +input.value; out.textContent = input.value;
+      if (restart) pendulum.restart();
     };
     box.appendChild(label);
   }
