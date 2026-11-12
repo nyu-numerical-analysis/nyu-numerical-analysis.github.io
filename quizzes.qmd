@@ -19,5 +19,6 @@ toc: false
 |                           | Numerical integration (practice)     | [{{< bi file-earmark-pdf >}} PDF](quizzes/integration-practice-2.pdf){target="_blank"}     | [{{< bi file-earmark-check >}} Solutions](quizzes/integration-practice-2-solutions.pdf){target="_blank"}  |
 |                           | Numerical integration (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/integration-graded-1.pdf){target="_blank"}    | [{{< bi file-earmark-check >}} Solutions](quizzes/integration-graded-1-solutions.pdf){target="_blank"}    |
 |                           | Numerical integration (graded)       | [{{< bi file-earmark-pdf >}} PDF](quizzes/integration-graded-2.pdf){target="_blank"}    | [{{< bi file-earmark-check >}} Solutions](quizzes/integration-graded-2-solutions.pdf){target="_blank"}    |
+| [Ch. 4]{.casc-week-badge} | Linear systems (practice)            | [{{< bi file-earmark-pdf >}} PDF](quizzes/linear-practice.pdf){target="_blank"}             | [{{< bi file-earmark-check >}} Solutions](quizzes/linear-practice-solutions.pdf){target="_blank"}             |
 
 :::
