@@ -19,5 +19,6 @@ Click on a link to open the slides in a new tab.
 | [Ch. 2]{.casc-week-badge} | Interpolation and approximation | [{{< bi easel >}} Slides](slides/interpolation.html){target="_blank"} |
 | [Ch. 3]{.casc-week-badge} | Numerical integration | [{{< bi easel >}} Slides](slides/integration.html){target="_blank"} |
 | [Ch. 4]{.casc-week-badge} | Linear systems | [{{< bi easel >}} Slides](slides/linear.html){target="_blank"} |
+| [Ch. 5]{.casc-week-badge} | Nonlinear equations | [{{< bi easel >}} Slides](slides/nonlinear.html){target="_blank"} |
 
 :::
