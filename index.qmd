@@ -56,4 +56,8 @@ The course is based on two books:
 
 - Midterm on Wednesday November 4th
 
+- **Makeup class** on Thursday November 26th from 18:00 to 19:30
+
+- **Final exam** on Monday December 14th from 15:30 to 18:05
+
 - [Course syllabus](misc/Numerical_analysis_syllabus_Fall_2026.pdf)
