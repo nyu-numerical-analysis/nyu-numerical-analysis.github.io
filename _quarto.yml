@@ -9,12 +9,16 @@ project:
 
 website:
   title: "Numerical Analysis"
-  favicon: "images/logo_calcul_scientifique_transparent.png"
+  favicon: "images/logo_karman.png"
   navbar:
-    collapse-below: xl
-    logo: "images/logo_calcul_scientifique_transparent.png"
-    logo-alt: "Course logo"
+    background: primary
+    collapse-below: xxl
+    logo: "images/logo_karman.png"
+    logo-alt: "Course logo: vortex street behind a cylinder"
     left:
+      - href: index.qmd
+        text: Home
+        icon: house
       - href: notes.qmd
         text: Lecture Notes
         icon: book
@@ -36,9 +40,6 @@ website:
       - href: credits.qmd
         text: Credits
         icon: people
-    right:
-      - href: https://www.nyu.edu/paris
-        text: '<img src="images/nyu_paris_logo_color.png" alt="NYU Paris" class="navbar-nyu-logo">'
 
 editor:
     render-on-save: true

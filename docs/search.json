@@ -74,14 +74,14 @@
     "href": "index.html",
     "title": "Numerical Analysis",
     "section": "",
-    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia can also be installed directly from VSCode."
+    "text": "Numerical Analysis\n    An introduction to numerical analysis, with Julia\n    New York University Paris · Fall 2026"
   },
   {
     "objectID": "index.html#installation",
     "href": "index.html#installation",
     "title": "Numerical Analysis",
-    "section": "",
-    "text": "To install Julia download the latest version from here.\n\n\n\n\nVSCode can be installed at this link.\nThe extension Julia can also be installed directly from VSCode."
+    "section": "Installation",
+    "text": "Installation\n\nJulia\nTo install Julia download the latest version from here.\n\n\nVSCode\n\nVSCode can be installed at this link.\nThe extension Julia can also be installed directly from VSCode."
   },
   {
     "objectID": "index.html#reference-textbooks",

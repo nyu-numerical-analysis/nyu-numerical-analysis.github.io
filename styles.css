@@ -432,15 +432,6 @@ h2 > .casc-section-title {
   border-top: 3px solid rgba(31, 95, 168, 0.25);
 }
 
-/* Coloured navbar icons */
-.navbar .nav-link .bi-book          { color: #ffd166; }
-.navbar .nav-link .bi-easel         { color: #ff9f7a; }
-.navbar .nav-link .bi-code-slash    { color: #7ee0d0; }
-.navbar .nav-link .bi-patch-question{ color: #c4a8ff; }
-.navbar .nav-link .bi-archive       { color: #ffb3c1; }
-.navbar .nav-link .bi-link-45deg    { color: #9bf6ff; }
-.navbar .nav-link .bi-people        { color: #b8f2a0; }
-
 /* ============================================================
    Card grid (Quarto .grid friendly)
    ============================================================ */
@@ -537,10 +528,24 @@ h2 > .casc-section-title {
   font-weight: 700;
 }
 
-/* Navbar: blue gradient */
+/* Navbar: blue gradient, as on the CASC and Analysis websites */
 .navbar {
-  background: linear-gradient(135deg, #3f5f80 0%, #5a84aa 100%) !important;
+  background: linear-gradient(135deg, #1f5fa8 0%, #2980d4 100%) !important;
   box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+.quarto-dark .navbar {
+  background: linear-gradient(135deg, #0b3d75 0%, #1f5fa8 100%) !important;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+}
+.navbar .navbar-brand {
+  font-weight: 700;
+}
+.navbar .navbar-logo {
+  border-radius: 7px;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.2));
+}
+.navbar .navbar-brand:hover .navbar-title {
+  color: #ffe27a;
 }
 
 .navbar .navbar-brand,
@@ -565,15 +570,6 @@ h2 > .casc-section-title {
 }
 .navbar input.aa-Input::placeholder { color: rgba(255, 255, 255, 0.7); }
 
-/* NYU Paris logo (white, transparent background), right side of the navbar */
-.navbar-nyu-logo {
-  height: 28px;
-  vertical-align: middle;
-}
-.navbar .navbar-nav .nav-link:has(.navbar-nyu-logo) {
-  padding-top: 0;
-  padding-bottom: 0;
-}
 
 /* Keep the navbar on a single line */
 .navbar .navbar-nav .nav-link {
@@ -587,6 +583,99 @@ h2 > .casc-section-title {
   max-width: none;
   flex-shrink: 0;
 }
-.navbar-nyu-logo {
-  height: 24px;
+
+/* ============================================================
+   Banner on the front page (as on the Analysis website).
+   The vortex street video is opaque, on the colour #2980d4, which is
+   also the colour of the banner on its right; a mask fades its edges.
+   ============================================================ */
+
+.nyu-hero {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  min-height: 13.5rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1.75rem 2rem;
+  border-radius: 12px;
+  color: #ffffff;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(90deg, #1f5fa8 0%, #2980d4 42%);
+}
+.nyu-hero-text {
+  position: relative;
+  z-index: 1;
+  min-width: 0;
+}
+.nyu-hero .nyu-hero-title {
+  margin: 0 0 0.4rem;
+  line-height: 1.15;
+  font-size: clamp(1.8rem, 5vw, 2.5rem);
+  font-weight: 800;
+}
+.nyu-hero p {
+  margin: 0;
+  opacity: 0.92;
+}
+.nyu-hero .nyu-hero-subtitle {
+  font-size: 1.05rem;
+}
+.nyu-hero .nyu-hero-school {
+  margin-top: 0.2rem;
+  font-size: 0.85rem;
+  font-style: italic;
+  opacity: 0.8;
+}
+.nyu-hero-logo {
+  display: block;
+  width: 11rem;
+  height: auto;
+  margin-top: 1.25rem;
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.18));
+}
+.nyu-hero-flow {
+  position: absolute;
+  bottom: 4%;
+  right: 0;
+  height: 66%;
+  width: auto;
+  max-width: 46%;
+  object-fit: cover;
+  object-position: left center;
+  pointer-events: none;
+  -webkit-mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 75%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  -webkit-mask-composite: source-in;
+  mask-image: linear-gradient(90deg, transparent 0%, #000 8%, #000 75%, transparent 100%),
+    linear-gradient(180deg, transparent 0%, #000 12%, #000 88%, transparent 100%);
+  mask-composite: intersect;
+}
+@media (min-width: 901px) and (max-width: 1150px) {
+  .nyu-hero-flow {
+    height: 56%;
+    max-width: 40%;
+  }
+}
+@media (max-width: 900px) {
+  .nyu-hero {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem 1rem 9.5rem;
+    background: linear-gradient(180deg, #1f5fa8 0%, #2980d4 45%);
+  }
+  .nyu-hero-flow {
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    max-width: none;
+    height: 9rem;
+    -webkit-mask-image: linear-gradient(180deg, transparent 0%, #000 20%, #000 80%, transparent 100%);
+    mask-image: linear-gradient(180deg, transparent 0%, #000 20%, #000 80%, transparent 100%);
+  }
+  .nyu-hero-logo {
+    width: 8rem;
+    margin-top: 1rem;
+  }
 }
