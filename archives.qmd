@@ -1,6 +1,6 @@
 ---
 title: "Archives"
-subtitle: "Exams from previous years"
+subtitle: "Past exams, with solutions"
 toc: false
 ---
 
@@ -18,5 +18,6 @@ toc: false
 |  | Final exam | [{{< bi file-earmark-pdf >}} PDF](archives/2024-fall-final.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](archives/2024-fall-final_solutions.pdf){target="_blank"} |
 | [Fall 2025]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](archives/2025-fall-midterm.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](archives/2025-fall-midterm_solutions.pdf){target="_blank"} |
 |  | Final exam | [{{< bi file-earmark-pdf >}} PDF](archives/2025-fall-final.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](archives/2025-fall-final_solutions.pdf){target="_blank"} |
+| [Fall 2026]{.casc-week-badge} | Midterm | [{{< bi file-earmark-pdf >}} PDF](archives/2026-fall-midterm.pdf){target="_blank"} | [{{< bi file-earmark-check >}} Solutions](archives/2026-fall-midterm_solutions.pdf){target="_blank"} |
 
 :::
