@@ -1,9 +1,6 @@
 ---
 pagetitle: "Numerical Analysis"
-include-after-body: assets/pendulum.html
 resources:
-  - assets/pendulum.js
-  - assets/pendulum.css
   - images/karman.mp4
   - images/karman.jpg
   - images/nyu_paris_logo_white.png
