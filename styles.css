@@ -428,8 +428,41 @@ h2 > .casc-section-title {
 
 /* Grouped tables: a thicker separator above the first row of each group
    (rows whose first cell holds a badge). */
-.casc-grouped table tbody tr:has(.casc-week-badge):not(:first-child) {
+.casc-grouped table tbody tr:has(.casc-week-badge):not(:first-child),
+.casc-grouped table tbody tr:has(.casc-makeup-badge):not(:first-child) {
   border-top: 3px solid rgba(31, 95, 168, 0.25);
+}
+
+/* Make-up class: amber badge and lightly tinted row */
+.casc-makeup-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 2.4rem;
+  height: 2.4rem;
+  padding: 0 0.7rem;
+  border-radius: 999px;
+  font-weight: 700;
+  font-size: 0.85rem;
+  background: #fdecc8;
+  color: #9a5b00;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+
+table tbody tr:has(.casc-makeup-badge) > td {
+  background: rgba(233, 162, 59, 0.08);
+}
+
+[data-bs-theme="dark"] .casc-makeup-badge,
+.quarto-dark .casc-makeup-badge {
+  background: rgba(233, 162, 59, 0.18);
+  color: #f2c374;
+}
+
+[data-bs-theme="dark"] table tbody tr:has(.casc-makeup-badge) > td,
+.quarto-dark table tbody tr:has(.casc-makeup-badge) > td {
+  background: rgba(233, 162, 59, 0.07);
 }
 
 /* ============================================================

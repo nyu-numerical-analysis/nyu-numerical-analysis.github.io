@@ -6,6 +6,7 @@ project:
     - "!*.ipynb"
   resources:
     - "*.ipynb"
+    - "notebooks/*.html"
 
 website:
   title: "Numerical Analysis"

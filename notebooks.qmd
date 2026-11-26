@@ -6,15 +6,16 @@ toc: false
 
 ::: {.casc-archive-table .casc-grouped}
 
-| Chapter | Topic | Notebook |
-| ------- | ----- | -------- |
-| [Ch. 1]{.casc-week-badge} | Introduction to Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download="intro_julia.ipynb"} |
-| [Ch. 2]{.casc-week-badge} | Interpolation | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download="interpolation.ipynb"} |
-|  | Approximation | [{{< bi file-earmark-code >}} Notebook](notebooks/approximation.ipynb){download="approximation.ipynb"} |
-| [Ch. 3]{.casc-week-badge} | Numerical integration | [{{< bi file-earmark-code >}} Notebook](notebooks/integration.ipynb){download="integration.ipynb"} |
-| [Ch. 4]{.casc-week-badge} | Linear systems | [{{< bi file-earmark-code >}} Notebook](notebooks/linear.ipynb){download="linear.ipynb"} |
-| [Ch. 5]{.casc-week-badge} | Nonlinear equations | [{{< bi file-earmark-code >}} Notebook](notebooks/nonlinear.ipynb){download="nonlinear.ipynb"} |
-| [Ch. 6]{.casc-week-badge} | Eigenvalue problems | [{{< bi file-earmark-code >}} Notebook](notebooks/eigen.ipynb){download="eigen.ipynb"} |
+| Chapter | Topic | Notebook | Solutions |
+| ------- | ----- | -------- | --------- |
+| [Ch. 1]{.casc-week-badge} | Introduction to Julia | [{{< bi file-earmark-code >}} Notebook](notebooks/intro_julia.ipynb){download="intro_julia.ipynb"} |  |
+| [Ch. 2]{.casc-week-badge} | Interpolation | [{{< bi file-earmark-code >}} Notebook](notebooks/interpolation.ipynb){download="interpolation.ipynb"} |  |
+|  | Approximation | [{{< bi file-earmark-code >}} Notebook](notebooks/approximation.ipynb){download="approximation.ipynb"} |  |
+| [Ch. 3]{.casc-week-badge} | Numerical integration | [{{< bi file-earmark-code >}} Notebook](notebooks/integration.ipynb){download="integration.ipynb"} |  |
+| [Ch. 4]{.casc-week-badge} | Linear systems | [{{< bi file-earmark-code >}} Notebook](notebooks/linear.ipynb){download="linear.ipynb"} |  |
+| [Ch. 5]{.casc-week-badge} | Nonlinear equations | [{{< bi file-earmark-code >}} Notebook](notebooks/nonlinear.ipynb){download="nonlinear.ipynb"} |  |
+| [Ch. 6]{.casc-week-badge} | Eigenvalue problems | [{{< bi file-earmark-code >}} Notebook](notebooks/eigen.ipynb){download="eigen.ipynb"} |  |
+| [Make-up]{.casc-makeup-badge} | Neural networks | [{{< bi file-earmark-code >}} Notebook](notebooks/neural_flux.ipynb){download="neural_flux.ipynb"} | [{{< bi file-earmark-check >}} Solutions](notebooks/neural_flux_solutions.html){target="_blank"} |
 
 :::
 
